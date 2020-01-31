@@ -55,7 +55,7 @@ class Listener:
     def run(self):
         while True:
             self.listener()
-            time.sleep(60)
+            time.sleep(3600)
 
     def listener(self):
         changed_files = list()
