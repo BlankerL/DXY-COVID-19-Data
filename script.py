@@ -61,7 +61,6 @@ class Listener:
         for collection in collections:
             if not self.counter.get(collection, None):
                 self.counter[collection] = self.db.count(collection=collection)
-                print('Session initiated!')
             else:
                 if self.counter[collection] != self.db.count(collection=collection):
                     self.dumper(collection=collection)
