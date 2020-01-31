@@ -6,6 +6,7 @@
 """
 from git import Repo
 from pymongo import MongoClient
+import os
 import time
 import datetime
 import pandas as pd
@@ -19,7 +20,7 @@ collections = ['DXYOverall', 'DXYArea', 'DXYNews', 'DXYRumors']
 
 
 def git_manager(changed_files):
-    repo = Repo('.')
+    repo = Repo(path=os.path.split(os.path.realpath(__file__))[0])
     repo.index.add(changed_files)
     repo.index.commit(message='{datetime} - Change detected!'.format(datetime=datetime.datetime.now()))
     origin = repo.remote('origin')
