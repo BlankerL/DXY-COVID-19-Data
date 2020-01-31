@@ -6,7 +6,7 @@
 
 数据由[2019新型冠状病毒疫情实时爬虫](https://github.com/BlankerL/DXY-2019-nCoV-Crawler)获得。
 
-目前代码在测试阶段，因此每分钟检测一次更新，若有更新则推送至数据仓库中，未来会根据推送情况调整更新频率。
+目前代码在测试阶段，因此每小时检测一次更新，若有更新则推送至数据仓库中，未来会根据推送情况调整更新频率。
 
 文件列表：
 1. 全国数据[DXYOverall.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYOverall.csv)
