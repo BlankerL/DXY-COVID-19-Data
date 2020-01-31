@@ -96,12 +96,16 @@ class Listener:
                         structured_results.append(result)
             df = pd.DataFrame(structured_results)
             df.to_csv(
-                path_or_buf=collection + '.csv', index=False, encoding='utf_8_sig'
+                path_or_buf=os.path.join(
+                    os.path.split(os.path.realpath(__file__))[0], collection + '.csv'),
+                index=False, encoding='utf_8_sig'
             )
         else:
             df = pd.DataFrame(data=self.db.dump(collection=collection))
             df.to_csv(
-                path_or_buf=collection + '.csv', index=False, encoding='utf_8_sig'
+                path_or_buf=os.path.join(
+                    os.path.split(os.path.realpath(__file__))[0], collection + '.csv'),
+                index=False, encoding='utf_8_sig'
             )
 
 
