@@ -66,6 +66,7 @@ class Listener:
                 if self.counter[collection] != self.db.count(collection=collection):
                     self.dumper(collection=collection)
                     changed_files.append(collection + '.csv')
+                    self.counter[collection] = self.db.count(collection=collection)
         if changed_files:
             git_manager(changed_files=changed_files)
 
