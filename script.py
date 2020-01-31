@@ -59,7 +59,7 @@ class Listener:
     def listener(self):
         changed_files = list()
         for collection in collections:
-            if self.counter.get(collection, None):
+            if not self.counter.get(collection, None):
                 self.counter[collection] = self.db.count(collection=collection)
                 print('Session initiated!')
             else:
