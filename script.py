@@ -8,15 +8,20 @@ from git import Repo
 from pymongo import MongoClient
 import os
 import time
+import logging
 import datetime
 import pandas as pd
 
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 uri = '**Confidential**'
 client = MongoClient(uri)
 db = client['2019-nCoV']
 
-collections = ['DXYOverall', 'DXYArea', 'DXYNews', 'DXYRumors']
+collections = ('DXYOverall', 'DXYArea', 'DXYNews', 'DXYRumors')
+time_types = ('pubDate', 'createTime', 'modifyTime', 'dataInfoTime', 'crawlTime', 'updateTime')
 
 
 def git_manager(changed_files):
@@ -25,6 +30,7 @@ def git_manager(changed_files):
     repo.index.commit(message='{datetime} - Change detected!'.format(datetime=datetime.datetime.now()))
     origin = repo.remote('origin')
     origin.push()
+    logger.info('Pushing to GitHub successfully!')
 
 
 class DB:
@@ -67,6 +73,7 @@ class Listener:
                     self.dumper(collection=collection)
                     changed_files.append(collection + '.csv')
                     self.counter[collection] = self.db.count(collection=collection)
+                    logger.info('{collection} updated!')
         if changed_files:
             git_manager(changed_files=changed_files)
 
@@ -103,6 +110,9 @@ class Listener:
             )
         else:
             df = pd.DataFrame(data=self.db.dump(collection=collection))
+            for time_type in time_types:
+                if time_type in df.columns:
+                    df[time_type] = df[time_type].apply(lambda x: datetime.datetime.fromtimestamp(x / 1000) if not pd.isna(x) else '')
             df.to_csv(
                 path_or_buf=os.path.join(
                     os.path.split(os.path.realpath(__file__))[0], collection + '.csv'),
