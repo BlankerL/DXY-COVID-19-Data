@@ -7,9 +7,11 @@
 from git import Repo
 from pymongo import MongoClient
 import os
+import json
 import time
 import logging
 import datetime
+import requests
 import pandas as pd
 
 
@@ -20,7 +22,12 @@ uri = '**Confidential**'
 client = MongoClient(uri)
 db = client['2019-nCoV']
 
-collections = ('DXYOverall', 'DXYArea', 'DXYNews', 'DXYRumors')
+collections = {
+    'DXYOverall': 'overall',
+    'DXYArea': 'area',
+    'DXYNews': 'news',
+    'DXYRumors': 'rumors'
+}
 time_types = ('pubDate', 'createTime', 'modifyTime', 'dataInfoTime', 'crawlTime', 'updateTime')
 
 
@@ -56,7 +63,6 @@ class DB:
 class Listener:
     def __init__(self):
         self.db = DB()
-        self.counter = dict()
 
     def run(self):
         while True:
@@ -66,18 +72,39 @@ class Listener:
     def listener(self):
         changed_files = list()
         for collection in collections:
-            if not self.counter.get(collection, None):
-                self.counter[collection] = self.db.count(collection=collection)
-            else:
-                if self.counter[collection] != self.db.count(collection=collection):
-                    self.dumper(collection=collection)
-                    changed_files.append(collection + '.csv')
-                    self.counter[collection] = self.db.count(collection=collection)
-                    logger.info('{collection} updated!'.format(collection=collection))
+            json_file = open(
+                os.path.join(
+                    os.path.split(os.path.realpath(__file__))[0], 'json', collection + '.json'),
+                'r', encoding='utf-8'
+            )
+            static_data = json.load(json_file)
+            json_file.close()
+            while True:
+                request = requests.get(url='https://lab.isaaclin.cn/nCoV/api/' + collections.get(collection))
+                if request.status_code == 200:
+                    current_data = request.json()
+                    break
+                else:
+                    continue
+            if static_data != current_data:
+                self.json_dumper(collection=collection, content=current_data)
+                changed_files.append('json/' + collection + '.json')
+                self.csv_dumper(collection=collection)
+                changed_files.append('csv/' + collection + '.csv')
+                logger.info('{collection} updated!'.format(collection=collection))
         if changed_files:
             git_manager(changed_files=changed_files)
 
-    def dumper(self, collection):
+    def json_dumper(self, collection, content):
+        json_file = open(
+            os.path.join(
+                os.path.split(os.path.realpath(__file__))[0], 'json', collection + '.json'),
+            'w', encoding='utf-8'
+        )
+        json.dump(content, json_file, ensure_ascii=False, indent=4)
+        json_file.close()
+
+    def csv_dumper(self, collection):
         if collection == 'DXYArea':
             structured_results = list()
             results = self.db.dump(collection=collection)
