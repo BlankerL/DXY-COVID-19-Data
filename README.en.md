@@ -18,12 +18,12 @@ The project is under beta test, so the data will be published in every hours.
 The frequency will be adjusted in the future. 
 
 CSV File List：
-1. Overall Data [DXYOverall.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYOverall.csv)
-2. Regional Data [DXYArea.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYArea.csv)
-3. News [DXYNews.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYNews.csv)
-4. Rumors [DXYRumors.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYRumors.csv)
+1. Overall Data [DXYOverall.csv](csv/DXYOverall.csv)
+2. Regional Data [DXYArea.csv](csv/DXYArea.csv)
+3. News [DXYNews.csv](csv/DXYNews.csv)
+4. Rumors [DXYRumors.csv](csv/DXYRumors.csv)
 
-Regional data ([DXYArea.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYArea.csv))
+Regional data ([DXYArea.csv](csv/DXYArea.csv))
 only contains all the city-level data. 
 Data from Hong Kong SAR, Macao SAR, Tai Wan and Tibet are province-level, 
 and not city-level data available from DXY, so they are not in this file. 
