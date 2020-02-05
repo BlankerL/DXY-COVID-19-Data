@@ -105,7 +105,7 @@ class Listener:
             df = pd.DataFrame(structured_results)
             df.to_csv(
                 path_or_buf=os.path.join(
-                    os.path.split(os.path.realpath(__file__))[0], collection + '.csv'),
+                    os.path.split(os.path.realpath(__file__))[0], 'csv', collection + '.csv'),
                 index=False, encoding='utf_8_sig'
             )
         else:
@@ -115,7 +115,7 @@ class Listener:
                     df[time_type] = df[time_type].apply(lambda x: datetime.datetime.fromtimestamp(x / 1000) if not pd.isna(x) else '')
             df.to_csv(
                 path_or_buf=os.path.join(
-                    os.path.split(os.path.realpath(__file__))[0], collection + '.csv'),
+                    os.path.split(os.path.realpath(__file__))[0], 'csv', collection + '.csv'),
                 index=False, encoding='utf_8_sig'
             )
 
