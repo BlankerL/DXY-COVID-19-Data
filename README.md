@@ -10,13 +10,16 @@
 
 目前代码在测试阶段，因此每小时检测一次更新，若有更新则推送至数据仓库中，未来会根据推送情况调整更新频率。
 
-文件列表：
+CSV文件列表：
 1. 全国数据[DXYOverall.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYOverall.csv)
 2. 地区数据[DXYArea.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYArea.csv)
 3. 新闻数据[DXYNews.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYNews.csv)
 4. 谣言数据[DXYRumors.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYRumors.csv)
 
 其中：地区数据[DXYArea.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYArea.csv)仅包括丁香园中国地区精确至地级市的数据，港澳台/西藏的数据精确度仅到省级，不包含在此文件中。如有需要可以修改脚本内Listen类的[dumper函数](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/8e21a7e27604a9d2b1dcf0fa3d0266aa68576753/script.py#L71)，来自定义数据提取的存储方式。
+
+JSON文件列表：
+由于API接口时常不稳定，因此此项目也会定时向`json`文件夹中推送静态的JSON文件更新。JSON文件与API中提供的JSON完全一致。
 
 由于本人精力有限，不接受数据定制。如对数据有更多的要求，烦请自行处理。
 
