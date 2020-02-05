@@ -17,7 +17,7 @@ The data is obtained by [2019-nCoV Infection Data Realtime Crawler](https://gith
 The project is under beta test, so the data will be published in every hours. 
 The frequency will be adjusted in the future. 
 
-File List：
+CSV File List：
 1. Overall Data [DXYOverall.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYOverall.csv)
 2. Regional Data [DXYArea.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYArea.csv)
 3. News [DXYNews.csv](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/master/DXYNews.csv)
@@ -30,6 +30,12 @@ and not city-level data available from DXY, so they are not in this file.
 
 If needed, you can modify the [dumper function](https://github.com/BlankerL/DXY-2019-nCoV-Data/blob/8e21a7e27604a9d2b1dcf0fa3d0266aa68576753/script.py#L71)
 to customize your own files. 
+
+JSON File List:
+Due to the instability of API,
+this project will also push latest static JSONs into the `json` folder. 
+Data from JSON files are exactly the same as the data responded from the API.
+
 
 Data customization is not accepted. 
 If you have more requirements for data, please handle it on your own.
