@@ -34,6 +34,11 @@ to customize your own files.
 Data customization is not accepted. 
 If you have more requirements for data, please handle it on your own.
 
+## Reference
+1. If you would like to analyze the data with [R](https://www.r-project.org/),
+you can refer to [pzhaonet/ncovr](https://github.com/pzhaonet/ncovr).
+This project will help you to directly load data into R from either GitHub Data Warehouse or API. 
+
 ## Noise Data
 At present, some time series data in Zhejiang and Hubei are found containing noises. 
 The possible reason is the manually processed data were recorded by mistake. 
