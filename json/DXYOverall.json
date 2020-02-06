@@ -14,13 +14,13 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 28129,
+            "confirmedCount": 28138,
             "suspectedCount": 24702,
             "curedCount": 1373,
             "deadCount": 564,
             "seriousCount": 3859,
             "suspectedIncr": 5328,
-            "confirmedIncr": 3766,
+            "confirmedIncr": 3775,
             "curedIncr": 481,
             "deadIncr": 73,
             "seriousIncr": 640,
@@ -36,7 +36,7 @@
             "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
             "abroadRemark": "",
             "marquee": [],
-            "updateTime": 1580998797608
+            "updateTime": 1581001350670
         }
     ],
     "success": true
