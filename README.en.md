@@ -40,10 +40,17 @@ Data from JSON files are exactly the same as the data responded from the API.
 Data customization is not accepted. 
 If you have more requirements for data, please handle it on your own.
 
+
 ## Reference
+
+### Packages
 1. If you would like to analyze the data with [R](https://www.r-project.org/),
 you can refer to [pzhaonet/ncovr](https://github.com/pzhaonet/ncovr).
 This project will help you to directly load data into R from either GitHub Data Warehouse or API. 
+
+### Analysis
+1. [jianxu305/nCov2019_analysis](https://github.com/jianxu305/nCov2019_analysis)  
+   Features: See [here](https://github.com/jianxu305/nCov2019_analysis/blob/master/src/demo.pdf).
 
 ## Noise Data
 At present, some time series data in Zhejiang and Hubei are found containing noises. 
