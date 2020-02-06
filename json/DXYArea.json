@@ -4030,20 +4030,6 @@
             "modifyTime": 1580614212000
         },
         {
-            "country": "西班牙",
-            "provinceName": "西班牙",
-            "provinceShortName": "西班牙",
-            "confirmedCount": 1,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1580552955389,
-            "createTime": 1580512517000,
-            "modifyTime": 1580514491000
-        },
-        {
             "country": "柬埔寨",
             "provinceName": "柬埔寨",
             "provinceShortName": "柬埔寨",
@@ -4058,9 +4044,9 @@
             "modifyTime": 1580495965000
         },
         {
-            "country": "芬兰",
-            "provinceName": "芬兰",
-            "provinceShortName": "芬兰",
+            "country": "西班牙",
+            "provinceName": "西班牙",
+            "provinceShortName": "西班牙",
             "confirmedCount": 1,
             "suspectedCount": 0,
             "curedCount": 0,
@@ -4068,8 +4054,8 @@
             "cities": null,
             "comment": "",
             "updateTime": 1580552955389,
-            "createTime": 1580337882000,
-            "modifyTime": 1580495991000
+            "createTime": 1580512517000,
+            "modifyTime": 1580514491000
         },
         {
             "country": "法国",
@@ -4098,6 +4084,20 @@
             "updateTime": 1580552955389,
             "createTime": 1580182019000,
             "modifyTime": 1580495982000
+        },
+        {
+            "country": "芬兰",
+            "provinceName": "芬兰",
+            "provinceShortName": "芬兰",
+            "confirmedCount": 1,
+            "suspectedCount": 0,
+            "curedCount": 0,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1580552955389,
+            "createTime": 1580337882000,
+            "modifyTime": 1580495991000
         },
         {
             "country": "尼泊尔",
