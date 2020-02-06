@@ -3,14 +3,14 @@
         {
             "infectSource": "该字段已替换为说明2",
             "passWay": "该字段已替换为说明3",
-            "dailyPic": "https://img1.dxycdn.com/2020/0205/300/3394878936923352083-135.png,https://img1.dxycdn.com/2020/0205/253/3394879100132420050-135.png,https://img1.dxycdn.com/2020/0205/312/3394879301995899763-135.png,https://img1.dxycdn.com/2020/0205/356/3394879357830479001-135.png,https://img1.dxycdn.com/2020/0205/122/3394879495269001393-135.png,https://img1.dxycdn.com/2020/0205/210/3394879553251507095-135.png",
+            "dailyPic": "https://img1.dxycdn.com/2020/0206/182/3395066264069857632-135.png,https://img1.dxycdn.com/2020/0206/294/3395066274807276565-135.png,https://img1.dxycdn.com/2020/0206/407/3395066281249457782-135.png,https://img1.dxycdn.com/2020/0206/449/3395066289839395270-135.png,https://img1.dxycdn.com/2020/0206/973/3395066296282114727-135.png,https://img1.dxycdn.com/2020/0206/353/3395066304871785502-135.png",
             "dailyPics": [
-                "https://img1.dxycdn.com/2020/0205/300/3394878936923352083-135.png",
-                "https://img1.dxycdn.com/2020/0205/253/3394879100132420050-135.png",
-                "https://img1.dxycdn.com/2020/0205/312/3394879301995899763-135.png",
-                "https://img1.dxycdn.com/2020/0205/356/3394879357830479001-135.png",
-                "https://img1.dxycdn.com/2020/0205/122/3394879495269001393-135.png",
-                "https://img1.dxycdn.com/2020/0205/210/3394879553251507095-135.png"
+                "https://img1.dxycdn.com/2020/0206/182/3395066264069857632-135.png",
+                "https://img1.dxycdn.com/2020/0206/294/3395066274807276565-135.png",
+                "https://img1.dxycdn.com/2020/0206/407/3395066281249457782-135.png",
+                "https://img1.dxycdn.com/2020/0206/449/3395066289839395270-135.png",
+                "https://img1.dxycdn.com/2020/0206/973/3395066296282114727-135.png",
+                "https://img1.dxycdn.com/2020/0206/353/3395066304871785502-135.png"
             ],
             "summary": "",
             "countRemark": "",
@@ -36,7 +36,7 @@
             "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
             "abroadRemark": "",
             "marquee": [],
-            "updateTime": 1580948485461
+            "updateTime": 1580951037377
         }
     ],
     "success": true
