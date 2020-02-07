@@ -3,27 +3,27 @@
         {
             "infectSource": "该字段已替换为说明2",
             "passWay": "该字段已替换为说明3",
-            "dailyPic": "https://img1.dxycdn.com/2020/0206/182/3395066264069857632-135.png,https://img1.dxycdn.com/2020/0206/294/3395066274807276565-135.png,https://img1.dxycdn.com/2020/0206/407/3395066281249457782-135.png,https://img1.dxycdn.com/2020/0206/449/3395066289839395270-135.png,https://img1.dxycdn.com/2020/0206/973/3395066296282114727-135.png,https://img1.dxycdn.com/2020/0206/353/3395066304871785502-135.png",
+            "dailyPic": "https://img1.dxycdn.com/2020/0207/474/3395297054137367344-135.png,https://img1.dxycdn.com/2020/0207/876/3395297062727052420-135.png,https://img1.dxycdn.com/2020/0207/093/3395298754944114027-135.png,https://img1.dxycdn.com/2020/0207/367/3395298769976921168-135.png,https://img1.dxycdn.com/2020/0207/513/3395298791451759073-135.png,https://img1.dxycdn.com/2020/0207/256/3395298804336251788-135.png",
             "dailyPics": [
-                "https://img1.dxycdn.com/2020/0206/182/3395066264069857632-135.png",
-                "https://img1.dxycdn.com/2020/0206/294/3395066274807276565-135.png",
-                "https://img1.dxycdn.com/2020/0206/407/3395066281249457782-135.png",
-                "https://img1.dxycdn.com/2020/0206/449/3395066289839395270-135.png",
-                "https://img1.dxycdn.com/2020/0206/973/3395066296282114727-135.png",
-                "https://img1.dxycdn.com/2020/0206/353/3395066304871785502-135.png"
+                "https://img1.dxycdn.com/2020/0207/474/3395297054137367344-135.png",
+                "https://img1.dxycdn.com/2020/0207/876/3395297062727052420-135.png",
+                "https://img1.dxycdn.com/2020/0207/093/3395298754944114027-135.png",
+                "https://img1.dxycdn.com/2020/0207/367/3395298769976921168-135.png",
+                "https://img1.dxycdn.com/2020/0207/513/3395298791451759073-135.png",
+                "https://img1.dxycdn.com/2020/0207/256/3395298804336251788-135.png"
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 28107,
-            "suspectedCount": 24702,
-            "curedCount": 1252,
-            "deadCount": 564,
-            "seriousCount": 3859,
-            "suspectedIncr": 5328,
-            "confirmedIncr": 3744,
-            "curedIncr": 360,
+            "confirmedCount": 31264,
+            "suspectedCount": 26359,
+            "curedCount": 1753,
+            "deadCount": 637,
+            "seriousCount": 4821,
+            "suspectedIncr": 4833,
+            "confirmedIncr": 3204,
+            "curedIncr": 600,
             "deadIncr": 73,
-            "seriousIncr": 640,
+            "seriousIncr": 962,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
             "remark2": "潜伏期：一般为 3～7 天，最长不超过 14 天，潜伏期内可能存在传染性，其中无症状病例传染性非常罕见",
@@ -35,8 +35,15 @@
             "note3": "传播途径：经呼吸道飞沫和接触传播是主要的传播途径。气溶胶和消化道等传播途径尚待明确。",
             "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
             "abroadRemark": "",
-            "marquee": [],
-            "updateTime": 1580977707383
+            "marquee": [
+                {
+                    "id": 142,
+                    "marqueeLabel": "哀悼",
+                    "marqueeContent": "战胜疫情魔鬼 告慰李文亮医生",
+                    "marqueeLink": "https://mp.weixin.qq.com/s/uh4uY0W-MDSfqqaOP0BZIg"
+                }
+            ],
+            "updateTime": 1581089035991
         }
     ],
     "success": true
