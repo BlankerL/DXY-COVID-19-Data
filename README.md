@@ -31,6 +31,8 @@ JSON文件列表：
 ### 数据分析
 1. [jianxu305/nCov2019_analysis](https://github.com/jianxu305/nCov2019_analysis)  
    功能：参考[此处](https://github.com/jianxu305/nCov2019_analysis/blob/master/src/demo.pdf)。
+2. [lyupin/Visualize-DXY-2019-nCov-Data](https://github.com/lyupin/Visualize-DXY-2019-nCov-Data)  
+   功能：参考[此处](https://github.com/lyupin/Visualize-DXY-2019-nCov-Data/blob/master/readme.md)。
 
 ## 数据异常
 目前发现浙江省/湖北省部分时间序列数据存在数据异常，可能的原因是丁香园数据为人工录入，某些数据可能录入错误，比如某一次爬虫获取的浙江省治愈人数为537人，数分钟后被修改回正常人数。
