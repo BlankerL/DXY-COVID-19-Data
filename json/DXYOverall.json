@@ -14,14 +14,14 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 31253,
+            "confirmedCount": 31257,
             "suspectedCount": 26359,
-            "curedCount": 1640,
+            "curedCount": 1715,
             "deadCount": 637,
             "seriousCount": 4821,
             "suspectedIncr": 4833,
-            "confirmedIncr": 3193,
-            "curedIncr": 487,
+            "confirmedIncr": 3197,
+            "curedIncr": 562,
             "deadIncr": 73,
             "seriousIncr": 962,
             "virus": "该字段已替换为说明1",
@@ -37,13 +37,13 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 124,
+                    "id": 128,
                     "marqueeLabel": "哀悼",
                     "marqueeContent": "战胜疫情魔鬼 告慰李文亮医生",
                     "marqueeLink": "https://mp.weixin.qq.com/s/uh4uY0W-MDSfqqaOP0BZIg"
                 }
             ],
-            "updateTime": 1581069699273
+            "updateTime": 1581075232303
         }
     ],
     "success": true
