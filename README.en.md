@@ -51,6 +51,8 @@ This project will help you to directly load data into R from either GitHub Data 
 ### Analysis
 1. [jianxu305/nCov2019_analysis](https://github.com/jianxu305/nCov2019_analysis)  
    Features: See [here](https://github.com/jianxu305/nCov2019_analysis/blob/master/src/demo.pdf).
+2. [lyupin/Visualize-DXY-2019-nCov-Data](https://github.com/lyupin/Visualize-DXY-2019-nCov-Data)  
+   Features: See [here](https://github.com/lyupin/Visualize-DXY-2019-nCov-Data/blob/master/readme.md).
 
 ## Noise Data
 At present, some time series data in Zhejiang and Hubei are found containing noises. 
