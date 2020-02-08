@@ -14,16 +14,11 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 31264,
+            "confirmedCount": 34130,
             "suspectedCount": 26359,
-            "curedCount": 1753,
-            "deadCount": 637,
+            "curedCount": 2000,
+            "deadCount": 718,
             "seriousCount": 4821,
-            "suspectedIncr": 4833,
-            "confirmedIncr": 3204,
-            "curedIncr": 600,
-            "deadIncr": 73,
-            "seriousIncr": 962,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
             "remark2": "潜伏期：一般为 3～7 天，最长不超过 14 天，潜伏期内可能存在传染性，其中无症状病例传染性非常罕见",
@@ -37,13 +32,13 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 142,
+                    "id": 143,
                     "marqueeLabel": "哀悼",
                     "marqueeContent": "战胜疫情魔鬼 告慰李文亮医生",
                     "marqueeLink": "https://mp.weixin.qq.com/s/uh4uY0W-MDSfqqaOP0BZIg"
                 }
             ],
-            "updateTime": 1581089035991
+            "updateTime": 1581120077878
         }
     ],
     "success": true
