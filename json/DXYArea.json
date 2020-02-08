@@ -6,7 +6,7 @@
             "provinceShortName": "河南",
             "confirmedCount": 981,
             "suspectedCount": 0,
-            "curedCount": 115,
+            "curedCount": 116,
             "deadCount": 4,
             "cities": [
                 {
@@ -61,7 +61,7 @@
                     "cityName": "平顶山",
                     "confirmedCount": 48,
                     "suspectedCount": 0,
-                    "curedCount": 5,
+                    "curedCount": 6,
                     "deadCount": 1,
                     "locationId": 410400
                 },
@@ -163,7 +163,7 @@
                 }
             ],
             "comment": "参考卫健委统计口径，部分县区与地级市合并",
-            "updateTime": 1581168925918,
+            "updateTime": 1581170752238,
             "createTime": null,
             "modifyTime": null
         },
@@ -173,7 +173,7 @@
             "provinceShortName": "湖北",
             "confirmedCount": 24953,
             "suspectedCount": 0,
-            "curedCount": 1215,
+            "curedCount": 1218,
             "deadCount": 699,
             "cities": [
                 {
@@ -292,7 +292,7 @@
                     "cityName": "恩施州",
                     "confirmedCount": 160,
                     "suspectedCount": 0,
-                    "curedCount": 17,
+                    "curedCount": 20,
                     "deadCount": 0,
                     "locationId": 422800
                 },
@@ -314,7 +314,7 @@
                 }
             ],
             "comment": "",
-            "updateTime": 1581166733025,
+            "updateTime": 1581170570042,
             "createTime": null,
             "modifyTime": null
         },
@@ -460,20 +460,6 @@
             "modifyTime": 1581165817000
         },
         {
-            "country": "澳大利亚",
-            "provinceName": "澳大利亚",
-            "provinceShortName": "澳大利亚",
-            "confirmedCount": 15,
-            "suspectedCount": 0,
-            "curedCount": 3,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1581165879842,
-            "createTime": 1580027777000,
-            "modifyTime": 1581165850000
-        },
-        {
             "country": "泰国",
             "provinceName": "泰国",
             "provinceShortName": "泰国",
@@ -486,6 +472,20 @@
             "updateTime": 1581165879842,
             "createTime": 1580027637000,
             "modifyTime": 1581165838000
+        },
+        {
+            "country": "澳大利亚",
+            "provinceName": "澳大利亚",
+            "provinceShortName": "澳大利亚",
+            "confirmedCount": 15,
+            "suspectedCount": 0,
+            "curedCount": 3,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1581165879842,
+            "createTime": 1580027777000,
+            "modifyTime": 1581165850000
         },
         {
             "country": "中国",
@@ -4136,20 +4136,6 @@
             "modifyTime": null
         },
         {
-            "country": "西班牙",
-            "provinceName": "西班牙",
-            "provinceShortName": "西班牙",
-            "confirmedCount": 1,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1580552955389,
-            "createTime": 1580512517000,
-            "modifyTime": 1580514491000
-        },
-        {
             "country": "瑞典",
             "provinceName": "瑞典",
             "provinceShortName": "瑞典",
@@ -4178,6 +4164,34 @@
             "modifyTime": 1580495947000
         },
         {
+            "country": "西班牙",
+            "provinceName": "西班牙",
+            "provinceShortName": "西班牙",
+            "confirmedCount": 1,
+            "suspectedCount": 0,
+            "curedCount": 0,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1580552955389,
+            "createTime": 1580512517000,
+            "modifyTime": 1580514491000
+        },
+        {
+            "country": "柬埔寨",
+            "provinceName": "柬埔寨",
+            "provinceShortName": "柬埔寨",
+            "confirmedCount": 1,
+            "suspectedCount": 0,
+            "curedCount": 0,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1580552955389,
+            "createTime": 1580130061000,
+            "modifyTime": 1580495965000
+        },
+        {
             "country": "尼泊尔",
             "provinceName": "尼泊尔",
             "provinceShortName": "尼泊尔",
@@ -4190,20 +4204,6 @@
             "updateTime": 1580552955389,
             "createTime": 1580027764000,
             "modifyTime": 1580495955000
-        },
-        {
-            "country": "斯里兰卡",
-            "provinceName": "斯里兰卡",
-            "provinceShortName": "斯里兰卡",
-            "confirmedCount": 1,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1580552955389,
-            "createTime": 1580182019000,
-            "modifyTime": 1580495982000
         },
         {
             "country": "芬兰",
@@ -4220,9 +4220,9 @@
             "modifyTime": 1580495991000
         },
         {
-            "country": "柬埔寨",
-            "provinceName": "柬埔寨",
-            "provinceShortName": "柬埔寨",
+            "country": "斯里兰卡",
+            "provinceName": "斯里兰卡",
+            "provinceShortName": "斯里兰卡",
             "confirmedCount": 1,
             "suspectedCount": 0,
             "curedCount": 0,
@@ -4230,8 +4230,8 @@
             "cities": null,
             "comment": "",
             "updateTime": 1580552955389,
-            "createTime": 1580130061000,
-            "modifyTime": 1580495965000
+            "createTime": 1580182019000,
+            "modifyTime": 1580495982000
         }
     ],
     "success": true
