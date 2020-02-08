@@ -3,25 +3,25 @@
         {
             "infectSource": "该字段已替换为说明2",
             "passWay": "该字段已替换为说明3",
-            "dailyPic": "https://img1.dxycdn.com/2020/0208/268/3395436479513185497-135.png,https://img1.dxycdn.com/2020/0208/356/3395436496692894611-135.png,https://img1.dxycdn.com/2020/0208/718/3395441242632008089-135.png,https://img1.dxycdn.com/2020/0208/602/3395441255516910756-135.png,https://img1.dxycdn.com/2020/0208/438/3395441270548908223-135.png,https://img1.dxycdn.com/2020/0208/338/3395441279139232665-135.png",
+            "dailyPic": "https://img1.dxycdn.com/2020/0208/268/3395436479513185497-135.png,https://img1.dxycdn.com/2020/0208/356/3395436496692894611-135.png,https://img1.dxycdn.com/2020/0208/599/3395474215095538530-135.png,https://img1.dxycdn.com/2020/0208/502/3395474230127927756-135.png,https://img1.dxycdn.com/2020/0208/704/3395474279520515356-135.png,https://img1.dxycdn.com/2020/0208/629/3395474292405418005-135.png",
             "dailyPics": [
                 "https://img1.dxycdn.com/2020/0208/268/3395436479513185497-135.png",
                 "https://img1.dxycdn.com/2020/0208/356/3395436496692894611-135.png",
-                "https://img1.dxycdn.com/2020/0208/718/3395441242632008089-135.png",
-                "https://img1.dxycdn.com/2020/0208/602/3395441255516910756-135.png",
-                "https://img1.dxycdn.com/2020/0208/438/3395441270548908223-135.png",
-                "https://img1.dxycdn.com/2020/0208/338/3395441279139232665-135.png"
+                "https://img1.dxycdn.com/2020/0208/599/3395474215095538530-135.png",
+                "https://img1.dxycdn.com/2020/0208/502/3395474230127927756-135.png",
+                "https://img1.dxycdn.com/2020/0208/704/3395474279520515356-135.png",
+                "https://img1.dxycdn.com/2020/0208/629/3395474292405418005-135.png"
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 34622,
+            "confirmedCount": 34627,
             "suspectedCount": 27657,
-            "curedCount": 2111,
+            "curedCount": 2127,
             "deadCount": 723,
             "seriousCount": 6101,
             "suspectedIncr": 4214,
-            "confirmedIncr": 3425,
-            "curedIncr": 569,
+            "confirmedIncr": 3430,
+            "curedIncr": 585,
             "deadIncr": 86,
             "seriousIncr": 1280,
             "virus": "该字段已替换为说明1",
@@ -36,7 +36,7 @@
             "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
             "abroadRemark": "",
             "marquee": [],
-            "updateTime": 1581139845076
+            "updateTime": 1581143553025
         }
     ],
     "success": true
