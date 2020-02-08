@@ -35,15 +35,8 @@
             "note3": "传播途径：经呼吸道飞沫和接触传播是主要的传播途径。气溶胶和消化道等传播途径尚待明确。",
             "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
             "abroadRemark": "",
-            "marquee": [
-                {
-                    "id": 148,
-                    "marqueeLabel": "哀悼",
-                    "marqueeContent": "战胜疫情魔鬼 告慰李文亮医生",
-                    "marqueeLink": "https://mp.weixin.qq.com/s/uh4uY0W-MDSfqqaOP0BZIg"
-                }
-            ],
-            "updateTime": 1581125614004
+            "marquee": [],
+            "updateTime": 1581129326151
         }
     ],
     "success": true
