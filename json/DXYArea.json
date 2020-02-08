@@ -740,18 +740,18 @@
             "modifyTime": null
         },
         {
-            "country": "新加坡",
-            "provinceName": "新加坡",
-            "provinceShortName": "新加坡",
-            "confirmedCount": 33,
+            "country": "澳大利亚",
+            "provinceName": "澳大利亚",
+            "provinceShortName": "澳大利亚",
+            "confirmedCount": 15,
             "suspectedCount": 0,
-            "curedCount": 2,
+            "curedCount": 3,
             "deadCount": 0,
             "cities": null,
             "comment": "",
             "updateTime": 1581165879842,
-            "createTime": 1580027655000,
-            "modifyTime": 1581165817000
+            "createTime": 1580027777000,
+            "modifyTime": 1581165850000
         },
         {
             "country": "泰国",
@@ -768,18 +768,18 @@
             "modifyTime": 1581165838000
         },
         {
-            "country": "澳大利亚",
-            "provinceName": "澳大利亚",
-            "provinceShortName": "澳大利亚",
-            "confirmedCount": 15,
+            "country": "新加坡",
+            "provinceName": "新加坡",
+            "provinceShortName": "新加坡",
+            "confirmedCount": 33,
             "suspectedCount": 0,
-            "curedCount": 3,
+            "curedCount": 2,
             "deadCount": 0,
             "cities": null,
             "comment": "",
             "updateTime": 1581165879842,
-            "createTime": 1580027777000,
-            "modifyTime": 1581165850000
+            "createTime": 1580027655000,
+            "modifyTime": 1581165817000
         },
         {
             "country": "中国",
@@ -2851,20 +2851,6 @@
             "modifyTime": null
         },
         {
-            "country": "菲律宾",
-            "provinceName": "菲律宾",
-            "provinceShortName": "菲律宾",
-            "confirmedCount": 3,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 1,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1581146591228,
-            "createTime": 1580566796000,
-            "modifyTime": 1581146523000
-        },
-        {
             "country": "越南",
             "provinceName": "越南",
             "provinceShortName": "越南",
@@ -2877,6 +2863,20 @@
             "updateTime": 1581146591228,
             "createTime": 1580027751000,
             "modifyTime": 1581146492000
+        },
+        {
+            "country": "菲律宾",
+            "provinceName": "菲律宾",
+            "provinceShortName": "菲律宾",
+            "confirmedCount": 3,
+            "suspectedCount": 0,
+            "curedCount": 0,
+            "deadCount": 1,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1581146591228,
+            "createTime": 1580566796000,
+            "modifyTime": 1581146523000
         },
         {
             "country": "意大利",
@@ -4144,20 +4144,6 @@
             "modifyTime": null
         },
         {
-            "country": "瑞典",
-            "provinceName": "瑞典",
-            "provinceShortName": "瑞典",
-            "confirmedCount": 1,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1580552955389,
-            "createTime": 1580516851000,
-            "modifyTime": 1580516851000
-        },
-        {
             "country": "俄罗斯",
             "provinceName": "俄罗斯",
             "provinceShortName": "俄罗斯",
@@ -4172,9 +4158,9 @@
             "modifyTime": 1580495947000
         },
         {
-            "country": "西班牙",
-            "provinceName": "西班牙",
-            "provinceShortName": "西班牙",
+            "country": "瑞典",
+            "provinceName": "瑞典",
+            "provinceShortName": "瑞典",
             "confirmedCount": 1,
             "suspectedCount": 0,
             "curedCount": 0,
@@ -4182,8 +4168,8 @@
             "cities": null,
             "comment": "",
             "updateTime": 1580552955389,
-            "createTime": 1580512517000,
-            "modifyTime": 1580514491000
+            "createTime": 1580516851000,
+            "modifyTime": 1580516851000
         },
         {
             "country": "柬埔寨",
@@ -4200,9 +4186,9 @@
             "modifyTime": 1580495965000
         },
         {
-            "country": "尼泊尔",
-            "provinceName": "尼泊尔",
-            "provinceShortName": "尼泊尔",
+            "country": "西班牙",
+            "provinceName": "西班牙",
+            "provinceShortName": "西班牙",
             "confirmedCount": 1,
             "suspectedCount": 0,
             "curedCount": 0,
@@ -4210,8 +4196,22 @@
             "cities": null,
             "comment": "",
             "updateTime": 1580552955389,
-            "createTime": 1580027764000,
-            "modifyTime": 1580495955000
+            "createTime": 1580512517000,
+            "modifyTime": 1580514491000
+        },
+        {
+            "country": "斯里兰卡",
+            "provinceName": "斯里兰卡",
+            "provinceShortName": "斯里兰卡",
+            "confirmedCount": 1,
+            "suspectedCount": 0,
+            "curedCount": 0,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1580552955389,
+            "createTime": 1580182019000,
+            "modifyTime": 1580495982000
         },
         {
             "country": "芬兰",
@@ -4228,9 +4228,9 @@
             "modifyTime": 1580495991000
         },
         {
-            "country": "斯里兰卡",
-            "provinceName": "斯里兰卡",
-            "provinceShortName": "斯里兰卡",
+            "country": "尼泊尔",
+            "provinceName": "尼泊尔",
+            "provinceShortName": "尼泊尔",
             "confirmedCount": 1,
             "suspectedCount": 0,
             "curedCount": 0,
@@ -4238,8 +4238,8 @@
             "cities": null,
             "comment": "",
             "updateTime": 1580552955389,
-            "createTime": 1580182019000,
-            "modifyTime": 1580495982000
+            "createTime": 1580027764000,
+            "modifyTime": 1580495955000
         }
     ],
     "success": true
