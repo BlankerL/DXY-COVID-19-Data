@@ -2,138 +2,11 @@
     "results": [
         {
             "country": "中国",
-            "provinceName": "湖南省",
-            "provinceShortName": "湖南",
-            "confirmedCount": 803,
-            "suspectedCount": 0,
-            "curedCount": 152,
-            "deadCount": 1,
-            "cities": [
-                {
-                    "cityName": "长沙",
-                    "confirmedCount": 196,
-                    "suspectedCount": 0,
-                    "curedCount": 27,
-                    "deadCount": 0,
-                    "locationId": 430100
-                },
-                {
-                    "cityName": "岳阳",
-                    "confirmedCount": 111,
-                    "suspectedCount": 0,
-                    "curedCount": 10,
-                    "deadCount": 1,
-                    "locationId": 430600
-                },
-                {
-                    "cityName": "邵阳",
-                    "confirmedCount": 86,
-                    "suspectedCount": 0,
-                    "curedCount": 18,
-                    "deadCount": 0,
-                    "locationId": 430500
-                },
-                {
-                    "cityName": "常德",
-                    "confirmedCount": 66,
-                    "suspectedCount": 0,
-                    "curedCount": 15,
-                    "deadCount": 0,
-                    "locationId": 430700
-                },
-                {
-                    "cityName": "娄底",
-                    "confirmedCount": 59,
-                    "suspectedCount": 0,
-                    "curedCount": 4,
-                    "deadCount": 0,
-                    "locationId": 431300
-                },
-                {
-                    "cityName": "株洲",
-                    "confirmedCount": 48,
-                    "suspectedCount": 0,
-                    "curedCount": 8,
-                    "deadCount": 0,
-                    "locationId": 430200
-                },
-                {
-                    "cityName": "益阳",
-                    "confirmedCount": 44,
-                    "suspectedCount": 0,
-                    "curedCount": 10,
-                    "deadCount": 0,
-                    "locationId": 430900
-                },
-                {
-                    "cityName": "衡阳",
-                    "confirmedCount": 43,
-                    "suspectedCount": 0,
-                    "curedCount": 13,
-                    "deadCount": 0,
-                    "locationId": 430400
-                },
-                {
-                    "cityName": "永州",
-                    "confirmedCount": 40,
-                    "suspectedCount": 0,
-                    "curedCount": 10,
-                    "deadCount": 0,
-                    "locationId": 431100
-                },
-                {
-                    "cityName": "怀化",
-                    "confirmedCount": 38,
-                    "suspectedCount": 0,
-                    "curedCount": 14,
-                    "deadCount": 0,
-                    "locationId": 431200
-                },
-                {
-                    "cityName": "郴州",
-                    "confirmedCount": 31,
-                    "suspectedCount": 0,
-                    "curedCount": 8,
-                    "deadCount": 0,
-                    "locationId": 431000
-                },
-                {
-                    "cityName": "湘潭",
-                    "confirmedCount": 28,
-                    "suspectedCount": 0,
-                    "curedCount": 10,
-                    "deadCount": 0,
-                    "locationId": 430300
-                },
-                {
-                    "cityName": "湘西自治州",
-                    "confirmedCount": 8,
-                    "suspectedCount": 0,
-                    "curedCount": 3,
-                    "deadCount": 0,
-                    "locationId": 433100
-                },
-                {
-                    "cityName": "张家界",
-                    "confirmedCount": 5,
-                    "suspectedCount": 0,
-                    "curedCount": 2,
-                    "deadCount": 0,
-                    "locationId": 430800
-                }
-            ],
-            "comment": "",
-            "updateTime": 1581165270841,
-            "createTime": null,
-            "modifyTime": null
-        },
-        {
-            "country": "中国",
             "provinceName": "河南省",
             "provinceShortName": "河南",
             "confirmedCount": 981,
             "suspectedCount": 0,
-            "curedCount": 111,
+            "curedCount": 115,
             "deadCount": 4,
             "cities": [
                 {
@@ -188,7 +61,7 @@
                     "cityName": "平顶山",
                     "confirmedCount": 48,
                     "suspectedCount": 0,
-                    "curedCount": 1,
+                    "curedCount": 5,
                     "deadCount": 1,
                     "locationId": 410400
                 },
@@ -290,9 +163,329 @@
                 }
             ],
             "comment": "参考卫健委统计口径，部分县区与地级市合并",
-            "updateTime": 1581164783233,
+            "updateTime": 1581168925918,
             "createTime": null,
             "modifyTime": null
+        },
+        {
+            "country": "中国",
+            "provinceName": "湖北省",
+            "provinceShortName": "湖北",
+            "confirmedCount": 24953,
+            "suspectedCount": 0,
+            "curedCount": 1215,
+            "deadCount": 699,
+            "cities": [
+                {
+                    "cityName": "武汉",
+                    "confirmedCount": 13603,
+                    "suspectedCount": 0,
+                    "curedCount": 747,
+                    "deadCount": 545,
+                    "locationId": 420100
+                },
+                {
+                    "cityName": "孝感",
+                    "confirmedCount": 2313,
+                    "suspectedCount": 0,
+                    "curedCount": 42,
+                    "deadCount": 26,
+                    "locationId": 420900
+                },
+                {
+                    "cityName": "黄冈",
+                    "confirmedCount": 2041,
+                    "suspectedCount": 0,
+                    "curedCount": 105,
+                    "deadCount": 36,
+                    "locationId": 421100
+                },
+                {
+                    "cityName": "随州",
+                    "confirmedCount": 953,
+                    "suspectedCount": 0,
+                    "curedCount": 23,
+                    "deadCount": 9,
+                    "locationId": 421300
+                },
+                {
+                    "cityName": "荆州",
+                    "confirmedCount": 941,
+                    "suspectedCount": 0,
+                    "curedCount": 31,
+                    "deadCount": 11,
+                    "locationId": 421000
+                },
+                {
+                    "cityName": "襄阳",
+                    "confirmedCount": 907,
+                    "suspectedCount": 0,
+                    "curedCount": 34,
+                    "deadCount": 5,
+                    "locationId": 420600
+                },
+                {
+                    "cityName": "黄石",
+                    "confirmedCount": 703,
+                    "suspectedCount": 0,
+                    "curedCount": 48,
+                    "deadCount": 2,
+                    "locationId": 420200
+                },
+                {
+                    "cityName": "宜昌",
+                    "confirmedCount": 633,
+                    "suspectedCount": 0,
+                    "curedCount": 25,
+                    "deadCount": 8,
+                    "locationId": 420500
+                },
+                {
+                    "cityName": "荆门",
+                    "confirmedCount": 588,
+                    "suspectedCount": 0,
+                    "curedCount": 36,
+                    "deadCount": 18,
+                    "locationId": 420800
+                },
+                {
+                    "cityName": "鄂州",
+                    "confirmedCount": 569,
+                    "suspectedCount": 0,
+                    "curedCount": 33,
+                    "deadCount": 20,
+                    "locationId": 420700
+                },
+                {
+                    "cityName": "咸宁",
+                    "confirmedCount": 476,
+                    "suspectedCount": 0,
+                    "curedCount": 16,
+                    "deadCount": 2,
+                    "locationId": 421200
+                },
+                {
+                    "cityName": "十堰",
+                    "confirmedCount": 438,
+                    "suspectedCount": 0,
+                    "curedCount": 40,
+                    "deadCount": 0,
+                    "locationId": 420300
+                },
+                {
+                    "cityName": "仙桃",
+                    "confirmedCount": 359,
+                    "suspectedCount": 0,
+                    "curedCount": 14,
+                    "deadCount": 5,
+                    "locationId": 429004
+                },
+                {
+                    "cityName": "天门",
+                    "confirmedCount": 179,
+                    "suspectedCount": 0,
+                    "curedCount": 1,
+                    "deadCount": 10,
+                    "locationId": 429006
+                },
+                {
+                    "cityName": "恩施州",
+                    "confirmedCount": 160,
+                    "suspectedCount": 0,
+                    "curedCount": 17,
+                    "deadCount": 0,
+                    "locationId": 422800
+                },
+                {
+                    "cityName": "潜江",
+                    "confirmedCount": 80,
+                    "suspectedCount": 0,
+                    "curedCount": 1,
+                    "deadCount": 2,
+                    "locationId": 429005
+                },
+                {
+                    "cityName": "神农架林区",
+                    "confirmedCount": 10,
+                    "suspectedCount": 0,
+                    "curedCount": 2,
+                    "deadCount": 0,
+                    "locationId": 429021
+                }
+            ],
+            "comment": "",
+            "updateTime": 1581166733025,
+            "createTime": null,
+            "modifyTime": null
+        },
+        {
+            "country": "中国",
+            "provinceName": "湖南省",
+            "provinceShortName": "湖南",
+            "confirmedCount": 803,
+            "suspectedCount": 0,
+            "curedCount": 156,
+            "deadCount": 1,
+            "cities": [
+                {
+                    "cityName": "长沙",
+                    "confirmedCount": 196,
+                    "suspectedCount": 0,
+                    "curedCount": 27,
+                    "deadCount": 0,
+                    "locationId": 430100
+                },
+                {
+                    "cityName": "岳阳",
+                    "confirmedCount": 111,
+                    "suspectedCount": 0,
+                    "curedCount": 10,
+                    "deadCount": 1,
+                    "locationId": 430600
+                },
+                {
+                    "cityName": "邵阳",
+                    "confirmedCount": 86,
+                    "suspectedCount": 0,
+                    "curedCount": 18,
+                    "deadCount": 0,
+                    "locationId": 430500
+                },
+                {
+                    "cityName": "常德",
+                    "confirmedCount": 66,
+                    "suspectedCount": 0,
+                    "curedCount": 15,
+                    "deadCount": 0,
+                    "locationId": 430700
+                },
+                {
+                    "cityName": "娄底",
+                    "confirmedCount": 59,
+                    "suspectedCount": 0,
+                    "curedCount": 8,
+                    "deadCount": 0,
+                    "locationId": 431300
+                },
+                {
+                    "cityName": "株洲",
+                    "confirmedCount": 48,
+                    "suspectedCount": 0,
+                    "curedCount": 8,
+                    "deadCount": 0,
+                    "locationId": 430200
+                },
+                {
+                    "cityName": "益阳",
+                    "confirmedCount": 44,
+                    "suspectedCount": 0,
+                    "curedCount": 10,
+                    "deadCount": 0,
+                    "locationId": 430900
+                },
+                {
+                    "cityName": "衡阳",
+                    "confirmedCount": 43,
+                    "suspectedCount": 0,
+                    "curedCount": 13,
+                    "deadCount": 0,
+                    "locationId": 430400
+                },
+                {
+                    "cityName": "永州",
+                    "confirmedCount": 40,
+                    "suspectedCount": 0,
+                    "curedCount": 10,
+                    "deadCount": 0,
+                    "locationId": 431100
+                },
+                {
+                    "cityName": "怀化",
+                    "confirmedCount": 38,
+                    "suspectedCount": 0,
+                    "curedCount": 14,
+                    "deadCount": 0,
+                    "locationId": 431200
+                },
+                {
+                    "cityName": "郴州",
+                    "confirmedCount": 31,
+                    "suspectedCount": 0,
+                    "curedCount": 8,
+                    "deadCount": 0,
+                    "locationId": 431000
+                },
+                {
+                    "cityName": "湘潭",
+                    "confirmedCount": 28,
+                    "suspectedCount": 0,
+                    "curedCount": 10,
+                    "deadCount": 0,
+                    "locationId": 430300
+                },
+                {
+                    "cityName": "湘西自治州",
+                    "confirmedCount": 8,
+                    "suspectedCount": 0,
+                    "curedCount": 3,
+                    "deadCount": 0,
+                    "locationId": 433100
+                },
+                {
+                    "cityName": "张家界",
+                    "confirmedCount": 5,
+                    "suspectedCount": 0,
+                    "curedCount": 2,
+                    "deadCount": 0,
+                    "locationId": 430800
+                }
+            ],
+            "comment": "",
+            "updateTime": 1581166367474,
+            "createTime": null,
+            "modifyTime": null
+        },
+        {
+            "country": "新加坡",
+            "provinceName": "新加坡",
+            "provinceShortName": "新加坡",
+            "confirmedCount": 33,
+            "suspectedCount": 0,
+            "curedCount": 2,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1581165879842,
+            "createTime": 1580027655000,
+            "modifyTime": 1581165817000
+        },
+        {
+            "country": "澳大利亚",
+            "provinceName": "澳大利亚",
+            "provinceShortName": "澳大利亚",
+            "confirmedCount": 15,
+            "suspectedCount": 0,
+            "curedCount": 3,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1581165879842,
+            "createTime": 1580027777000,
+            "modifyTime": 1581165850000
+        },
+        {
+            "country": "泰国",
+            "provinceName": "泰国",
+            "provinceShortName": "泰国",
+            "confirmedCount": 32,
+            "suspectedCount": 0,
+            "curedCount": 10,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1581165879842,
+            "createTime": 1580027637000,
+            "modifyTime": 1581165838000
         },
         {
             "country": "中国",
@@ -1014,157 +1207,6 @@
             ],
             "comment": "",
             "updateTime": 1581161071093,
-            "createTime": null,
-            "modifyTime": null
-        },
-        {
-            "country": "中国",
-            "provinceName": "湖北省",
-            "provinceShortName": "湖北",
-            "confirmedCount": 24953,
-            "suspectedCount": 0,
-            "curedCount": 1205,
-            "deadCount": 699,
-            "cities": [
-                {
-                    "cityName": "武汉",
-                    "confirmedCount": 13603,
-                    "suspectedCount": 0,
-                    "curedCount": 747,
-                    "deadCount": 545,
-                    "locationId": 420100
-                },
-                {
-                    "cityName": "孝感",
-                    "confirmedCount": 2313,
-                    "suspectedCount": 0,
-                    "curedCount": 38,
-                    "deadCount": 26,
-                    "locationId": 420900
-                },
-                {
-                    "cityName": "黄冈",
-                    "confirmedCount": 2041,
-                    "suspectedCount": 0,
-                    "curedCount": 105,
-                    "deadCount": 36,
-                    "locationId": 421100
-                },
-                {
-                    "cityName": "随州",
-                    "confirmedCount": 953,
-                    "suspectedCount": 0,
-                    "curedCount": 23,
-                    "deadCount": 9,
-                    "locationId": 421300
-                },
-                {
-                    "cityName": "荆州",
-                    "confirmedCount": 941,
-                    "suspectedCount": 0,
-                    "curedCount": 31,
-                    "deadCount": 11,
-                    "locationId": 421000
-                },
-                {
-                    "cityName": "襄阳",
-                    "confirmedCount": 907,
-                    "suspectedCount": 0,
-                    "curedCount": 34,
-                    "deadCount": 5,
-                    "locationId": 420600
-                },
-                {
-                    "cityName": "黄石",
-                    "confirmedCount": 703,
-                    "suspectedCount": 0,
-                    "curedCount": 48,
-                    "deadCount": 2,
-                    "locationId": 420200
-                },
-                {
-                    "cityName": "宜昌",
-                    "confirmedCount": 633,
-                    "suspectedCount": 0,
-                    "curedCount": 25,
-                    "deadCount": 8,
-                    "locationId": 420500
-                },
-                {
-                    "cityName": "荆门",
-                    "confirmedCount": 588,
-                    "suspectedCount": 0,
-                    "curedCount": 36,
-                    "deadCount": 18,
-                    "locationId": 420800
-                },
-                {
-                    "cityName": "鄂州",
-                    "confirmedCount": 569,
-                    "suspectedCount": 0,
-                    "curedCount": 33,
-                    "deadCount": 20,
-                    "locationId": 420700
-                },
-                {
-                    "cityName": "咸宁",
-                    "confirmedCount": 476,
-                    "suspectedCount": 0,
-                    "curedCount": 16,
-                    "deadCount": 2,
-                    "locationId": 421200
-                },
-                {
-                    "cityName": "十堰",
-                    "confirmedCount": 438,
-                    "suspectedCount": 0,
-                    "curedCount": 34,
-                    "deadCount": 0,
-                    "locationId": 420300
-                },
-                {
-                    "cityName": "仙桃",
-                    "confirmedCount": 359,
-                    "suspectedCount": 0,
-                    "curedCount": 14,
-                    "deadCount": 5,
-                    "locationId": 429004
-                },
-                {
-                    "cityName": "天门",
-                    "confirmedCount": 179,
-                    "suspectedCount": 0,
-                    "curedCount": 1,
-                    "deadCount": 10,
-                    "locationId": 429006
-                },
-                {
-                    "cityName": "恩施州",
-                    "confirmedCount": 160,
-                    "suspectedCount": 0,
-                    "curedCount": 17,
-                    "deadCount": 0,
-                    "locationId": 422800
-                },
-                {
-                    "cityName": "潜江",
-                    "confirmedCount": 80,
-                    "suspectedCount": 0,
-                    "curedCount": 1,
-                    "deadCount": 2,
-                    "locationId": 429005
-                },
-                {
-                    "cityName": "神农架林区",
-                    "confirmedCount": 10,
-                    "suspectedCount": 0,
-                    "curedCount": 2,
-                    "deadCount": 0,
-                    "locationId": 429021
-                }
-            ],
-            "comment": "",
-            "updateTime": 1581160523007,
             "createTime": null,
             "modifyTime": null
         },
@@ -2871,20 +2913,6 @@
             "modifyTime": 1581145128000
         },
         {
-            "country": "新加坡",
-            "provinceName": "新加坡",
-            "provinceShortName": "新加坡",
-            "confirmedCount": 33,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1581144585451,
-            "createTime": 1580027655000,
-            "modifyTime": 1581144507000
-        },
-        {
             "country": "日本",
             "provinceName": "日本",
             "provinceShortName": "日本",
@@ -3956,20 +3984,6 @@
             "modifyTime": null
         },
         {
-            "country": "澳大利亚",
-            "provinceName": "澳大利亚",
-            "provinceShortName": "澳大利亚",
-            "confirmedCount": 15,
-            "suspectedCount": 0,
-            "curedCount": 2,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1581065503655,
-            "createTime": 1580027777000,
-            "modifyTime": 1581065420000
-        },
-        {
             "country": "韩国",
             "provinceName": "韩国",
             "provinceShortName": "韩国",
@@ -4071,20 +4085,6 @@
             "modifyTime": 1580830226000
         },
         {
-            "country": "泰国",
-            "provinceName": "泰国",
-            "provinceShortName": "泰国",
-            "confirmedCount": 25,
-            "suspectedCount": 0,
-            "curedCount": 5,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1580830241908,
-            "createTime": 1580027637000,
-            "modifyTime": 1580830169000
-        },
-        {
             "country": "比利时",
             "provinceName": "比利时",
             "provinceShortName": "比利时",
@@ -4134,6 +4134,48 @@
             "updateTime": 1580709654544,
             "createTime": null,
             "modifyTime": null
+        },
+        {
+            "country": "西班牙",
+            "provinceName": "西班牙",
+            "provinceShortName": "西班牙",
+            "confirmedCount": 1,
+            "suspectedCount": 0,
+            "curedCount": 0,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1580552955389,
+            "createTime": 1580512517000,
+            "modifyTime": 1580514491000
+        },
+        {
+            "country": "瑞典",
+            "provinceName": "瑞典",
+            "provinceShortName": "瑞典",
+            "confirmedCount": 1,
+            "suspectedCount": 0,
+            "curedCount": 0,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1580552955389,
+            "createTime": 1580516851000,
+            "modifyTime": 1580516851000
+        },
+        {
+            "country": "俄罗斯",
+            "provinceName": "俄罗斯",
+            "provinceShortName": "俄罗斯",
+            "confirmedCount": 2,
+            "suspectedCount": 0,
+            "curedCount": 0,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1580552955389,
+            "createTime": 1580476133000,
+            "modifyTime": 1580495947000
         },
         {
             "country": "尼泊尔",
@@ -4190,48 +4232,6 @@
             "updateTime": 1580552955389,
             "createTime": 1580130061000,
             "modifyTime": 1580495965000
-        },
-        {
-            "country": "西班牙",
-            "provinceName": "西班牙",
-            "provinceShortName": "西班牙",
-            "confirmedCount": 1,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1580552955389,
-            "createTime": 1580512517000,
-            "modifyTime": 1580514491000
-        },
-        {
-            "country": "瑞典",
-            "provinceName": "瑞典",
-            "provinceShortName": "瑞典",
-            "confirmedCount": 1,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1580552955389,
-            "createTime": 1580516851000,
-            "modifyTime": 1580516851000
-        },
-        {
-            "country": "俄罗斯",
-            "provinceName": "俄罗斯",
-            "provinceShortName": "俄罗斯",
-            "confirmedCount": 2,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1580552955389,
-            "createTime": 1580476133000,
-            "modifyTime": 1580495947000
         }
     ],
     "success": true
