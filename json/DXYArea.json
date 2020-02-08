@@ -4144,20 +4144,6 @@
             "modifyTime": null
         },
         {
-            "country": "斯里兰卡",
-            "provinceName": "斯里兰卡",
-            "provinceShortName": "斯里兰卡",
-            "confirmedCount": 1,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1580552955389,
-            "createTime": 1580182019000,
-            "modifyTime": 1580495982000
-        },
-        {
             "country": "瑞典",
             "provinceName": "瑞典",
             "provinceShortName": "瑞典",
@@ -4240,6 +4226,20 @@
             "updateTime": 1580552955389,
             "createTime": 1580337882000,
             "modifyTime": 1580495991000
+        },
+        {
+            "country": "斯里兰卡",
+            "provinceName": "斯里兰卡",
+            "provinceShortName": "斯里兰卡",
+            "confirmedCount": 1,
+            "suspectedCount": 0,
+            "curedCount": 0,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1580552955389,
+            "createTime": 1580182019000,
+            "modifyTime": 1580495982000
         }
     ],
     "success": true
