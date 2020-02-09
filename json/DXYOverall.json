@@ -16,12 +16,12 @@
             "countRemark": "",
             "confirmedCount": 37289,
             "suspectedCount": 28942,
-            "curedCount": 2898,
+            "curedCount": 2900,
             "deadCount": 813,
             "seriousCount": 6188,
             "suspectedIncr": 3916,
             "confirmedIncr": 2695,
-            "curedIncr": 847,
+            "curedIncr": 849,
             "deadIncr": 90,
             "seriousIncr": 87,
             "virus": "该字段已替换为说明1",
@@ -35,15 +35,8 @@
             "note3": "传播途径：经呼吸道飞沫、接触传播是主要的传播途径。气溶胶传播和消化道等传播途径尚待明确。",
             "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
             "abroadRemark": "",
-            "marquee": [
-                {
-                    "id": 174,
-                    "marqueeLabel": "公告",
-                    "marqueeContent": "免费加入孕妇答疑社群",
-                    "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
-                }
-            ],
-            "updateTime": 1581255220614
+            "marquee": [],
+            "updateTime": 1581260453855
         }
     ],
     "success": true
