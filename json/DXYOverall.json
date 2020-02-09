@@ -14,14 +14,14 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 37251,
+            "confirmedCount": 37252,
             "suspectedCount": 28942,
-            "curedCount": 2713,
+            "curedCount": 2731,
             "deadCount": 812,
             "seriousCount": 6188,
             "suspectedIncr": 3916,
-            "confirmedIncr": 2657,
-            "curedIncr": 662,
+            "confirmedIncr": 2658,
+            "curedIncr": 680,
             "deadIncr": 89,
             "seriousIncr": 87,
             "virus": "该字段已替换为说明1",
@@ -37,13 +37,13 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 151,
+                    "id": 152,
                     "marqueeLabel": "公告",
                     "marqueeContent": "免费加入孕妇答疑社群",
                     "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
                 }
             ],
-            "updateTime": 1581226420433
+            "updateTime": 1581229405231
         }
     ],
     "success": true
