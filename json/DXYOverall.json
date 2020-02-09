@@ -14,15 +14,15 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 37277,
+            "confirmedCount": 37280,
             "suspectedCount": 28942,
-            "curedCount": 2780,
-            "deadCount": 812,
+            "curedCount": 2837,
+            "deadCount": 813,
             "seriousCount": 6188,
             "suspectedIncr": 3916,
-            "confirmedIncr": 2683,
-            "curedIncr": 729,
-            "deadIncr": 89,
+            "confirmedIncr": 2686,
+            "curedIncr": 786,
+            "deadIncr": 90,
             "seriousIncr": 87,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
@@ -37,13 +37,13 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 155,
+                    "id": 160,
                     "marqueeLabel": "公告",
                     "marqueeContent": "免费加入孕妇答疑社群",
                     "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
                 }
             ],
-            "updateTime": 1581236282740
+            "updateTime": 1581240604143
         }
     ],
     "success": true
