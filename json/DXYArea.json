@@ -3882,20 +3882,6 @@
             "modifyTime": 1581155502000
         },
         {
-            "country": "越南",
-            "provinceName": "越南",
-            "provinceShortName": "越南",
-            "confirmedCount": 13,
-            "suspectedCount": 0,
-            "curedCount": 1,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1581146591228,
-            "createTime": 1580027751000,
-            "modifyTime": 1581146492000
-        },
-        {
             "country": "菲律宾",
             "provinceName": "菲律宾",
             "provinceShortName": "菲律宾",
@@ -3908,6 +3894,20 @@
             "updateTime": 1581146591228,
             "createTime": 1580566796000,
             "modifyTime": 1581146523000
+        },
+        {
+            "country": "越南",
+            "provinceName": "越南",
+            "provinceShortName": "越南",
+            "confirmedCount": 13,
+            "suspectedCount": 0,
+            "curedCount": 1,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1581146591228,
+            "createTime": 1580027751000,
+            "modifyTime": 1581146492000
         },
         {
             "country": "意大利",
@@ -4104,18 +4104,18 @@
             "modifyTime": null
         },
         {
-            "country": "俄罗斯",
-            "provinceName": "俄罗斯",
-            "provinceShortName": "俄罗斯",
-            "confirmedCount": 2,
+            "country": "西班牙",
+            "provinceName": "西班牙",
+            "provinceShortName": "西班牙",
+            "confirmedCount": 1,
             "suspectedCount": 0,
             "curedCount": 0,
             "deadCount": 0,
             "cities": null,
             "comment": "",
             "updateTime": 1580552955389,
-            "createTime": 1580476133000,
-            "modifyTime": 1580495947000
+            "createTime": 1580512517000,
+            "modifyTime": 1580514491000
         },
         {
             "country": "瑞典",
@@ -4132,23 +4132,23 @@
             "modifyTime": 1580516851000
         },
         {
-            "country": "柬埔寨",
-            "provinceName": "柬埔寨",
-            "provinceShortName": "柬埔寨",
-            "confirmedCount": 1,
+            "country": "俄罗斯",
+            "provinceName": "俄罗斯",
+            "provinceShortName": "俄罗斯",
+            "confirmedCount": 2,
             "suspectedCount": 0,
             "curedCount": 0,
             "deadCount": 0,
             "cities": null,
             "comment": "",
             "updateTime": 1580552955389,
-            "createTime": 1580130061000,
-            "modifyTime": 1580495965000
+            "createTime": 1580476133000,
+            "modifyTime": 1580495947000
         },
         {
-            "country": "西班牙",
-            "provinceName": "西班牙",
-            "provinceShortName": "西班牙",
+            "country": "尼泊尔",
+            "provinceName": "尼泊尔",
+            "provinceShortName": "尼泊尔",
             "confirmedCount": 1,
             "suspectedCount": 0,
             "curedCount": 0,
@@ -4156,8 +4156,8 @@
             "cities": null,
             "comment": "",
             "updateTime": 1580552955389,
-            "createTime": 1580512517000,
-            "modifyTime": 1580514491000
+            "createTime": 1580027764000,
+            "modifyTime": 1580495955000
         },
         {
             "country": "斯里兰卡",
@@ -4188,9 +4188,9 @@
             "modifyTime": 1580495991000
         },
         {
-            "country": "尼泊尔",
-            "provinceName": "尼泊尔",
-            "provinceShortName": "尼泊尔",
+            "country": "柬埔寨",
+            "provinceName": "柬埔寨",
+            "provinceShortName": "柬埔寨",
             "confirmedCount": 1,
             "suspectedCount": 0,
             "curedCount": 0,
@@ -4198,8 +4198,8 @@
             "cities": null,
             "comment": "",
             "updateTime": 1580552955389,
-            "createTime": 1580027764000,
-            "modifyTime": 1580495955000
+            "createTime": 1580130061000,
+            "modifyTime": 1580495965000
         }
     ],
     "success": true
