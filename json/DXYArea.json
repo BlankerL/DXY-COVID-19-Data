@@ -4,14 +4,14 @@
             "country": "中国",
             "provinceName": "海南省",
             "provinceShortName": "海南",
-            "confirmedCount": 130,
+            "confirmedCount": 131,
             "suspectedCount": 0,
             "curedCount": 19,
             "deadCount": 3,
             "cities": [
                 {
                     "cityName": "三亚",
-                    "confirmedCount": 40,
+                    "confirmedCount": 41,
                     "suspectedCount": 0,
                     "curedCount": 11,
                     "deadCount": 1,
@@ -139,7 +139,7 @@
                 }
             ],
             "comment": "",
-            "updateTime": 1581252113318,
+            "updateTime": 1581255159653,
             "createTime": null,
             "modifyTime": null
         },
@@ -4104,6 +4104,20 @@
             "modifyTime": null
         },
         {
+            "country": "斯里兰卡",
+            "provinceName": "斯里兰卡",
+            "provinceShortName": "斯里兰卡",
+            "confirmedCount": 1,
+            "suspectedCount": 0,
+            "curedCount": 0,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1580552955389,
+            "createTime": 1580182019000,
+            "modifyTime": 1580495982000
+        },
+        {
             "country": "瑞典",
             "provinceName": "瑞典",
             "provinceShortName": "瑞典",
@@ -4186,20 +4200,6 @@
             "updateTime": 1580552955389,
             "createTime": 1580337882000,
             "modifyTime": 1580495991000
-        },
-        {
-            "country": "斯里兰卡",
-            "provinceName": "斯里兰卡",
-            "provinceShortName": "斯里兰卡",
-            "confirmedCount": 1,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1580552955389,
-            "createTime": 1580182019000,
-            "modifyTime": 1580495982000
         }
     ],
     "success": true
