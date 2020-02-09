@@ -16,12 +16,12 @@
             "countRemark": "",
             "confirmedCount": 37252,
             "suspectedCount": 28942,
-            "curedCount": 2731,
+            "curedCount": 2780,
             "deadCount": 812,
             "seriousCount": 6188,
             "suspectedIncr": 3916,
             "confirmedIncr": 2658,
-            "curedIncr": 680,
+            "curedIncr": 729,
             "deadIncr": 89,
             "seriousIncr": 87,
             "virus": "该字段已替换为说明1",
@@ -43,7 +43,7 @@
                     "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
                 }
             ],
-            "updateTime": 1581229405231
+            "updateTime": 1581233604504
         }
     ],
     "success": true
