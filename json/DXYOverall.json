@@ -14,14 +14,14 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 40249,
+            "confirmedCount": 40259,
             "suspectedCount": 23589,
-            "curedCount": 3409,
+            "curedCount": 3466,
             "deadCount": 909,
             "seriousCount": 6484,
             "suspectedIncr": 4008,
-            "confirmedIncr": 3087,
-            "curedIncr": 758,
+            "confirmedIncr": 3097,
+            "curedIncr": 815,
             "deadIncr": 97,
             "seriousIncr": 296,
             "virus": "该字段已替换为说明1",
@@ -36,7 +36,9 @@
             "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
             "abroadRemark": "",
             "marquee": [],
-            "updateTime": 1581324325360
+            "quanguoTrendChart": [],
+            "hbFeiHbTrendChart": [],
+            "updateTime": 1581327868898
         }
     ],
     "success": true
