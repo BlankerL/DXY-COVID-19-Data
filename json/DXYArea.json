@@ -2033,20 +2033,6 @@
             "modifyTime": 1581338406000
         },
         {
-            "country": "菲律宾",
-            "provinceName": "菲律宾",
-            "provinceShortName": "菲律宾",
-            "confirmedCount": 3,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 1,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1581338478277,
-            "createTime": 1581314815000,
-            "modifyTime": 1581338406000
-        },
-        {
             "country": "阿联酋",
             "provinceName": "阿联酋",
             "provinceShortName": "阿联酋",
@@ -2054,6 +2040,20 @@
             "suspectedCount": 0,
             "curedCount": 0,
             "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1581338478277,
+            "createTime": 1581314815000,
+            "modifyTime": 1581338406000
+        },
+        {
+            "country": "菲律宾",
+            "provinceName": "菲律宾",
+            "provinceShortName": "菲律宾",
+            "confirmedCount": 3,
+            "suspectedCount": 0,
+            "curedCount": 0,
+            "deadCount": 1,
             "cities": null,
             "comment": "",
             "updateTime": 1581338478277,
