@@ -14,14 +14,14 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 42735,
+            "confirmedCount": 42744,
             "suspectedCount": 21675,
-            "curedCount": 4181,
+            "curedCount": 4193,
             "deadCount": 1017,
             "seriousCount": 7333,
             "suspectedIncr": 3536,
-            "confirmedIncr": 2511,
-            "curedIncr": 899,
+            "confirmedIncr": 2520,
+            "curedIncr": 911,
             "deadIncr": 108,
             "seriousIncr": 849,
             "virus": "该字段已替换为说明1",
@@ -37,15 +37,57 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 177,
+                    "id": 180,
                     "marqueeLabel": "公告",
                     "marqueeContent": "免费加入孕妇答疑社群",
                     "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
                 }
             ],
-            "quanguoTrendChart": [],
-            "hbFeiHbTrendChart": [],
-            "updateTime": 1581414436507
+            "quanguoTrendChart": [
+                {
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/920/3396064530433434467-135.png",
+                    "title": "新增疑似/新增确诊"
+                },
+                {
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/566/3396064562645690950-135.png",
+                    "title": "确诊/疑似"
+                },
+                {
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/964/3396064599152914732-135.png",
+                    "title": "新增死亡/新增治愈"
+                },
+                {
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/992/3396064661429943581-135.png",
+                    "title": "死亡/治愈"
+                },
+                {
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/209/3396064687199490414-135.png",
+                    "title": "病死率/治愈率"
+                }
+            ],
+            "hbFeiHbTrendChart": [
+                {
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/778/3396064736591874869-135.png",
+                    "title": "新增确诊"
+                },
+                {
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/226/3396064766656407950-135.png",
+                    "title": "确诊"
+                },
+                {
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/261/3396064794573936420-135.png",
+                    "title": "死亡/治愈"
+                },
+                {
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/236/3396064822491225400-135.png",
+                    "title": "病死率"
+                },
+                {
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/857/3396064846113324758-135.png",
+                    "title": "治愈率"
+                }
+            ],
+            "updateTime": 1581418233333
         }
     ],
     "success": true
