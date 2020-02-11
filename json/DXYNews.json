@@ -1,6 +1,15 @@
 {
     "results": [
         {
+            "title": "天津市新增2例新冠肺炎确诊病例 累计确诊病例104例",
+            "summary": "\n 截至2月11日12时，天津市新增新冠肺炎确诊病例2例，累计确诊病例104例。\n",
+            "infoSource": "天津卫健委",
+            "sourceUrl": "http://wsjk.tj.gov.cn/art/2020/2/11/art_87_70760.html",
+            "pubDate": 1581407517000,
+            "provinceName": "天津市",
+            "provinceId": "12"
+        },
+        {
             "title": "辽宁省无新增新型冠状病毒肺炎确诊病例，新增出院病例5例",
             "summary": "\n         \n2020年2月10日14时至2月11日14时，辽宁省无新增新型冠状病毒肺炎确诊病例。新增出院病例5例,其中沈阳市2例、营口市1例、朝阳市2例。\n截至2020年2月11日14时，辽宁省累计报告新型冠状病毒肺炎确诊病例108例，治愈出院17例。\n\n                   \n    \n                \n                  \n                    \n                     \n                  \n                \n      \n        ",
             "infoSource": "辽宁卫健委",
@@ -80,15 +89,6 @@
             "pubDate": 1581382140000,
             "provinceName": "湖南省",
             "provinceId": "43"
-        },
-        {
-            "title": "贵州新增确诊9例，累计确诊118例",
-            "summary": " 2020年2月10日12—24时，全省新型冠状病毒肺炎新增确诊病例9例,新增治愈出院病例3例。截至2月10日24时，全省累计报告新型冠状病毒肺炎病例118例。",
-            "infoSource": "贵州卫健委",
-            "sourceUrl": "http://www.gzhfpc.gov.cn/ztzl_500663/xxgzbdgrdfyyqfk/yqdt/202002/t20200211_48345381.html",
-            "pubDate": 1581381738000,
-            "provinceName": "贵州省",
-            "provinceId": "52"
         }
     ],
     "success": true

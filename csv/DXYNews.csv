@@ -1,4 +1,7 @@
 ﻿_id,id,pubDate,title,summary,infoSource,sourceUrl,provinceId,provinceName,createTime,modifyTime,entryWay,adoptType,infoType,dataInfoState,dataInfoOperator,dataInfoTime,crawlTime,body
+5e425ec959f0a38963ba09df,3668,2020-02-11 15:51:57,天津市新增2例新冠肺炎确诊病例 累计确诊病例104例,"
+ 截至2月11日12时，天津市新增新冠肺炎确诊病例2例，累计确诊病例104例。
+",天津卫健委,http://wsjk.tj.gov.cn/art/2020/2/11/art_87_70760.html,12,天津市,2020-02-11 15:51:57,2020-02-11 15:51:57,1.0,1.0,1.0,0.0,,2020-02-11 15:51:57,2020-02-11 15:59:04.275,
 5e42525b59f0a38963ba08ed,3651,2020-02-11 14:54:00,辽宁省无新增新型冠状病毒肺炎确诊病例，新增出院病例5例,"
          
 2020年2月10日14时至2月11日14时，辽宁省无新增新型冠状病毒肺炎确诊病例。新增出院病例5例,其中沈阳市2例、营口市1例、朝阳市2例。
