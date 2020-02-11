@@ -14,14 +14,14 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 42721,
+            "confirmedCount": 42735,
             "suspectedCount": 21675,
-            "curedCount": 4148,
+            "curedCount": 4181,
             "deadCount": 1017,
             "seriousCount": 7333,
             "suspectedIncr": 3536,
-            "confirmedIncr": 2497,
-            "curedIncr": 866,
+            "confirmedIncr": 2511,
+            "curedIncr": 899,
             "deadIncr": 108,
             "seriousIncr": 849,
             "virus": "该字段已替换为说明1",
@@ -45,7 +45,7 @@
             ],
             "quanguoTrendChart": [],
             "hbFeiHbTrendChart": [],
-            "updateTime": 1581411004975
+            "updateTime": 1581414436507
         }
     ],
     "success": true
