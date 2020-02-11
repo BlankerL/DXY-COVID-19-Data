@@ -14,16 +14,11 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 42747,
+            "confirmedCount": 44404,
             "suspectedCount": 21675,
-            "curedCount": 4301,
-            "deadCount": 1017,
+            "curedCount": 4637,
+            "deadCount": 1112,
             "seriousCount": 7333,
-            "suspectedIncr": 3536,
-            "confirmedIncr": 2523,
-            "curedIncr": 1019,
-            "deadIncr": 108,
-            "seriousIncr": 849,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
             "remark2": "潜伏期：一般为 3～7 天，最长不超过 14 天，潜伏期内可能存在传染性，其中无症状病例传染性非常罕见",
@@ -37,7 +32,7 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 189,
+                    "id": 190,
                     "marqueeLabel": "公告",
                     "marqueeContent": "免费加入孕妇答疑社群",
                     "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
@@ -87,7 +82,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581434903675
+            "updateTime": 1581464724819
         }
     ],
     "success": true
