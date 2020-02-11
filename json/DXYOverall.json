@@ -16,12 +16,12 @@
             "countRemark": "",
             "confirmedCount": 42744,
             "suspectedCount": 21675,
-            "curedCount": 4245,
+            "curedCount": 4255,
             "deadCount": 1017,
             "seriousCount": 7333,
             "suspectedIncr": 3536,
             "confirmedIncr": 2520,
-            "curedIncr": 963,
+            "curedIncr": 973,
             "deadIncr": 108,
             "seriousIncr": 849,
             "virus": "该字段已替换为说明1",
@@ -37,7 +37,7 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 181,
+                    "id": 183,
                     "marqueeLabel": "公告",
                     "marqueeContent": "免费加入孕妇答疑社群",
                     "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
@@ -71,7 +71,7 @@
                     "title": "新增确诊"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/226/3396064766656407950-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/196/3396081675942831314-135.png",
                     "title": "确诊"
                 },
                 {
@@ -87,7 +87,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581420069840
+            "updateTime": 1581425214775
         }
     ],
     "success": true
