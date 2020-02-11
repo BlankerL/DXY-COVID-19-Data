@@ -14,13 +14,13 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 42744,
+            "confirmedCount": 42747,
             "suspectedCount": 21675,
             "curedCount": 4299,
             "deadCount": 1017,
             "seriousCount": 7333,
             "suspectedIncr": 3536,
-            "confirmedIncr": 2520,
+            "confirmedIncr": 2523,
             "curedIncr": 1017,
             "deadIncr": 108,
             "seriousIncr": 849,
@@ -37,7 +37,7 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 183,
+                    "id": 188,
                     "marqueeLabel": "公告",
                     "marqueeContent": "免费加入孕妇答疑社群",
                     "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
@@ -45,49 +45,49 @@
             ],
             "quanguoTrendChart": [
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/920/3396064530433434467-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/951/3396095550834845361-135.png",
                     "title": "新增疑似/新增确诊"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/566/3396064562645690950-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/405/3396095570161878577-135.png",
                     "title": "确诊/疑似"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/964/3396064599152914732-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/511/3396095587341753019-135.png",
                     "title": "新增死亡/新增治愈"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/992/3396064661429943581-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/970/3396095600226658785-135.png",
                     "title": "死亡/治愈"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/209/3396064687199490414-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/663/3396095615259359860-135.png",
                     "title": "病死率/治愈率"
                 }
             ],
             "hbFeiHbTrendChart": [
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/778/3396064736591874869-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/180/3396095653913766417-135.png",
                     "title": "新增确诊"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/196/3396081675942831314-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/064/3396095666798672147-135.png",
                     "title": "确诊"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/261/3396064794573936420-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/315/3396095679683577562-135.png",
                     "title": "死亡/治愈"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/236/3396064822491225400-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/304/3396095694716260896-135.png",
                     "title": "病死率"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/857/3396064846113324758-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0211/547/3396095707600873652-135.png",
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581429320587
+            "updateTime": 1581431774639
         }
     ],
     "success": true
