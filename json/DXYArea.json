@@ -351,20 +351,6 @@
             "modifyTime": 1581434204000
         },
         {
-            "country": "澳大利亚",
-            "provinceName": "澳大利亚",
-            "provinceShortName": "澳大利亚",
-            "confirmedCount": 15,
-            "suspectedCount": 0,
-            "curedCount": 3,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1581434289359,
-            "createTime": 1581434204000,
-            "modifyTime": 1581434204000
-        },
-        {
             "country": "俄罗斯",
             "provinceName": "俄罗斯",
             "provinceShortName": "俄罗斯",
@@ -385,6 +371,20 @@
             "confirmedCount": 161,
             "suspectedCount": 0,
             "curedCount": 9,
+            "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1581434289359,
+            "createTime": 1581434204000,
+            "modifyTime": 1581434204000
+        },
+        {
+            "country": "澳大利亚",
+            "provinceName": "澳大利亚",
+            "provinceShortName": "澳大利亚",
+            "confirmedCount": 15,
+            "suspectedCount": 0,
+            "curedCount": 3,
             "deadCount": 0,
             "cities": null,
             "comment": "",
@@ -505,10 +505,10 @@
             "modifyTime": 1581434204000
         },
         {
-            "country": "柬埔寨",
-            "provinceName": "柬埔寨",
-            "provinceShortName": "柬埔寨",
-            "confirmedCount": 1,
+            "country": "加拿大",
+            "provinceName": "加拿大",
+            "provinceShortName": "加拿大",
+            "confirmedCount": 7,
             "suspectedCount": 0,
             "curedCount": 0,
             "deadCount": 0,
@@ -519,10 +519,10 @@
             "modifyTime": 1581434204000
         },
         {
-            "country": "加拿大",
-            "provinceName": "加拿大",
-            "provinceShortName": "加拿大",
-            "confirmedCount": 7,
+            "country": "柬埔寨",
+            "provinceName": "柬埔寨",
+            "provinceShortName": "柬埔寨",
+            "confirmedCount": 1,
             "suspectedCount": 0,
             "curedCount": 0,
             "deadCount": 0,
