@@ -16,12 +16,12 @@
             "countRemark": "",
             "confirmedCount": 44742,
             "suspectedCount": 16067,
-            "curedCount": 4784,
+            "curedCount": 4800,
             "deadCount": 1114,
             "seriousCount": 8204,
             "suspectedIncr": 3342,
             "confirmedIncr": 2034,
-            "curedIncr": 786,
+            "curedIncr": 802,
             "deadIncr": 97,
             "seriousIncr": 871,
             "virus": "该字段已替换为说明1",
@@ -35,7 +35,14 @@
             "note3": "传播途径：经呼吸道飞沫、接触传播是主要的传播途径。气溶胶传播和消化道等传播途径尚待明确。",
             "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
             "abroadRemark": "",
-            "marquee": [],
+            "marquee": [
+                {
+                    "id": 213,
+                    "marqueeLabel": "资讯",
+                    "marqueeContent": "钟南山：李文亮是英雄，我为他骄傲",
+                    "marqueeLink": "https://ask.dxy.com/ama/index#/activity-share?activity_id=129"
+                }
+            ],
             "quanguoTrendChart": [
                 {
                     "imgUrl": "https://img1.dxycdn.com/2020/0212/060/3396191695825127796-135.png",
@@ -80,7 +87,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581482448142
+            "updateTime": 1581486326146
         }
     ],
     "success": true
