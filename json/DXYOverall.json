@@ -14,14 +14,14 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 44754,
+            "confirmedCount": 44763,
             "suspectedCount": 16067,
-            "curedCount": 4924,
+            "curedCount": 4934,
             "deadCount": 1115,
             "seriousCount": 8204,
             "suspectedIncr": 3342,
-            "confirmedIncr": 2046,
-            "curedIncr": 926,
+            "confirmedIncr": 2055,
+            "curedIncr": 936,
             "deadIncr": 98,
             "seriousIncr": 871,
             "virus": "该字段已替换为说明1",
@@ -37,16 +37,16 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 218,
+                    "id": 225,
                     "marqueeLabel": "资讯",
                     "marqueeContent": "钟南山院士：希望疫情 4 月左右结束",
                     "marqueeLink": "https://ask.dxy.com/ama/index#/activity-share?activity_id=129"
                 },
                 {
-                    "id": 219,
+                    "id": 226,
                     "marqueeLabel": "资讯",
                     "marqueeContent": "西藏唯一确诊病例治愈出院",
-                    "marqueeLink": "http://wjw.xizang.gov.cn/xwzx/wsjkdt/202002/t20200212_132150.html"
+                    "marqueeLink": "https://dxys.com/iDHiNn"
                 }
             ],
             "quanguoTrendChart": [
@@ -93,7 +93,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581497254183
+            "updateTime": 1581501193260
         }
     ],
     "success": true
