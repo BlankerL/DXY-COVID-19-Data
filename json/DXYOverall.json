@@ -14,15 +14,15 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 44747,
+            "confirmedCount": 44750,
             "suspectedCount": 16067,
-            "curedCount": 4801,
-            "deadCount": 1114,
+            "curedCount": 4807,
+            "deadCount": 1115,
             "seriousCount": 8204,
             "suspectedIncr": 3342,
-            "confirmedIncr": 2039,
-            "curedIncr": 803,
-            "deadIncr": 97,
+            "confirmedIncr": 2042,
+            "curedIncr": 809,
+            "deadIncr": 98,
             "seriousIncr": 871,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
@@ -37,13 +37,13 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 216,
+                    "id": 218,
                     "marqueeLabel": "资讯",
-                    "marqueeContent": "钟南山：李文亮是英雄，我为他骄傲",
+                    "marqueeContent": "钟南山院士：希望疫情 4 月左右结束",
                     "marqueeLink": "https://ask.dxy.com/ama/index#/activity-share?activity_id=129"
                 },
                 {
-                    "id": 217,
+                    "id": 219,
                     "marqueeLabel": "资讯",
                     "marqueeContent": "西藏唯一确诊病例治愈出院",
                     "marqueeLink": "http://wjw.xizang.gov.cn/xwzx/wsjkdt/202002/t20200212_132150.html"
@@ -93,7 +93,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581490006756
+            "updateTime": 1581494190408
         }
     ],
     "success": true
