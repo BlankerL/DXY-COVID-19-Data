@@ -14,10 +14,10 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 44491,
+            "confirmedCount": 44720,
             "suspectedCount": 21675,
-            "curedCount": 4650,
-            "deadCount": 1113,
+            "curedCount": 4732,
+            "deadCount": 1114,
             "seriousCount": 7333,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
@@ -82,7 +82,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581468200891
+            "updateTime": 1581472067671
         }
     ],
     "success": true
