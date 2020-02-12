@@ -14,14 +14,14 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 44742,
+            "confirmedCount": 44747,
             "suspectedCount": 16067,
-            "curedCount": 4800,
+            "curedCount": 4801,
             "deadCount": 1114,
             "seriousCount": 8204,
             "suspectedIncr": 3342,
-            "confirmedIncr": 2034,
-            "curedIncr": 802,
+            "confirmedIncr": 2039,
+            "curedIncr": 803,
             "deadIncr": 97,
             "seriousIncr": 871,
             "virus": "该字段已替换为说明1",
@@ -37,10 +37,16 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 213,
+                    "id": 216,
                     "marqueeLabel": "资讯",
                     "marqueeContent": "钟南山：李文亮是英雄，我为他骄傲",
                     "marqueeLink": "https://ask.dxy.com/ama/index#/activity-share?activity_id=129"
+                },
+                {
+                    "id": 217,
+                    "marqueeLabel": "资讯",
+                    "marqueeContent": "西藏唯一确诊病例治愈出院",
+                    "marqueeLink": "http://wjw.xizang.gov.cn/xwzx/wsjkdt/202002/t20200212_132150.html"
                 }
             ],
             "quanguoTrendChart": [
@@ -87,7 +93,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581486326146
+            "updateTime": 1581490006756
         }
     ],
     "success": true
