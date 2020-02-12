@@ -16,12 +16,12 @@
             "countRemark": "",
             "confirmedCount": 44742,
             "suspectedCount": 16067,
-            "curedCount": 4744,
+            "curedCount": 4771,
             "deadCount": 1114,
             "seriousCount": 8204,
             "suspectedIncr": 3342,
             "confirmedIncr": 2034,
-            "curedIncr": 746,
+            "curedIncr": 773,
             "deadIncr": 97,
             "seriousIncr": 871,
             "virus": "该字段已替换为说明1",
@@ -30,25 +30,12 @@
             "remark3": "宿主：野生动物，可能为中华菊头蝠",
             "remark4": "",
             "remark5": "",
-            "note1": "病毒：SARS-COV-2，其导致疾病命名COVID-19",
+            "note1": "病毒：SARS-CoV-2，其导致疾病命名 COVID-19",
             "note2": "传染源：新冠肺炎的患者。无症状感染者也可能成为传染源。",
             "note3": "传播途径：经呼吸道飞沫、接触传播是主要的传播途径。气溶胶传播和消化道等传播途径尚待明确。",
             "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
             "abroadRemark": "",
-            "marquee": [
-                {
-                    "id": 204,
-                    "marqueeLabel": "公告",
-                    "marqueeContent": "加入孕妇答疑社群（疫情期免费）",
-                    "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
-                },
-                {
-                    "id": 205,
-                    "marqueeLabel": "新闻",
-                    "marqueeContent": "钟南山：疫情有望在 4 月前结束",
-                    "marqueeLink": "https://ask.dxy.com/index#/activity-share?activity_id=128"
-                }
-            ],
+            "marquee": [],
             "quanguoTrendChart": [
                 {
                     "imgUrl": "https://img1.dxycdn.com/2020/0212/060/3396191695825127796-135.png",
@@ -93,7 +80,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581475138675
+            "updateTime": 1581479327377
         }
     ],
     "success": true
