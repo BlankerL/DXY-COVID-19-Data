@@ -16,12 +16,12 @@
             "countRemark": "",
             "confirmedCount": 44763,
             "suspectedCount": 16067,
-            "curedCount": 5007,
+            "curedCount": 5034,
             "deadCount": 1115,
             "seriousCount": 8204,
             "suspectedIncr": 3342,
             "confirmedIncr": 2055,
-            "curedIncr": 1009,
+            "curedIncr": 1036,
             "deadIncr": 98,
             "seriousIncr": 871,
             "virus": "该字段已替换为说明1",
@@ -37,13 +37,13 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 231,
-                    "marqueeLabel": "资讯",
-                    "marqueeContent": "钟南山院士：希望疫情 4 月左右结束",
-                    "marqueeLink": "https://ask.dxy.com/ama/index#/activity-share?activity_id=129"
+                    "id": 233,
+                    "marqueeLabel": "公告",
+                    "marqueeContent": "出门买药怕感染？在线开药顺丰到家",
+                    "marqueeLink": "https://ask.dxy.com/ama/index#/activity-share?activity_id=131"
                 },
                 {
-                    "id": 232,
+                    "id": 234,
                     "marqueeLabel": "科普",
                     "marqueeContent": "疫情期间，专家告诉你如何正确洗手",
                     "marqueeLink": "https://mp.weixin.qq.com/s/CtLJd3FAYOqGQstq77rEXA"
@@ -93,7 +93,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581508148550
+            "updateTime": 1581511285083
         }
     ],
     "success": true
