@@ -14,11 +14,16 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 44720,
-            "suspectedCount": 21675,
-            "curedCount": 4732,
+            "confirmedCount": 44742,
+            "suspectedCount": 16067,
+            "curedCount": 4744,
             "deadCount": 1114,
-            "seriousCount": 7333,
+            "seriousCount": 8204,
+            "suspectedIncr": 3342,
+            "confirmedIncr": 2034,
+            "curedIncr": 746,
+            "deadIncr": 97,
+            "seriousIncr": 871,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
             "remark2": "潜伏期：一般为 3～7 天，最长不超过 14 天，潜伏期内可能存在传染性，其中无症状病例传染性非常罕见",
@@ -32,57 +37,63 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 191,
+                    "id": 204,
                     "marqueeLabel": "公告",
-                    "marqueeContent": "免费加入孕妇答疑社群",
+                    "marqueeContent": "加入孕妇答疑社群（疫情期免费）",
                     "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
+                },
+                {
+                    "id": 205,
+                    "marqueeLabel": "新闻",
+                    "marqueeContent": "钟南山：疫情有望在 4 月前结束",
+                    "marqueeLink": "https://ask.dxy.com/index#/activity-share?activity_id=128"
                 }
             ],
             "quanguoTrendChart": [
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/951/3396095550834845361-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0212/060/3396191695825127796-135.png",
                     "title": "新增疑似/新增确诊"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/405/3396095570161878577-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0212/030/3396191721594733248-135.png",
                     "title": "确诊/疑似"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/511/3396095587341753019-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0212/106/3396191747364539128-135.png",
                     "title": "新增死亡/新增治愈"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/970/3396095600226658785-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0212/104/3396191762397126635-135.png",
                     "title": "死亡/治愈"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/663/3396095615259359860-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0212/548/3396191775282029632-135.png",
                     "title": "病死率/治愈率"
                 }
             ],
             "hbFeiHbTrendChart": [
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/180/3396095653913766417-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0212/196/3396191826821441309-135.png",
                     "title": "新增确诊"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/064/3396095666798672147-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0212/396/3396191841853828180-135.png",
                     "title": "确诊"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/315/3396095679683577562-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0212/422/3396191854738731406-135.png",
                     "title": "死亡/治愈"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/304/3396095694716260896-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0212/150/3396191869771318584-135.png",
                     "title": "病死率"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0211/547/3396095707600873652-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0212/071/3396191899836092581-135.png",
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581472067671
+            "updateTime": 1581475138675
         }
     ],
     "success": true
