@@ -14,10 +14,10 @@
             ],
             "summary": "",
             "countRemark": "",
-            "confirmedCount": 44404,
+            "confirmedCount": 44491,
             "suspectedCount": 21675,
-            "curedCount": 4637,
-            "deadCount": 1112,
+            "curedCount": 4650,
+            "deadCount": 1113,
             "seriousCount": 7333,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
@@ -25,14 +25,14 @@
             "remark3": "宿主：野生动物，可能为中华菊头蝠",
             "remark4": "",
             "remark5": "",
-            "note1": "病毒：COVID-19",
+            "note1": "病毒：SARS-COV-2，其导致疾病命名COVID-19",
             "note2": "传染源：新冠肺炎的患者。无症状感染者也可能成为传染源。",
             "note3": "传播途径：经呼吸道飞沫、接触传播是主要的传播途径。气溶胶传播和消化道等传播途径尚待明确。",
             "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 190,
+                    "id": 191,
                     "marqueeLabel": "公告",
                     "marqueeContent": "免费加入孕妇答疑社群",
                     "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
@@ -82,7 +82,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581464724819
+            "updateTime": 1581468200891
         }
     ],
     "success": true
