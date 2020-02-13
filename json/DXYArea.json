@@ -250,20 +250,6 @@
             "modifyTime": 1581609076000
         },
         {
-            "country": "俄罗斯",
-            "provinceName": "俄罗斯",
-            "provinceShortName": "俄罗斯",
-            "confirmedCount": 2,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1581609094768,
-            "createTime": 1581609076000,
-            "modifyTime": 1581609076000
-        },
-        {
             "country": "日本",
             "provinceName": "日本",
             "provinceShortName": "日本",
@@ -271,6 +257,20 @@
             "suspectedCount": 0,
             "curedCount": 9,
             "deadCount": 1,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1581609094768,
+            "createTime": 1581609076000,
+            "modifyTime": 1581609076000
+        },
+        {
+            "country": "俄罗斯",
+            "provinceName": "俄罗斯",
+            "provinceShortName": "俄罗斯",
+            "confirmedCount": 2,
+            "suspectedCount": 0,
+            "curedCount": 0,
+            "deadCount": 0,
             "cities": null,
             "comment": "",
             "updateTime": 1581609094768,
