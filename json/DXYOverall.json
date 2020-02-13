@@ -14,16 +14,16 @@
             ],
             "summary": "",
             "countRemark": "",
-            "currentConfirmedCount": 52341,
-            "confirmedCount": 59901,
+            "currentConfirmedCount": 52326,
+            "confirmedCount": 59904,
             "suspectedCount": 13435,
-            "curedCount": 6192,
+            "curedCount": 6210,
             "deadCount": 1368,
             "seriousCount": 8030,
             "suspectedIncr": 2807,
-            "currentConfirmedIncr": 13469,
-            "confirmedIncr": 15171,
-            "curedIncr": 1448,
+            "currentConfirmedIncr": 13454,
+            "confirmedIncr": 15174,
+            "curedIncr": 1466,
             "deadIncr": 254,
             "seriousIncr": -174,
             "virus": "该字段已替换为说明1",
@@ -39,19 +39,19 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 331,
+                    "id": 346,
                     "marqueeLabel": "公告",
                     "marqueeContent": "出门买药怕感染？在线开药顺丰到家",
                     "marqueeLink": "https://dxy.me/muS8Nq"
                 },
                 {
-                    "id": 332,
+                    "id": 347,
                     "marqueeLabel": "资讯",
                     "marqueeContent": "钟南山团队：患者粪便中检出活病毒 ",
                     "marqueeLink": "https://dxy.me/OiDnE4"
                 },
                 {
-                    "id": 333,
+                    "id": 348,
                     "marqueeLabel": "公告",
                     "marqueeContent": "加入孕妇答疑社群（疫情期免费）",
                     "marqueeLink": "https://dxy.me/MxpLyX"
@@ -101,7 +101,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581600572534
+            "updateTime": 1581605496018
         }
     ],
     "success": true
