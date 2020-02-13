@@ -14,11 +14,11 @@
             ],
             "summary": "",
             "countRemark": "",
-            "currentConfirmedCount": 52592,
-            "confirmedCount": 59881,
+            "currentConfirmedCount": 52587,
+            "confirmedCount": 59883,
             "suspectedCount": 16067,
-            "curedCount": 5922,
-            "deadCount": 1367,
+            "curedCount": 5928,
+            "deadCount": 1368,
             "seriousCount": 8204,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
@@ -33,10 +33,10 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 253,
+                    "id": 257,
                     "marqueeLabel": "公告",
-                    "marqueeContent": "湖北数据突増因为诊断标准更改",
-                    "marqueeLink": "https://m.weibo.cn/status/4471428407452487"
+                    "marqueeContent": "湖北数据突增因为诊断标准更改",
+                    "marqueeLink": "https://ask.dxy.com/ama/index#/activity-share?activity_id=133"
                 }
             ],
             "quanguoTrendChart": [
@@ -83,7 +83,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581561028343
+            "updateTime": 1581564126328
         }
     ],
     "success": true
