@@ -14,10 +14,10 @@
             ],
             "summary": "",
             "countRemark": "",
-            "currentConfirmedCount": 52587,
+            "currentConfirmedCount": 52565,
             "confirmedCount": 59883,
             "suspectedCount": 16067,
-            "curedCount": 5928,
+            "curedCount": 5950,
             "deadCount": 1368,
             "seriousCount": 8204,
             "virus": "该字段已替换为说明1",
@@ -33,10 +33,16 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 257,
-                    "marqueeLabel": "公告",
+                    "id": 260,
+                    "marqueeLabel": "资讯",
                     "marqueeContent": "湖北数据突增因为诊断标准更改",
-                    "marqueeLink": "https://ask.dxy.com/ama/index#/activity-share?activity_id=133"
+                    "marqueeLink": "https://dxy.me/6N2Lq3 "
+                },
+                {
+                    "id": 261,
+                    "marqueeLabel": "公告",
+                    "marqueeContent": "加入孕妇答疑社群（疫情期免费）",
+                    "marqueeLink": "https://dxy.me/MxpLyX"
                 }
             ],
             "quanguoTrendChart": [
@@ -83,7 +89,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581564126328
+            "updateTime": 1581567657772
         }
     ],
     "success": true
