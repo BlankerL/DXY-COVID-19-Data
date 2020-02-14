@@ -14,15 +14,15 @@
             ],
             "summary": "",
             "countRemark": "",
-            "currentConfirmedCount": 55745,
-            "confirmedCount": 63935,
+            "currentConfirmedCount": 55746,
+            "confirmedCount": 63936,
             "suspectedCount": 10109,
             "curedCount": 6809,
             "deadCount": 1381,
             "seriousCount": 10204,
             "suspectedIncr": 2450,
-            "currentConfirmedIncr": 3812,
-            "confirmedIncr": 5096,
+            "currentConfirmedIncr": 3813,
+            "confirmedIncr": 5097,
             "curedIncr": 1163,
             "deadIncr": 121,
             "seriousIncr": 2174,
@@ -39,7 +39,7 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 393,
+                    "id": 394,
                     "marqueeLabel": "卫健委",
                     "marqueeContent": "湖北省重复统计，死亡核减108例",
                     "marqueeLink": "https://m.weibo.cn/status/4471829181982111"
@@ -47,45 +47,45 @@
             ],
             "quanguoTrendChart": [
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/033/3396486341319145983-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0214/159/3396575532757028839-135.png",
                     "title": "新增疑似/新增确诊"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/163/3396485903232099568-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0214/974/3396575545641933918-135.png",
                     "title": "确诊/疑似"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/355/3396485924707304206-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0214/652/3396575558527137935-135.png",
                     "title": "死亡/治愈"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/495/3396485935444722794-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0214/684/3396575573559227031-135.png",
                     "title": "病死率/治愈率"
                 }
             ],
             "hbFeiHbTrendChart": [
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/660/3396486691358736501-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0214/103/3396575592886584759-135.png",
                     "title": "新增确诊"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/324/3396485984836481126-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0214/316/3396575605771781044-135.png",
                     "title": "确诊"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/218/3396485997721750888-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0214/140/3396575618656393979-135.png",
                     "title": "死亡/治愈"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/514/3396486008459169578-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0214/455/3396575631541299113-135.png",
                     "title": "病死率"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/350/3396486021344071917-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0214/844/3396575648721456727-135.png",
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581653173327
+            "updateTime": 1581656545736
         }
     ],
     "success": true
