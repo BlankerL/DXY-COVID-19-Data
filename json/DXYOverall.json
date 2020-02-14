@@ -14,11 +14,11 @@
             ],
             "summary": "",
             "countRemark": "",
-            "currentConfirmedCount": 52346,
-            "confirmedCount": 59934,
+            "currentConfirmedCount": 55396,
+            "confirmedCount": 63806,
             "suspectedCount": 13435,
-            "curedCount": 6219,
-            "deadCount": 1369,
+            "curedCount": 6922,
+            "deadCount": 1488,
             "seriousCount": 8030,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
@@ -33,13 +33,13 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 362,
+                    "id": 366,
                     "marqueeLabel": "资讯",
                     "marqueeContent": "专家呼吁康复患者捐献血浆",
                     "marqueeLink": "https://dxy.me/OiDnE4"
                 },
                 {
-                    "id": 363,
+                    "id": 367,
                     "marqueeLabel": "公告",
                     "marqueeContent": "加入孕妇答疑社群（疫情期免费）",
                     "marqueeLink": "https://dxy.me/MxpLyX"
@@ -85,7 +85,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581638457137
+            "updateTime": 1581642247997
         }
     ],
     "success": true
