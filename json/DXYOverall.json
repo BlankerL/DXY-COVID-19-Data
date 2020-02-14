@@ -14,18 +14,12 @@
             ],
             "summary": "",
             "countRemark": "",
-            "currentConfirmedCount": 52324,
-            "confirmedCount": 59907,
+            "currentConfirmedCount": 52346,
+            "confirmedCount": 59934,
             "suspectedCount": 13435,
-            "curedCount": 6215,
-            "deadCount": 1368,
+            "curedCount": 6219,
+            "deadCount": 1369,
             "seriousCount": 8030,
-            "suspectedIncr": 2807,
-            "currentConfirmedIncr": 13452,
-            "confirmedIncr": 15177,
-            "curedIncr": 1471,
-            "deadIncr": 254,
-            "seriousIncr": -174,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
             "remark2": "潜伏期：一般为 3～7 天，最长不超过 14 天，潜伏期内可能存在传染性，其中无症状病例传染性非常罕见",
@@ -91,7 +85,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581612382123
+            "updateTime": 1581638457137
         }
     ],
     "success": true
