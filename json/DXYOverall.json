@@ -14,12 +14,18 @@
             ],
             "summary": "",
             "countRemark": "",
-            "currentConfirmedCount": 55545,
-            "confirmedCount": 63929,
-            "suspectedCount": 13435,
-            "curedCount": 7003,
+            "currentConfirmedCount": 55745,
+            "confirmedCount": 63935,
+            "suspectedCount": 10109,
+            "curedCount": 6809,
             "deadCount": 1381,
-            "seriousCount": 8030,
+            "seriousCount": 10204,
+            "suspectedIncr": 2450,
+            "currentConfirmedIncr": 3812,
+            "confirmedIncr": 5096,
+            "curedIncr": 1163,
+            "deadIncr": 121,
+            "seriousIncr": 2174,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
             "remark2": "潜伏期：一般为 3～7 天，最长不超过 14 天，潜伏期内可能存在传染性，其中无症状病例传染性非常罕见",
@@ -33,10 +39,10 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 375,
+                    "id": 393,
                     "marqueeLabel": "卫健委",
                     "marqueeContent": "湖北省重复统计，死亡核减108例",
-                    "marqueeLink": "http://www.nhc.gov.cn/xcs/yqtb/202002/553ff43ca29d4fe88f3837d49d6b6ef1.shtml"
+                    "marqueeLink": "https://m.weibo.cn/status/4471829181982111"
                 }
             ],
             "quanguoTrendChart": [
@@ -79,7 +85,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581649612200
+            "updateTime": 1581653173327
         }
     ],
     "success": true
