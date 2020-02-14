@@ -14,16 +14,16 @@
             ],
             "summary": "",
             "countRemark": "",
-            "currentConfirmedCount": 55713,
+            "currentConfirmedCount": 55671,
             "confirmedCount": 63936,
             "suspectedCount": 10109,
-            "curedCount": 6842,
+            "curedCount": 6884,
             "deadCount": 1381,
             "seriousCount": 10204,
             "suspectedIncr": 2450,
-            "currentConfirmedIncr": 3780,
+            "currentConfirmedIncr": 3738,
             "confirmedIncr": 5097,
-            "curedIncr": 1196,
+            "curedIncr": 1238,
             "deadIncr": 121,
             "seriousIncr": 2174,
             "virus": "该字段已替换为说明1",
@@ -39,10 +39,10 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 394,
+                    "id": 396,
                     "marqueeLabel": "卫健委",
-                    "marqueeContent": "湖北省重复统计，死亡核减108例",
-                    "marqueeLink": "https://m.weibo.cn/status/4471829181982111"
+                    "marqueeContent": "全国 1716 例医务人员确诊新冠肺炎",
+                    "marqueeLink": "https://dxy.me/XyNMCD"
                 }
             ],
             "quanguoTrendChart": [
@@ -85,7 +85,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581658388509
+            "updateTime": 1581664350851
         }
     ],
     "success": true
