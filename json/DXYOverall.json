@@ -14,16 +14,16 @@
             ],
             "summary": "",
             "countRemark": "",
-            "currentConfirmedCount": 55671,
-            "confirmedCount": 63936,
+            "currentConfirmedCount": 55653,
+            "confirmedCount": 63940,
             "suspectedCount": 10109,
-            "curedCount": 6884,
+            "curedCount": 6906,
             "deadCount": 1381,
             "seriousCount": 10204,
             "suspectedIncr": 2450,
-            "currentConfirmedIncr": 3738,
-            "confirmedIncr": 5097,
-            "curedIncr": 1238,
+            "currentConfirmedIncr": 3720,
+            "confirmedIncr": 5101,
+            "curedIncr": 1260,
             "deadIncr": 121,
             "seriousIncr": 2174,
             "virus": "该字段已替换为说明1",
@@ -39,9 +39,9 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 396,
+                    "id": 397,
                     "marqueeLabel": "卫健委",
-                    "marqueeContent": "全国 1716 例医务人员确诊新冠肺炎",
+                    "marqueeContent": "首次官方公布近两千医务人员感染",
                     "marqueeLink": "https://dxy.me/XyNMCD"
                 }
             ],
@@ -85,7 +85,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581664350851
+            "updateTime": 1581665876257
         }
     ],
     "success": true
