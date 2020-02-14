@@ -14,11 +14,11 @@
             ],
             "summary": "",
             "countRemark": "",
-            "currentConfirmedCount": 55433,
-            "confirmedCount": 63922,
+            "currentConfirmedCount": 55545,
+            "confirmedCount": 63929,
             "suspectedCount": 13435,
-            "curedCount": 7000,
-            "deadCount": 1489,
+            "curedCount": 7003,
+            "deadCount": 1381,
             "seriousCount": 8030,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
@@ -33,16 +33,10 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 370,
-                    "marqueeLabel": "资讯",
-                    "marqueeContent": "专家呼吁康复患者捐献血浆",
-                    "marqueeLink": "https://dxy.me/OiDnE4"
-                },
-                {
-                    "id": 371,
-                    "marqueeLabel": "公告",
-                    "marqueeContent": "加入孕妇答疑社群（疫情期免费）",
-                    "marqueeLink": "https://dxy.me/MxpLyX"
+                    "id": 375,
+                    "marqueeLabel": "卫健委",
+                    "marqueeContent": "湖北省重复统计，死亡核减108例",
+                    "marqueeLink": "http://www.nhc.gov.cn/xcs/yqtb/202002/553ff43ca29d4fe88f3837d49d6b6ef1.shtml"
                 }
             ],
             "quanguoTrendChart": [
@@ -85,7 +79,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581645861807
+            "updateTime": 1581649612200
         }
     ],
     "success": true
