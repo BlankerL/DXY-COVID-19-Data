@@ -14,16 +14,16 @@
             ],
             "summary": "",
             "countRemark": "",
-            "currentConfirmedCount": 56951,
+            "currentConfirmedCount": 56868,
             "confirmedCount": 66576,
             "suspectedCount": 8969,
-            "curedCount": 8101,
+            "curedCount": 8184,
             "deadCount": 1524,
             "seriousCount": 11053,
             "suspectedIncr": 2277,
-            "currentConfirmedIncr": 1128,
+            "currentConfirmedIncr": 1045,
             "confirmedIncr": 2644,
-            "curedIncr": 1373,
+            "curedIncr": 1456,
             "deadIncr": 143,
             "seriousIncr": 849,
             "virus": "该字段已替换为说明1",
@@ -39,13 +39,13 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 406,
+                    "id": 422,
                     "marqueeLabel": "公告",
                     "marqueeContent": "加入孕妇答疑社群（疫情期免费）",
                     "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
                 },
                 {
-                    "id": 407,
+                    "id": 423,
                     "marqueeLabel": "物资",
                     "marqueeContent": "75% 酒精消毒喷雾，限量供应",
                     "marqueeLink": "https://dxy.me/dhKYG8"
@@ -91,7 +91,7 @@
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581732613367
+            "updateTime": 1581738601777
         }
     ],
     "success": true
