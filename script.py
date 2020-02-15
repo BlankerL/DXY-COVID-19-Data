@@ -114,9 +114,9 @@ class Listener:
                         city_dict = province_dict['cities'][city_counter]
                         result = dict()
                         result['provinceName'] = province_dict['provinceName']
-                        result['provinceEnglishName'] = province_dict['provinceEnglishName']
+                        result['provinceEnglishName'] = province_dict.get('provinceEnglishName')
                         result['cityName'] = city_dict['cityName']
-                        result['cityEnglishName'] = city_dict['cityEnglishName']
+                        result['cityEnglishName'] = city_dict.get('cityEnglishName')
 
                         result['province_confirmedCount'] = province_dict['confirmedCount']
                         result['province_suspectedCount'] = province_dict['suspectedCount']
