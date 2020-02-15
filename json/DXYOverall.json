@@ -1,32 +1,20 @@
 {
     "results": [
         {
-            "infectSource": "该字段已替换为说明2",
-            "passWay": "该字段已替换为说明3",
-            "dailyPic": "https://img1.dxycdn.com/2020/0211/763/3395998884005602079-135.png,https://img1.dxycdn.com/2020/0211/362/3395998896890788910-135.png,https://img1.dxycdn.com/2020/0211/365/3395998905480724211-135.png,https://img1.dxycdn.com/2020/0211/364/3395998916217859778-135.png,https://img1.dxycdn.com/2020/0211/922/3395998929103046444-135.png,https://img1.dxycdn.com/2020/0211/089/3395998939840182072-135.png",
-            "dailyPics": [
-                "https://img1.dxycdn.com/2020/0211/763/3395998884005602079-135.png",
-                "https://img1.dxycdn.com/2020/0211/362/3395998896890788910-135.png",
-                "https://img1.dxycdn.com/2020/0211/365/3395998905480724211-135.png",
-                "https://img1.dxycdn.com/2020/0211/364/3395998916217859778-135.png",
-                "https://img1.dxycdn.com/2020/0211/922/3395998929103046444-135.png",
-                "https://img1.dxycdn.com/2020/0211/089/3395998939840182072-135.png"
-            ],
-            "summary": "",
-            "countRemark": "",
-            "currentConfirmedCount": 56643,
+            "currentConfirmedCount": 56573,
             "confirmedCount": 66580,
             "suspectedCount": 8969,
-            "curedCount": 8413,
+            "curedCount": 8483,
             "deadCount": 1524,
             "seriousCount": 11053,
-            "suspectedIncr": 2277,
-            "currentConfirmedIncr": 820,
+            "currentConfirmedIncr": 750,
             "confirmedIncr": 2648,
-            "curedIncr": 1685,
+            "suspectedIncr": 2277,
+            "curedIncr": 1755,
             "deadIncr": 143,
             "seriousIncr": 849,
-            "virus": "该字段已替换为说明1",
+            "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
+            "abroadRemark": "",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
             "remark2": "潜伏期：一般为 3～7 天，最长不超过 14 天，潜伏期内可能存在传染性，其中无症状病例传染性非常罕见",
             "remark3": "宿主：野生动物，可能为中华菊头蝠",
@@ -35,63 +23,7 @@
             "note1": "病毒：SARS-CoV-2，其导致疾病命名 COVID-19",
             "note2": "传染源：新冠肺炎的患者。无症状感染者也可能成为传染源。",
             "note3": "传播途径：经呼吸道飞沫、接触传播是主要的传播途径。气溶胶传播和消化道等传播途径尚待明确。",
-            "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
-            "abroadRemark": "",
-            "marquee": [
-                {
-                    "id": 422,
-                    "marqueeLabel": "公告",
-                    "marqueeContent": "加入孕妇答疑社群（疫情期免费）",
-                    "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
-                },
-                {
-                    "id": 423,
-                    "marqueeLabel": "物资",
-                    "marqueeContent": "75% 酒精消毒喷雾，限量供应",
-                    "marqueeLink": "https://dxy.me/dhKYG8"
-                }
-            ],
-            "quanguoTrendChart": [
-                {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0215/135/3396732709232753581-135.png",
-                    "title": "新增疑似/新增确诊"
-                },
-                {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0215/144/3396732724265139785-135.png",
-                    "title": "确诊/疑似"
-                },
-                {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0215/889/3396732737150344863-135.png",
-                    "title": "死亡/治愈"
-                },
-                {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0215/726/3396732747887763706-135.png",
-                    "title": "病死率/治愈率"
-                }
-            ],
-            "hbFeiHbTrendChart": [
-                {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0215/358/3396732769362601146-135.png",
-                    "title": "新增确诊"
-                },
-                {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0215/245/3396732782247201099-135.png",
-                    "title": "确诊"
-                },
-                {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0215/931/3396732797279587289-135.png",
-                    "title": "死亡/治愈"
-                },
-                {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0215/878/3396732812311973646-135.png",
-                    "title": "病死率"
-                },
-                {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0215/027/3396732825197178652-135.png",
-                    "title": "治愈率"
-                }
-            ],
-            "updateTime": 1581765290621
+            "updateTime": 1581771238523
         }
     ],
     "success": true
