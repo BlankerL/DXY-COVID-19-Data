@@ -1,6 +1,15 @@
 {
     "results": [
         {
+            "title": "北京新增确诊3例，累计确诊375例",
+            "summary": "2月14日0时至24时，北京市新增3例新冠肺炎确诊病例，其中2例为确诊病例的密切接触者。确诊病例均已送至定点医疗机构进行救治。北京市累计确诊病例375例，出院97例，死亡4例。",
+            "infoSource": "北京卫健委",
+            "sourceUrl": "http://wjw.beijing.gov.cn/xwzx_20031/xwfb/202002/t20200215_1632230.html",
+            "pubDate": 1581741702000,
+            "provinceName": "北京市",
+            "provinceId": "11"
+        },
+        {
             "title": "云南新增6例",
             "summary": "云南新增6例",
             "infoSource": "云南卫健委",
@@ -80,15 +89,6 @@
             "pubDate": 1581728700000,
             "provinceName": "新疆维吾尔自治区",
             "provinceId": "65"
-        },
-        {
-            "title": "广东省新增33例，累计1294例",
-            "summary": "截至2月14日24时，全省累计报告新冠肺炎确诊病例1294例。14日当天全省新增确诊病例33例，新增出院54例，累计出院386例。截至2月14日24时，在院的906例确诊病例中，轻型82例，普通型721例，重型68例，危重型35例。累计死亡2例。\n                    ",
-            "infoSource": "广东卫健委",
-            "sourceUrl": "http://wsjkw.gd.gov.cn/xxgzbdfk/yqtb/content/post_2896928.html",
-            "pubDate": 1581728685000,
-            "provinceName": "广东省",
-            "provinceId": "44"
         }
     ],
     "success": true
