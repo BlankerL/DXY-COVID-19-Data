@@ -10,7 +10,7 @@
 
 #### CSV文件列表
 1. 全国数据[DXYOverall.csv](csv/DXYOverall.csv)
-2. 地区数据[DXYArea.csv](csv/DXYArea.csv)
+2. 地区数据[DXYArea.csv](csv/DXYArea.csv)（包含英文城市名）
 3. 新闻数据[DXYNews.csv](csv/DXYNews.csv)
 4. 谣言数据[DXYRumors.csv](csv/DXYRumors.csv)
 
