@@ -14,12 +14,18 @@
             ],
             "summary": "",
             "countRemark": "",
-            "currentConfirmedCount": 56876,
-            "confirmedCount": 66376,
-            "suspectedCount": 10109,
-            "curedCount": 7979,
-            "deadCount": 1521,
-            "seriousCount": 10204,
+            "currentConfirmedCount": 56951,
+            "confirmedCount": 66576,
+            "suspectedCount": 8969,
+            "curedCount": 8101,
+            "deadCount": 1524,
+            "seriousCount": 11053,
+            "suspectedIncr": 2277,
+            "currentConfirmedIncr": 1128,
+            "confirmedIncr": 2644,
+            "curedIncr": 1373,
+            "deadIncr": 143,
+            "seriousIncr": 849,
             "virus": "该字段已替换为说明1",
             "remark1": "易感人群：人群普遍易感。老年人及有基础疾病者感染后病情较重，儿童及婴幼儿也有发病",
             "remark2": "潜伏期：一般为 3～7 天，最长不超过 14 天，潜伏期内可能存在传染性，其中无症状病例传染性非常罕见",
@@ -33,13 +39,13 @@
             "abroadRemark": "",
             "marquee": [
                 {
-                    "id": 398,
+                    "id": 402,
                     "marqueeLabel": "卫健委",
                     "marqueeContent": "首次官方公布近两千医务人员感染",
                     "marqueeLink": "https://dxy.me/XyNMCD"
                 },
                 {
-                    "id": 399,
+                    "id": 403,
                     "marqueeLabel": "公告",
                     "marqueeContent": "加入孕妇答疑社群（疫情期免费）",
                     "marqueeLink": "https://mama.dxy.com/dispatch-jian-qun-bao?source=2"
@@ -47,45 +53,45 @@
             ],
             "quanguoTrendChart": [
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/159/3396575532757028839-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0215/135/3396732709232753581-135.png",
                     "title": "新增疑似/新增确诊"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/974/3396575545641933918-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0215/144/3396732724265139785-135.png",
                     "title": "确诊/疑似"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/652/3396575558527137935-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0215/889/3396732737150344863-135.png",
                     "title": "死亡/治愈"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/684/3396575573559227031-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0215/726/3396732747887763706-135.png",
                     "title": "病死率/治愈率"
                 }
             ],
             "hbFeiHbTrendChart": [
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/103/3396575592886584759-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0215/358/3396732769362601146-135.png",
                     "title": "新增确诊"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/316/3396575605771781044-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0215/245/3396732782247201099-135.png",
                     "title": "确诊"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/140/3396575618656393979-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0215/931/3396732797279587289-135.png",
                     "title": "死亡/治愈"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/455/3396575631541299113-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0215/878/3396732812311973646-135.png",
                     "title": "病死率"
                 },
                 {
-                    "imgUrl": "https://img1.dxycdn.com/2020/0214/844/3396575648721456727-135.png",
+                    "imgUrl": "https://img1.dxycdn.com/2020/0215/027/3396732825197178652-135.png",
                     "title": "治愈率"
                 }
             ],
-            "updateTime": 1581723127459
+            "updateTime": 1581727000994
         }
     ],
     "success": true
