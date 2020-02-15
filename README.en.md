@@ -17,7 +17,7 @@ The data will be published hourly.
 
 #### CSV File List
 1. Overall Data [DXYOverall.csv](csv/DXYOverall.csv)
-2. Regional Data [DXYArea.csv](csv/DXYArea.csv)
+2. Regional Data [DXYArea.csv](csv/DXYArea.csv)(Including city names in English)
 3. News [DXYNews.csv](csv/DXYNews.csv)
 4. Rumors [DXYRumors.csv](csv/DXYRumors.csv)
 
