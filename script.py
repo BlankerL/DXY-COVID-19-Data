@@ -122,11 +122,13 @@ class Listener:
                         result['province_suspectedCount'] = province_dict['suspectedCount']
                         result['province_curedCount'] = province_dict['curedCount']
                         result['province_deadCount'] = province_dict['deadCount']
+                        result['province_zipCode'] = province_dict['locationId']
 
                         result['city_confirmedCount'] = city_dict['confirmedCount']
                         result['city_suspectedCount'] = city_dict['suspectedCount']
                         result['city_curedCount'] = city_dict['curedCount']
                         result['city_deadCount'] = city_dict['deadCount']
+                        result['city_zipCode'] = city_dict['locationId']
 
                         result['updateTime'] = datetime.datetime.fromtimestamp(province_dict['updateTime']/1000)
 
