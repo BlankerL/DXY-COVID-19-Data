@@ -1,4 +1,21 @@
 ﻿provinceName,provinceEnglishName,province_zipCode,cityName,cityEnglishName,city_zipCode,province_confirmedCount,province_suspectedCount,province_curedCount,province_deadCount,city_confirmedCount,city_suspectedCount,city_curedCount,city_deadCount,updateTime
+上海市,Shanghai,310000,外地来沪人员,People from other cities,-1.0,332,0,161,1,109,0,59,1,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,浦东新区,Pudong District,310115.0,332,0,161,1,60,0,33,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,宝山区,Baoshan District,310113.0,332,0,161,1,21,0,7,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,徐汇区,Xuhui District,310104.0,332,0,161,1,18,0,6,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,松江区,Songjiang District,310117.0,332,0,161,1,14,0,5,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,奉贤区,Fengxian District,310120.0,332,0,161,1,9,0,1,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,闵行区,Minhang District,310112.0,332,0,161,1,18,0,11,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,静安区,Jing'an District,310106.0,332,0,161,1,16,0,9,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,普陀区,Putuo District,310107.0,332,0,161,1,11,0,4,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,嘉定区,Jiading District,310114.0,332,0,161,1,9,0,2,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,杨浦区,Yangpu District,310110.0,332,0,161,1,9,0,3,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,长宁区,Changning District,310105.0,332,0,161,1,13,0,8,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,黄浦区,Huangpu District,310101.0,332,0,161,1,6,0,2,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,崇明区,Chongming District,310151.0,332,0,161,1,4,0,0,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,虹口区,Hongkou District,310109.0,332,0,161,1,7,0,4,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,金山区,Jinshan District,310116.0,332,0,161,1,3,0,2,0,2020-02-17 14:32:33.472
+上海市,Shanghai,310000,青浦区,Qingpu District,310118.0,332,0,161,1,5,0,5,0,2020-02-17 14:32:33.472
 黑龙江省,Heilongjiang,230000,哈尔滨,Harbin,230100.0,457,0,84,11,188,0,32,3,2020-02-17 13:58:44.072
 黑龙江省,Heilongjiang,230000,双鸭山,Shuangyashan,230500.0,457,0,84,11,50,0,4,2,2020-02-17 13:58:44.072
 黑龙江省,Heilongjiang,230000,鸡西,Jixi,230300.0,457,0,84,11,46,0,2,0,2020-02-17 13:58:44.072
