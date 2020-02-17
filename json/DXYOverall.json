@@ -1,16 +1,16 @@
 {
     "results": [
         {
-            "currentConfirmedCount": 57618,
+            "currentConfirmedCount": 57594,
             "confirmedCount": 70641,
             "suspectedCount": 7264,
-            "curedCount": 11251,
+            "curedCount": 11275,
             "deadCount": 1772,
             "seriousCount": 10644,
-            "currentConfirmedIncr": 125,
+            "currentConfirmedIncr": 101,
             "confirmedIncr": 2057,
             "suspectedIncr": 1563,
-            "curedIncr": 1826,
+            "curedIncr": 1850,
             "deadIncr": 106,
             "seriousIncr": -628,
             "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
@@ -23,7 +23,7 @@
             "note1": "病毒：SARS-CoV-2，其导致疾病命名 COVID-19",
             "note2": "传染源：新冠肺炎的患者。无症状感染者也可能成为传染源。",
             "note3": "传播途径：经呼吸道飞沫、接触传播是主要的传播途径。气溶胶传播和消化道等传播途径尚待明确。",
-            "updateTime": 1581942179982
+            "updateTime": 1581944949451
         }
     ],
     "success": true
