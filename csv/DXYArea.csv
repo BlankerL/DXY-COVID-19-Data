@@ -1,4 +1,19 @@
 ﻿provinceName,provinceEnglishName,province_zipCode,cityName,cityEnglishName,city_zipCode,province_confirmedCount,province_suspectedCount,province_curedCount,province_deadCount,city_confirmedCount,city_suspectedCount,city_curedCount,city_deadCount,updateTime
+天津市,Tianjin,120000,宝坻区,Baodi District,120115.0,125,0,45,3,50,0,11,2,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,河东区,Hedong District,120102.0,125,0,45,3,15,0,7,1,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,河北区,Hebei District,120105.0,125,0,45,3,12,0,7,0,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,北辰区,Beichen District,120113.0,125,0,45,3,6,0,1,0,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,南开区,Nankai District,120104.0,125,0,45,3,6,0,1,0,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,宁河区,Ninghe District,120117.0,125,0,45,3,4,0,0,0,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,外地来津人员,People from other cities,0.0,125,0,45,3,6,0,3,0,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,东丽区,Dongli District,120110.0,125,0,45,3,4,0,1,0,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,和平区,Heping District,120101.0,125,0,45,3,6,0,4,0,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,河西区,Hexi District,120103.0,125,0,45,3,4,0,2,0,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,滨海新区,Binhai New Area,120116.0,125,0,45,3,3,0,1,0,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,西青区,Xiqing District,120111.0,125,0,45,3,4,0,3,0,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,武清区,Wuqing District,120114.0,125,0,45,3,2,0,1,0,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,红桥区,Hongqiao District,120106.0,125,0,45,3,2,0,2,0,2020-02-17 10:45:10.418
+天津市,Tianjin,120000,津南区,Jinnan District,120112.0,125,0,45,3,1,0,1,0,2020-02-17 10:45:10.418
 湖南省,Hunan,430000,长沙,Changsha,430100.0,1006,0,467,3,241,0,88,1,2020-02-17 09:59:06.233
 湖南省,Hunan,430000,岳阳,Yueyang,430600.0,1006,0,467,3,154,0,54,1,2020-02-17 09:59:06.233
 湖南省,Hunan,430000,常德,Changde,430700.0,1006,0,467,3,79,0,31,0,2020-02-17 09:59:06.233
