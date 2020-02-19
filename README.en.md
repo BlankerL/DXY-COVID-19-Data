@@ -26,8 +26,8 @@ only contains all the city-level data.
 Data from Hong Kong SAR, Macao SAR, Tai Wan and Tibet are province-level, 
 and not city-level data available from DXY, so they are not in this file. 
 
-If needed, you can modify the [dumper function](https://github.com/BlankerL/DXY-COVID-19-Data/blob/8e21a7e27604a9d2b1dcf0fa3d0266aa68576753/script.py#L71)
-to customize your own files. 
+If needed, you can modify the [`csv_dumper()`](https://github.com/BlankerL/DXY-COVID-19-Data/blob/8e21a7e27604a9d2b1dcf0fa3d0266aa68576753/script.py#L107)
+function to customize your own files. 
 
 #### JSON File List
 Due to the instability of API,
