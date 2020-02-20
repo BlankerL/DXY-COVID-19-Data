@@ -1659,6 +1659,135 @@
             "updateTime": 1582196777857
         },
         {
+            "locationId": 130000,
+            "continentName": "亚洲",
+            "continentEnglishName": "Asia",
+            "countryName": "中国",
+            "countryEnglishName": "China",
+            "provinceName": "河北省",
+            "provinceShortName": "河北",
+            "provinceEnglishName": "Hebei",
+            "currentConfirmedCount": 133,
+            "confirmedCount": 307,
+            "suspectedCount": 0,
+            "curedCount": 169,
+            "deadCount": 5,
+            "cities": [
+                {
+                    "cityName": "唐山",
+                    "currentConfirmedCount": 39,
+                    "confirmedCount": 56,
+                    "suspectedCount": 0,
+                    "curedCount": 16,
+                    "deadCount": 1,
+                    "locationId": 130200,
+                    "cityEnglishName": "Tangshan"
+                },
+                {
+                    "cityName": "沧州",
+                    "currentConfirmedCount": 23,
+                    "confirmedCount": 48,
+                    "suspectedCount": 0,
+                    "curedCount": 22,
+                    "deadCount": 3,
+                    "locationId": 130900,
+                    "cityEnglishName": "Cangzhou"
+                },
+                {
+                    "cityName": "石家庄",
+                    "currentConfirmedCount": 15,
+                    "confirmedCount": 28,
+                    "suspectedCount": 0,
+                    "curedCount": 13,
+                    "deadCount": 0,
+                    "locationId": 130100,
+                    "cityEnglishName": "Shijiazhuang"
+                },
+                {
+                    "cityName": "邯郸",
+                    "currentConfirmedCount": 14,
+                    "confirmedCount": 31,
+                    "suspectedCount": 0,
+                    "curedCount": 17,
+                    "deadCount": 0,
+                    "locationId": 130400,
+                    "cityEnglishName": "Handan"
+                },
+                {
+                    "cityName": "张家口",
+                    "currentConfirmedCount": 10,
+                    "confirmedCount": 34,
+                    "suspectedCount": 0,
+                    "curedCount": 24,
+                    "deadCount": 0,
+                    "locationId": 130700,
+                    "cityEnglishName": "Zhangjiakou"
+                },
+                {
+                    "cityName": "廊坊",
+                    "currentConfirmedCount": 9,
+                    "confirmedCount": 30,
+                    "suspectedCount": 0,
+                    "curedCount": 21,
+                    "deadCount": 0,
+                    "locationId": 131000,
+                    "cityEnglishName": "Langfang"
+                },
+                {
+                    "cityName": "邢台",
+                    "currentConfirmedCount": 9,
+                    "confirmedCount": 23,
+                    "suspectedCount": 0,
+                    "curedCount": 13,
+                    "deadCount": 1,
+                    "locationId": 130500,
+                    "cityEnglishName": "Xingtai"
+                },
+                {
+                    "cityName": "保定",
+                    "currentConfirmedCount": 5,
+                    "confirmedCount": 32,
+                    "suspectedCount": 0,
+                    "curedCount": 27,
+                    "deadCount": 0,
+                    "locationId": 130600,
+                    "cityEnglishName": "Baoding"
+                },
+                {
+                    "cityName": "秦皇岛",
+                    "currentConfirmedCount": 5,
+                    "confirmedCount": 10,
+                    "suspectedCount": 0,
+                    "curedCount": 5,
+                    "deadCount": 0,
+                    "locationId": 130300,
+                    "cityEnglishName": "Qinhuangdao"
+                },
+                {
+                    "cityName": "衡水",
+                    "currentConfirmedCount": 2,
+                    "confirmedCount": 8,
+                    "suspectedCount": 0,
+                    "curedCount": 6,
+                    "deadCount": 0,
+                    "locationId": 131100,
+                    "cityEnglishName": "Hengshui"
+                },
+                {
+                    "cityName": "承德",
+                    "currentConfirmedCount": 2,
+                    "confirmedCount": 7,
+                    "suspectedCount": 0,
+                    "curedCount": 5,
+                    "deadCount": 0,
+                    "locationId": 130800,
+                    "cityEnglishName": "Chengde"
+                }
+            ],
+            "comment": "",
+            "updateTime": 1582196777857
+        },
+        {
             "locationId": 370000,
             "continentName": "亚洲",
             "continentEnglishName": "Asia",
@@ -1822,135 +1951,6 @@
                     "deadCount": 0,
                     "locationId": 371600,
                     "cityEnglishName": "Binzhou"
-                }
-            ],
-            "comment": "",
-            "updateTime": 1582196777857
-        },
-        {
-            "locationId": 130000,
-            "continentName": "亚洲",
-            "continentEnglishName": "Asia",
-            "countryName": "中国",
-            "countryEnglishName": "China",
-            "provinceName": "河北省",
-            "provinceShortName": "河北",
-            "provinceEnglishName": "Hebei",
-            "currentConfirmedCount": 133,
-            "confirmedCount": 307,
-            "suspectedCount": 0,
-            "curedCount": 169,
-            "deadCount": 5,
-            "cities": [
-                {
-                    "cityName": "唐山",
-                    "currentConfirmedCount": 39,
-                    "confirmedCount": 56,
-                    "suspectedCount": 0,
-                    "curedCount": 16,
-                    "deadCount": 1,
-                    "locationId": 130200,
-                    "cityEnglishName": "Tangshan"
-                },
-                {
-                    "cityName": "沧州",
-                    "currentConfirmedCount": 23,
-                    "confirmedCount": 48,
-                    "suspectedCount": 0,
-                    "curedCount": 22,
-                    "deadCount": 3,
-                    "locationId": 130900,
-                    "cityEnglishName": "Cangzhou"
-                },
-                {
-                    "cityName": "石家庄",
-                    "currentConfirmedCount": 15,
-                    "confirmedCount": 28,
-                    "suspectedCount": 0,
-                    "curedCount": 13,
-                    "deadCount": 0,
-                    "locationId": 130100,
-                    "cityEnglishName": "Shijiazhuang"
-                },
-                {
-                    "cityName": "邯郸",
-                    "currentConfirmedCount": 14,
-                    "confirmedCount": 31,
-                    "suspectedCount": 0,
-                    "curedCount": 17,
-                    "deadCount": 0,
-                    "locationId": 130400,
-                    "cityEnglishName": "Handan"
-                },
-                {
-                    "cityName": "张家口",
-                    "currentConfirmedCount": 10,
-                    "confirmedCount": 34,
-                    "suspectedCount": 0,
-                    "curedCount": 24,
-                    "deadCount": 0,
-                    "locationId": 130700,
-                    "cityEnglishName": "Zhangjiakou"
-                },
-                {
-                    "cityName": "廊坊",
-                    "currentConfirmedCount": 9,
-                    "confirmedCount": 30,
-                    "suspectedCount": 0,
-                    "curedCount": 21,
-                    "deadCount": 0,
-                    "locationId": 131000,
-                    "cityEnglishName": "Langfang"
-                },
-                {
-                    "cityName": "邢台",
-                    "currentConfirmedCount": 9,
-                    "confirmedCount": 23,
-                    "suspectedCount": 0,
-                    "curedCount": 13,
-                    "deadCount": 1,
-                    "locationId": 130500,
-                    "cityEnglishName": "Xingtai"
-                },
-                {
-                    "cityName": "保定",
-                    "currentConfirmedCount": 5,
-                    "confirmedCount": 32,
-                    "suspectedCount": 0,
-                    "curedCount": 27,
-                    "deadCount": 0,
-                    "locationId": 130600,
-                    "cityEnglishName": "Baoding"
-                },
-                {
-                    "cityName": "秦皇岛",
-                    "currentConfirmedCount": 5,
-                    "confirmedCount": 10,
-                    "suspectedCount": 0,
-                    "curedCount": 5,
-                    "deadCount": 0,
-                    "locationId": 130300,
-                    "cityEnglishName": "Qinhuangdao"
-                },
-                {
-                    "cityName": "衡水",
-                    "currentConfirmedCount": 2,
-                    "confirmedCount": 8,
-                    "suspectedCount": 0,
-                    "curedCount": 6,
-                    "deadCount": 0,
-                    "locationId": 131100,
-                    "cityEnglishName": "Hengshui"
-                },
-                {
-                    "cityName": "承德",
-                    "currentConfirmedCount": 2,
-                    "confirmedCount": 7,
-                    "suspectedCount": 0,
-                    "curedCount": 5,
-                    "deadCount": 0,
-                    "locationId": 130800,
-                    "cityEnglishName": "Chengde"
                 }
             ],
             "comment": "",
@@ -4364,24 +4364,6 @@
             "updateTime": 1582172887019
         },
         {
-            "locationId": 820000,
-            "continentName": "亚洲",
-            "continentEnglishName": "Asia",
-            "countryName": "中国",
-            "countryEnglishName": "China",
-            "provinceName": "澳门",
-            "provinceShortName": "澳门",
-            "provinceEnglishName": "Macau",
-            "currentConfirmedCount": 4,
-            "confirmedCount": 10,
-            "suspectedCount": 0,
-            "curedCount": 6,
-            "deadCount": 0,
-            "cities": [],
-            "comment": "",
-            "updateTime": 1582164331526
-        },
-        {
             "locationId": 710000,
             "continentName": "亚洲",
             "continentEnglishName": "Asia",
@@ -4395,6 +4377,24 @@
             "suspectedCount": 0,
             "curedCount": 2,
             "deadCount": 1,
+            "cities": [],
+            "comment": "",
+            "updateTime": 1582164331526
+        },
+        {
+            "locationId": 820000,
+            "continentName": "亚洲",
+            "continentEnglishName": "Asia",
+            "countryName": "中国",
+            "countryEnglishName": "China",
+            "provinceName": "澳门",
+            "provinceShortName": "澳门",
+            "provinceEnglishName": "Macau",
+            "currentConfirmedCount": 4,
+            "confirmedCount": 10,
+            "suspectedCount": 0,
+            "curedCount": 6,
+            "deadCount": 0,
             "cities": [],
             "comment": "",
             "updateTime": 1582164331526
@@ -4661,24 +4661,6 @@
             "updateTime": 1582158070917
         },
         {
-            "locationId": 971002,
-            "continentName": "北美洲",
-            "continentEnglishName": "North America",
-            "countryName": "美国",
-            "countryEnglishName": "United States of America",
-            "provinceName": "美国",
-            "provinceShortName": "美国",
-            "provinceEnglishName": "United States of America",
-            "currentConfirmedCount": 12,
-            "confirmedCount": 15,
-            "suspectedCount": 0,
-            "curedCount": 3,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1582158070917
-        },
-        {
             "locationId": 961002,
             "continentName": "欧洲",
             "continentEnglishName": "Europe",
@@ -4692,6 +4674,24 @@
             "suspectedCount": 0,
             "curedCount": 4,
             "deadCount": 1,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1582158070917
+        },
+        {
+            "locationId": 971002,
+            "continentName": "北美洲",
+            "continentEnglishName": "North America",
+            "countryName": "美国",
+            "countryEnglishName": "United States of America",
+            "provinceName": "美国",
+            "provinceShortName": "美国",
+            "provinceEnglishName": "United States of America",
+            "currentConfirmedCount": 12,
+            "confirmedCount": 15,
+            "suspectedCount": 0,
+            "curedCount": 3,
+            "deadCount": 0,
             "cities": null,
             "comment": "",
             "updateTime": 1582158070917
@@ -5307,24 +5307,6 @@
             "updateTime": 1581867017814
         },
         {
-            "locationId": 952008,
-            "continentName": "亚洲",
-            "continentEnglishName": "Asia",
-            "countryName": "菲律宾",
-            "countryEnglishName": "Philippines",
-            "provinceName": "菲律宾",
-            "provinceShortName": "菲律宾",
-            "provinceEnglishName": "Philippines",
-            "currentConfirmedCount": 1,
-            "confirmedCount": 3,
-            "suspectedCount": 0,
-            "curedCount": 1,
-            "deadCount": 1,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1581867017814
-        },
-        {
             "locationId": 962005,
             "continentName": "欧洲",
             "continentEnglishName": "Europe",
@@ -5338,6 +5320,24 @@
             "suspectedCount": 0,
             "curedCount": 0,
             "deadCount": 0,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1581867017814
+        },
+        {
+            "locationId": 952008,
+            "continentName": "亚洲",
+            "continentEnglishName": "Asia",
+            "countryName": "菲律宾",
+            "countryEnglishName": "Philippines",
+            "provinceName": "菲律宾",
+            "provinceShortName": "菲律宾",
+            "provinceEnglishName": "Philippines",
+            "currentConfirmedCount": 1,
+            "confirmedCount": 3,
+            "suspectedCount": 0,
+            "curedCount": 1,
+            "deadCount": 1,
             "cities": null,
             "comment": "",
             "updateTime": 1581867017814
