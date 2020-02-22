@@ -1158,125 +1158,6 @@
             "updateTime": 1582374443790
         },
         {
-            "locationId": 220000,
-            "continentName": "亚洲",
-            "continentEnglishName": "Asia",
-            "countryName": "中国",
-            "countryEnglishName": "China",
-            "provinceName": "吉林省",
-            "provinceShortName": "吉林",
-            "provinceEnglishName": "Jilin",
-            "currentConfirmedCount": 38,
-            "confirmedCount": 91,
-            "suspectedCount": 0,
-            "curedCount": 52,
-            "deadCount": 1,
-            "cities": [
-                {
-                    "cityName": "长春",
-                    "currentConfirmedCount": 19,
-                    "confirmedCount": 45,
-                    "suspectedCount": 0,
-                    "curedCount": 26,
-                    "deadCount": 0,
-                    "locationId": 220100,
-                    "cityEnglishName": "Changchun"
-                },
-                {
-                    "cityName": "辽源",
-                    "currentConfirmedCount": 6,
-                    "confirmedCount": 7,
-                    "suspectedCount": 0,
-                    "curedCount": 1,
-                    "deadCount": 0,
-                    "locationId": 220400,
-                    "cityEnglishName": "Liaoyuan"
-                },
-                {
-                    "cityName": "四平市",
-                    "currentConfirmedCount": 5,
-                    "confirmedCount": 15,
-                    "suspectedCount": 0,
-                    "curedCount": 9,
-                    "deadCount": 1,
-                    "locationId": 220300,
-                    "cityEnglishName": "Siping"
-                },
-                {
-                    "cityName": "公主岭",
-                    "currentConfirmedCount": 3,
-                    "confirmedCount": 6,
-                    "suspectedCount": 0,
-                    "curedCount": 3,
-                    "deadCount": 0,
-                    "locationId": 220381,
-                    "cityEnglishName": "Gongzhuling"
-                },
-                {
-                    "cityName": "通化",
-                    "currentConfirmedCount": 3,
-                    "confirmedCount": 4,
-                    "suspectedCount": 0,
-                    "curedCount": 1,
-                    "deadCount": 0,
-                    "locationId": 220500,
-                    "cityEnglishName": "Tonghua"
-                },
-                {
-                    "cityName": "延边",
-                    "currentConfirmedCount": 1,
-                    "confirmedCount": 5,
-                    "suspectedCount": 0,
-                    "curedCount": 4,
-                    "deadCount": 0,
-                    "locationId": 222400,
-                    "cityEnglishName": "Yanbian"
-                },
-                {
-                    "cityName": "白城",
-                    "currentConfirmedCount": 1,
-                    "confirmedCount": 1,
-                    "suspectedCount": 0,
-                    "curedCount": 0,
-                    "deadCount": 0,
-                    "locationId": 220800,
-                    "cityEnglishName": "Baicheng"
-                },
-                {
-                    "cityName": "吉林市",
-                    "currentConfirmedCount": 0,
-                    "confirmedCount": 5,
-                    "suspectedCount": 0,
-                    "curedCount": 5,
-                    "deadCount": 0,
-                    "locationId": 220200,
-                    "cityEnglishName": "Jilin"
-                },
-                {
-                    "cityName": "松原",
-                    "currentConfirmedCount": 0,
-                    "confirmedCount": 2,
-                    "suspectedCount": 0,
-                    "curedCount": 2,
-                    "deadCount": 0,
-                    "locationId": 220700,
-                    "cityEnglishName": "Songyuan"
-                },
-                {
-                    "cityName": "梅河口",
-                    "currentConfirmedCount": 0,
-                    "confirmedCount": 1,
-                    "suspectedCount": 0,
-                    "curedCount": 1,
-                    "deadCount": 0,
-                    "locationId": 220581,
-                    "cityEnglishName": "Meihekou"
-                }
-            ],
-            "comment": "",
-            "updateTime": 1582374443790
-        },
-        {
             "locationId": 120000,
             "continentName": "亚洲",
             "continentEnglishName": "Asia",
@@ -1450,6 +1331,125 @@
                     "deadCount": 0,
                     "locationId": 0,
                     "cityEnglishName": "Area not defined"
+                }
+            ],
+            "comment": "",
+            "updateTime": 1582374443790
+        },
+        {
+            "locationId": 220000,
+            "continentName": "亚洲",
+            "continentEnglishName": "Asia",
+            "countryName": "中国",
+            "countryEnglishName": "China",
+            "provinceName": "吉林省",
+            "provinceShortName": "吉林",
+            "provinceEnglishName": "Jilin",
+            "currentConfirmedCount": 38,
+            "confirmedCount": 91,
+            "suspectedCount": 0,
+            "curedCount": 52,
+            "deadCount": 1,
+            "cities": [
+                {
+                    "cityName": "长春",
+                    "currentConfirmedCount": 19,
+                    "confirmedCount": 45,
+                    "suspectedCount": 0,
+                    "curedCount": 26,
+                    "deadCount": 0,
+                    "locationId": 220100,
+                    "cityEnglishName": "Changchun"
+                },
+                {
+                    "cityName": "辽源",
+                    "currentConfirmedCount": 6,
+                    "confirmedCount": 7,
+                    "suspectedCount": 0,
+                    "curedCount": 1,
+                    "deadCount": 0,
+                    "locationId": 220400,
+                    "cityEnglishName": "Liaoyuan"
+                },
+                {
+                    "cityName": "四平市",
+                    "currentConfirmedCount": 5,
+                    "confirmedCount": 15,
+                    "suspectedCount": 0,
+                    "curedCount": 9,
+                    "deadCount": 1,
+                    "locationId": 220300,
+                    "cityEnglishName": "Siping"
+                },
+                {
+                    "cityName": "公主岭",
+                    "currentConfirmedCount": 3,
+                    "confirmedCount": 6,
+                    "suspectedCount": 0,
+                    "curedCount": 3,
+                    "deadCount": 0,
+                    "locationId": 220381,
+                    "cityEnglishName": "Gongzhuling"
+                },
+                {
+                    "cityName": "通化",
+                    "currentConfirmedCount": 3,
+                    "confirmedCount": 4,
+                    "suspectedCount": 0,
+                    "curedCount": 1,
+                    "deadCount": 0,
+                    "locationId": 220500,
+                    "cityEnglishName": "Tonghua"
+                },
+                {
+                    "cityName": "延边",
+                    "currentConfirmedCount": 1,
+                    "confirmedCount": 5,
+                    "suspectedCount": 0,
+                    "curedCount": 4,
+                    "deadCount": 0,
+                    "locationId": 222400,
+                    "cityEnglishName": "Yanbian"
+                },
+                {
+                    "cityName": "白城",
+                    "currentConfirmedCount": 1,
+                    "confirmedCount": 1,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "locationId": 220800,
+                    "cityEnglishName": "Baicheng"
+                },
+                {
+                    "cityName": "吉林市",
+                    "currentConfirmedCount": 0,
+                    "confirmedCount": 5,
+                    "suspectedCount": 0,
+                    "curedCount": 5,
+                    "deadCount": 0,
+                    "locationId": 220200,
+                    "cityEnglishName": "Jilin"
+                },
+                {
+                    "cityName": "松原",
+                    "currentConfirmedCount": 0,
+                    "confirmedCount": 2,
+                    "suspectedCount": 0,
+                    "curedCount": 2,
+                    "deadCount": 0,
+                    "locationId": 220700,
+                    "cityEnglishName": "Songyuan"
+                },
+                {
+                    "cityName": "梅河口",
+                    "currentConfirmedCount": 0,
+                    "confirmedCount": 1,
+                    "suspectedCount": 0,
+                    "curedCount": 1,
+                    "deadCount": 0,
+                    "locationId": 220581,
+                    "cityEnglishName": "Meihekou"
                 }
             ],
             "comment": "",
@@ -5369,24 +5369,6 @@
             "updateTime": 1581867017814
         },
         {
-            "locationId": 962005,
-            "continentName": "欧洲",
-            "continentEnglishName": "Europe",
-            "countryName": "瑞典",
-            "countryEnglishName": "Sweden",
-            "provinceName": "瑞典",
-            "provinceShortName": "瑞典",
-            "provinceEnglishName": "Sweden",
-            "currentConfirmedCount": 1,
-            "confirmedCount": 1,
-            "suspectedCount": 0,
-            "curedCount": 0,
-            "deadCount": 0,
-            "cities": null,
-            "comment": "",
-            "updateTime": 1581867017814
-        },
-        {
             "locationId": 952008,
             "continentName": "亚洲",
             "continentEnglishName": "Asia",
@@ -5400,6 +5382,24 @@
             "suspectedCount": 0,
             "curedCount": 1,
             "deadCount": 1,
+            "cities": null,
+            "comment": "",
+            "updateTime": 1581867017814
+        },
+        {
+            "locationId": 962005,
+            "continentName": "欧洲",
+            "continentEnglishName": "Europe",
+            "countryName": "瑞典",
+            "countryEnglishName": "Sweden",
+            "provinceName": "瑞典",
+            "provinceShortName": "瑞典",
+            "provinceEnglishName": "Sweden",
+            "currentConfirmedCount": 1,
+            "confirmedCount": 1,
+            "suspectedCount": 0,
+            "curedCount": 0,
+            "deadCount": 0,
             "cities": null,
             "comment": "",
             "updateTime": 1581867017814
