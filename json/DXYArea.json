@@ -3082,6 +3082,24 @@
             "updateTime": 1582456742938
         },
         {
+            "locationId": 820000,
+            "continentName": "亚洲",
+            "continentEnglishName": "Asia",
+            "countryName": "中国",
+            "countryEnglishName": "China",
+            "provinceName": "澳门",
+            "provinceShortName": "澳门",
+            "provinceEnglishName": "Macau",
+            "currentConfirmedCount": 4,
+            "confirmedCount": 10,
+            "suspectedCount": 0,
+            "curedCount": 6,
+            "deadCount": 0,
+            "cities": [],
+            "comment": "",
+            "updateTime": 1582456742938
+        },
+        {
             "locationId": 500000,
             "continentName": "亚洲",
             "continentEnglishName": "Asia",
@@ -3487,24 +3505,6 @@
                     "cityEnglishName": "Xiushan Tujia and Miao Autonomous County"
                 }
             ],
-            "comment": "",
-            "updateTime": 1582456742938
-        },
-        {
-            "locationId": 820000,
-            "continentName": "亚洲",
-            "continentEnglishName": "Asia",
-            "countryName": "中国",
-            "countryEnglishName": "China",
-            "provinceName": "澳门",
-            "provinceShortName": "澳门",
-            "provinceEnglishName": "Macau",
-            "currentConfirmedCount": 4,
-            "confirmedCount": 10,
-            "suspectedCount": 0,
-            "curedCount": 6,
-            "deadCount": 0,
-            "cities": [],
             "comment": "",
             "updateTime": 1582456742938
         },
