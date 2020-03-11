@@ -1,10 +1,10 @@
 {
     "results": [
         {
-            "currentConfirmedCount": 16139,
+            "currentConfirmedCount": 16134,
             "confirmedCount": 80969,
             "suspectedCount": 86,
-            "curedCount": 61668,
+            "curedCount": 61673,
             "deadCount": 3162,
             "seriousCount": 4492,
             "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等。浙江省 12 例外省治愈暂无具体省份信息。",
@@ -17,7 +17,7 @@
             "note1": "病毒：SARS-CoV-2，其导致疾病命名 COVID-19",
             "note2": "传染源：新冠肺炎的患者。无症状感染者也可能成为传染源。",
             "note3": "传播途径：经呼吸道飞沫、接触传播是主要的传播途径。气溶胶传播和消化道等传播途径尚待明确。",
-            "updateTime": 1583953389651
+            "updateTime": 1583970068490
         }
     ],
     "success": true
