@@ -1,6 +1,15 @@
 {
     "results": [
         {
+            "title": "New York reports third coronavirus-related death",
+            "summary": "Another person with underlying health conditions has died in New York, Gov. Andrew Cuomo just announced in a press conference. ",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239242454580072448?s=20",
+            "pubDate": 1584292031000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "There are more than 3,000 coronavirus cases in the US",
             "summary": "There are at least 3,010 cases of the novel coronavirus in the United States, according to the state and local health agencies, governments and the US Centers for Disease Control and Prevention.",
             "infoSource": "CNN",
@@ -78,15 +87,6 @@
             "infoSource": "CNN",
             "sourceUrl": "https://twitter.com/DrDingxiang/status/1239185137251651584?s=20",
             "pubDate": 1584277920000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Austria ramps up movement restrictions",
-            "summary": "Austrian Chancellor Sebastian Kurz escalated the country's responses to the coronavirus pandemic on Sunday.\n\nKurz announced major restrictions on movement in public spaces, urging Austrians to self-isolate. He also banned gatherings completely and put further limits on who can enter the country. ",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239166117651697664",
-            "pubDate": 1584274861000,
             "provinceName": null,
             "provinceId": ""
         }
