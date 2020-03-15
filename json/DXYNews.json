@@ -1,6 +1,15 @@
 {
     "results": [
         {
+            "title": "UK advises against all but essential travel to the US",
+            "summary": "The UK Foreign Office said Sunday that it was advising against “all but essential travel to the USA” in light of the travel restrictions placed by the US government on visitors from the UK.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239185137251651584?s=20",
+            "pubDate": 1584277920000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "Austria ramps up movement restrictions",
             "summary": "Austrian Chancellor Sebastian Kurz escalated the country's responses to the coronavirus pandemic on Sunday.\n\nKurz announced major restrictions on movement in public spaces, urging Austrians to self-isolate. He also banned gatherings completely and put further limits on who can enter the country. ",
             "infoSource": "CNN",
@@ -80,15 +89,6 @@
             "pubDate": 1584237754000,
             "provinceName": "全国",
             "provinceId": "100"
-        },
-        {
-            "title": "西班牙正式在全国限制人员流动",
-            "summary": "当地时间14日，西班牙首相桑切斯宣布，为对抗新冠疫情，全西班牙即日起限制人员流动，全国人民的出行将受到最大程度限制，除购买食品、就医和工作等活动外，必须待在家中。非必要公共场所全部对公众关闭。截至14日晚间，西班牙确诊病例升至6393例，死亡195例。",
-            "infoSource": "人民日报海外版",
-            "sourceUrl": "http://m.weibo.cn/3057540037/4482679771188172",
-            "pubDate": 1584237604000,
-            "provinceName": null,
-            "provinceId": "1"
         }
     ],
     "success": true
