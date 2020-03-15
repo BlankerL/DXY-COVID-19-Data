@@ -1,6 +1,78 @@
 {
     "results": [
         {
+            "title": "There are more than 3,000 coronavirus cases in the US",
+            "summary": "There are at least 3,010 cases of the novel coronavirus in the United States, according to the state and local health agencies, governments and the US Centers for Disease Control and Prevention.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239232736000225280?s=20",
+            "pubDate": 1584290299000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Top infectious disease expert warns multitudes could die if Americans don't act",
+            "summary": "When asked if hundreds of thousands of Americans could die from coronavirus, Dr. Anthony Fauci, the nation’s top infectious disease expert, said “it could happen, and it could be worse.\"",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239212110610984960?s=20",
+            "pubDate": 1584286002000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Pence has not been tested for coronavirus",
+            "summary": "Vice President Mike Pence told reporters yesterday he would consult with the White House physician about whether he needed to be tested for coronavirus since President Trump was. ",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239210219973951493?s=20",
+            "pubDate": 1584285369000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Louisiana reports second coronavirus-related death",
+            "summary": "The state of Louisiana has confirmed its second death related to coronavirus, according to a statement released by Gov. John Bel Edwards.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239201725019336704?s=20",
+            "pubDate": 1584283476000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Singapore announces further travel restrictions",
+            "summary": "Singapore's Ministry of Health announced they will implement stricter border measures for people traveling into the country, including imposing a 14-day mandatory self-quarantine for new visitors traveling from a bloc of East Asian countries, as well as Japan, Switzerland and the United Kingdom.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239201025958883329?s=20",
+            "pubDate": 1584283065000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Hungary reports first coronavirus death ",
+            "summary": "A 75-year-old man has become Hungary’s first coronavirus death, government spokesperson Zoltan Kovacs said Sunday on Twitter.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239195762984091654?s=20",
+            "pubDate": 1584281823000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Hong Kong urges citizens to avoid non-essential travel to Ireland, the US and UK",
+            "summary": "Hong Kong has issued a \"Red Outbound Travel Alert\" on Ireland, United Kingdom and United States, urging its citizens to avoid all non-essential travel to these countries in response to the new cases of the novel coronavirus. ",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239194137980592128?s=20",
+            "pubDate": 1584281545000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Top US infectious disease doctor doesn't rule out supporting temporary national lockdown",
+            "summary": "The top infectious disease expert in the US did not rule out support a temporary national lockdown in an effort to curb the spread of coronavirus.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239189070753849344?s=20",
+            "pubDate": 1584280312000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "UK advises against all but essential travel to the US",
             "summary": "The UK Foreign Office said Sunday that it was advising against “all but essential travel to the USA” in light of the travel restrictions placed by the US government on visitors from the UK.",
             "infoSource": "CNN",
@@ -17,78 +89,6 @@
             "pubDate": 1584274861000,
             "provinceName": null,
             "provinceId": ""
-        },
-        {
-            "title": "Latest case numbers from the US",
-            "summary": "There are at least 2,885 cases of the novel coronavirus in the United States, according to the state and local health agencies, governments and the U.S. Centers for Disease Control and Prevention.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239161835862945793",
-            "pubDate": 1584273840000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Number of cases in Italy still spiking",
-            "summary": "Italy has reported 2,547 new novel coronavirus cases and 252 deaths on Saturday, the highest number of deaths in a single day since the outbreak began.\n\nItaly has now confirmed 21,157 cases, second highest in the world after China.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239120197987880960",
-            "pubDate": 1584264060000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Taiwan reports six new cases, raising total to 59",
-            "summary": "Taiwan reported six new coronavirus cases today, raising the island's total to 59.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239118457590796289?s=20",
-            "pubDate": 1584263640000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "There are now more than 152,000 coronavirus cases globally",
-            "summary": "There are now 152,428 cases worldwide and 5,393 deaths. Cases have been reported in 141 countries and territories.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239104958462484481?s=20",
-            "pubDate": 1584260220000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Coronavirus: Elderly to be 'shielded' as PM seeks to equip NHS",
-            "summary": "Boris Johnson is launching a drive to equip the NHS with more ventilators, as No 10 indicated it could soon step up measures to tackle the coronavirus.",
-            "infoSource": "BBC",
-            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239063100608765952?s=20",
-            "pubDate": 1584255900000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Rwanda has its first case of the virus. Now it's closing schools and places of worship",
-            "summary": "Schools and places of worship in Rwanda will close in a bid to \"strengthen the country's ability to mitigate the risk\" of coronavirus, the Health Ministry announced on Saturday. ",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239082085454737409?s=20",
-            "pubDate": 1584254700000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "塞尔维亚足协主席确诊感染",
-            "summary": "塞尔维亚足协官方网站宣布，塞尔维亚足协主席斯拉维萨·科茨（Slavisa Kokez）被确诊新冠病毒阳性。目前他状况良好，正在隔离。塞尔维亚足协表示，足协将继续正常运转。塞尔维亚足协同时呼吁相关的俱乐部和机构能够采取负责任的措施，以最大程度地减少疫情带来的影响。",
-            "infoSource": "人民日报",
-            "sourceUrl": "http://m.weibo.cn/2803301701/4482685466110217",
-            "pubDate": 1584238962000,
-            "provinceName": null,
-            "provinceId": "1"
-        },
-        {
-            "title": "25省区市新增确诊病例为0",
-            "summary": "3月14日0时至24时，天津、河北、山西、辽宁、吉林、黑龙江、江苏、安徽、福建、江西、山东、河南、湖南、广西、海南、重庆、四川、贵州、云南、西藏、青海、宁夏、新疆（含兵团）无新增确诊病例；3月14日8时至15日8时，陕西无新增新冠肺炎确诊病例；3月14日7时至15日7时，内蒙古自治区报告无新增新冠肺炎确诊病例。\n",
-            "infoSource": "人民日报",
-            "sourceUrl": "http://m.weibo.cn/2803301701/4482680399655238",
-            "pubDate": 1584237754000,
-            "provinceName": "全国",
-            "provinceId": "100"
         }
     ],
     "success": true
