@@ -1,6 +1,33 @@
 {
     "results": [
         {
+            "title": "Switzerland bans all events and closes shops",
+            "summary": "Switzerland’s government banned all private and public events from midnight local time on Monday for more than a month, according to a statement from the Swiss Federal Council.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239658930046824448",
+            "pubDate": 1584391680000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "A CDC employee was diagnosed with novel coronavirus",
+            "summary": "The US Centers for Disease Control and Prevention announced its first employee diagnosed with novel coronavirus and said the employee who tested positive is in \"good condition and is isolated to prevent spread of infection to others.\"",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239654384054579206",
+            "pubDate": 1584390600000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Sudan closes its borders due to coronavirus concerns",
+            "summary": "Sudan has closed its borders, sealing of all sea ports, land crossings and airports, Mohamed Al-Faki Suleiman, spokesperson for Sudan's Transitional Sovereign Council, said in a press statement. ",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239652146301120512",
+            "pubDate": 1584390240000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "Two members of the French parliament test positive for coronavirus",
             "summary": "Two members of France’s lower house of parliament said they have tested positive for coronavirus. \n\nSylvie Charrière, LaREM, who represents the Seine-Saint-Denis outside Paris, and LR MP Guy Teissier, representing the Bouches-du-Rhône.",
             "infoSource": "CNN",
@@ -60,33 +87,6 @@
             "infoSource": "CNN",
             "sourceUrl": "https://twitter.com/DXDoctor_/status/1239616417822937088",
             "pubDate": 1584382679000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "First participant in coronavirus vaccine trial given dose",
-            "summary": "A novel coronavirus vaccine trial in the US has now given a dose to its first participant, the National Institute of Allergy and Infectious Diseases announced Monday.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239612727602995200",
-            "pubDate": 1584380929000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Hungary will its close borders to foreigners at midnight",
-            "summary": "Beginning at midnight tonight, people who do not have Hungarian citizenship will not be allowed to enter the territory of Hungary, the country's international communication office tells CNN. ",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239611561091579905",
-            "pubDate": 1584380814000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Coronavirus: Boris Johnson set to deliver first daily update",
-            "summary": "Boris Johnson will outline the next steps in the UK's plan to fight coronavirus at the first of a series of daily news conferences.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239601547262091264",
-            "pubDate": 1584376798000,
             "provinceName": null,
             "provinceId": ""
         }
