@@ -14,8 +14,7 @@
 3. 新闻数据[DXYNews.csv](csv/DXYNews.csv)
 4. 谣言数据[DXYRumors.csv](csv/DXYRumors.csv)
 
-自[`4db432f`](https://github.com/BlankerL/DXY-COVID-19-Data/commit/4db432fda233a701a3a7569e08ab20db083987b1)开始，DXYArea.csv包含中国境内省市级、港澳台地区及海外数据。
-另外，也可以参考[这个问题](https://github.com/BlankerL/DXY-COVID-19-Crawler/issues/67)，来定制自己的数据集。
+自[`4db432f`](https://github.com/BlankerL/DXY-COVID-19-Data/commit/4db432fda233a701a3a7569e08ab20db083987b1)开始，DXYArea.csv包含中国境内省市级、港澳台地区及海外数据。另外，也可以参考[这个问题](https://github.com/BlankerL/DXY-COVID-19-Crawler/issues/67)，来定制自己的数据集。
 
 #### JSON文件列表
 由于API接口时常不稳定，因此此项目也会定时向`json`文件夹中推送静态的JSON文件更新。JSON文件与API中提供的JSON完全一致。
