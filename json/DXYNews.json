@@ -19,6 +19,15 @@
             "provinceId": ""
         },
         {
+            "title": "Two US ER doctors in critical condition with coronavirus",
+            "summary": "Two emergency doctors in the US are in a critical condition after they were infected with the coronavirus, according to the American College of Emergency Physicians (ACEP).",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239547822849970176?s=20",
+            "pubDate": 1584354600000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "Virginia reports first coronavirus death",
             "summary": "Virginia reported its first coronavirus death Saturday, according to a news release from the state Department of Health.",
             "infoSource": "CNN",
@@ -78,15 +87,6 @@
             "infoSource": "CNN",
             "sourceUrl": "https://twitter.com/DingXiangDoctor/status/1239383502077845504?s=20",
             "pubDate": 1584326640000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "US coronavirus cases now above 3,400, death toll rises to 65",
-            "summary": "There are at least 3,482 cases of the novel coronavirus in the United States, according to state and local health agencies, governments and the US Centers for Disease Control and Prevention.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DingXiangDoctor/status/1239374588615639042?s=20",
-            "pubDate": 1584324240000,
             "provinceName": null,
             "provinceId": ""
         }
