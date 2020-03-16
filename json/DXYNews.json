@@ -1,6 +1,60 @@
 {
     "results": [
         {
+            "title": "Tokyo 2020 “Flame Of Recovery” tour scaled down over coronavirus fears",
+            "summary": "Tokyo 2020’s “Flame Of Recovery” tour has been reduced in size due to the coronavirus outbreak, relay organisers confirmed on Monday.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239546356001210373?s=20",
+            "pubDate": 1584361801000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "UN steps up support for refugees in Iran during virus outbreak",
+            "summary": "The United Nations Refugee Agency (UNHCR) has enhanced its emergency support to refugees in Iran following the coronavirus outbreak there, on Sunday.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239530747330883586?s=20",
+            "pubDate": 1584358201000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Virginia reports first coronavirus death",
+            "summary": "Virginia reported its first coronavirus death Saturday, according to a news release from the state Department of Health.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239478207390208000",
+            "pubDate": 1584353281000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Russia to shut Belarus border in one of several \"proactive steps\"",
+            "summary": "Russia will close its border with neighboring Belarus because of the coronavirus pandemic, Russian Prime Minister Mikhail Mishustin said Monday.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239530223135117314?s=20",
+            "pubDate": 1584351000000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Coronavirus: African states impose strict restrictions",
+            "summary": "Several African states have imposed far-reaching restrictions in a bid to curb the spread of coronavirus.",
+            "infoSource": "BBC",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239483588623491072?s=20",
+            "pubDate": 1584349321000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "A second British MP today confirmed she had tested positive for coronavirus",
+            "summary": "Labor MP for Jarrow Kate Osborne said she has been diagnosed with the COVID-19 virus following a period of self-isolation and subsequent testing.",
+            "infoSource": "BBC",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239485431617470464?s=20",
+            "pubDate": 1584348841000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "Peru closes borders, orders mandatory self-quarantine over coronavirus",
             "summary": "Peruvian President Martin Vizcarra issued a nationwide state of emergency Sunday during a televised news conference, to slow the spread of coronavirus.\n\nVizcarra said the state of emergency will last 15 days. He ordered people to stay home and self-quarantine to help slow the spread of coronavirus and guaranteed sufficient food and medicine for all Peruvians during this time of crisis.\n\nThe president also announced the closure of all borders.\n\nAs of Sunday, Peru has 71 confirmed cases of coronavirus.\n",
             "infoSource": "CNN",
@@ -33,60 +87,6 @@
             "infoSource": "CNN",
             "sourceUrl": "https://twitter.com/DingXiangDoctor/status/1239374588615639042?s=20",
             "pubDate": 1584324240000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "More coronavirus cases outside of mainland China than inside the country where pandemic began",
-            "summary": "There have now been more cases of the novel coronavirus outside of mainland China than inside, according to numbers from the World Health Organization and from public health agencies tracked by CNN.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DingXiangDoctor/status/1239372639090532352?s=20",
-            "pubDate": 1584323880000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Bahamas confirms first case of coronavirus",
-            "summary": "Bahamas Prime Minister Hubert Minnis announced the country's first confirmed case of coronavirus, according to a tweet from his office Sunday. ",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DingXiangDoctor/status/1239363194189041664?s=20",
-            "pubDate": 1584321900000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "CDC recommends canceling or postponing events involving more than 50 people for eight weeks",
-            "summary": "The US Centers for Disease Control and Prevention published interim guidance Sunday recommending \"that for the next 8 weeks, organizers (whether groups or individuals) cancel or postpone in-person events that consist of 50 people or more throughout the United States.\"",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DingXiangDoctor/status/1239365963910275078?s=20",
-            "pubDate": 1584318240000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Lebanon announces two-week lockdown",
-            "summary": "Lebanon has closed its airport, borders and ports for two weeks starting Sunday until March 29 at midnight to contain the spread of coronavirus in the country, Information Minister Manal Abdul Samad said in a press conference on Sunday in Beirut.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239338595653005313?s=20",
-            "pubDate": 1584314100000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Germany now has more than 4,800 coronavirus cases",
-            "summary": "The number of positive coronavirus cases in Germany has risen to 4,838 as of Sunday, according to the Robert Koch Institute, Germany’s agency for disease control. ",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239334288690053120?s=20",
-            "pubDate": 1584305460000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Italy announces 368 more coronavirus deaths",
-            "summary": "Italy on Sunday announced 368 new deaths in the last 24 hours, bringing the total death toll in the country to 1,809, according to Civil Protection Department Chief Angelo Borrelli.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DrDingxiang/status/1239333576979542016?s=20",
-            "pubDate": 1584302640000,
             "provinceName": null,
             "provinceId": ""
         }
