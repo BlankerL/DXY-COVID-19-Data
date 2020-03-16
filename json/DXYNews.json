@@ -1,11 +1,29 @@
 {
     "results": [
         {
+            "title": "New Jersey introduces statewide 8 p.m. ET curfew",
+            "summary": "New Jersey residents are no longer allowed to travel from 8 p.m. ET to 5 a.m. ET, with the exception of essential travel, Gov. Phil Murphy announced today.\nThis remains in effect for the foreseeable future.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239562841599799308",
+            "pubDate": 1584369601000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "Connecticut, New York and New Jersey ban gatherings of more than 50 people",
             "summary": "New York, New Jersey and Connecticut have announced a ban on gatherings of more than 50 people, New York Gov. Andrew Cuomo said Monday on a call alongside Connecticut Gov. Ned Lamont and New Jersey Gov. Phil Murphy.",
             "infoSource": "CNN",
             "sourceUrl": "https://twitter.com/DXDoctor_/status/1239560023346315266",
             "pubDate": 1584368821000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "First coronavirus death in Wales confirmed",
+            "summary": "A 68-year-old patient from Wrexham is the first death in Wales to be confirmed.",
+            "infoSource": "BBC",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239568245159391232",
+            "pubDate": 1584367921000,
             "provinceName": null,
             "provinceId": ""
         },
@@ -69,24 +87,6 @@
             "infoSource": "BBC",
             "sourceUrl": "https://twitter.com/DXDoctor_/status/1239483588623491072?s=20",
             "pubDate": 1584349321000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "A second British MP today confirmed she had tested positive for coronavirus",
-            "summary": "Labor MP for Jarrow Kate Osborne said she has been diagnosed with the COVID-19 virus following a period of self-isolation and subsequent testing.",
-            "infoSource": "BBC",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239485431617470464?s=20",
-            "pubDate": 1584348841000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Michigan confirms 20 new cases of coronavirus, bringing state total to 53",
-            "summary": "A Detroit woman with no history of international travel or confirmed contact with an infected patient is one of 20 new cases of coronavirus reported in Michigan Sunday.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239412421439049730",
-            "pubDate": 1584333720000,
             "provinceName": null,
             "provinceId": ""
         }
