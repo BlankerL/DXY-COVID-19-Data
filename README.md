@@ -14,8 +14,8 @@
 3. 新闻数据[DXYNews.csv](csv/DXYNews.csv)
 4. 谣言数据[DXYRumors.csv](csv/DXYRumors.csv)
 
-其中：地区数据[DXYArea.csv](csv/DXYArea.csv)仅包括丁香园中国地区精确至地级市的数据，港澳台/西藏的数据精确度仅到省级，不包含在此文件中。如有需要可以修改脚本内Listen类的[`csv_dumper()`](https://github.com/BlankerL/DXY-COVID-19-Data/blob/8e21a7e27604a9d2b1dcf0fa3d0266aa68576753/script.py#L71)函数，来自定义数据提取的存储方式。  
-另外，也可以参考[这个问题](https://github.com/BlankerL/DXY-COVID-19-Crawler/issues/67)，来大致了解这个函数的逻辑和修改的方法。
+自[`4db432f`](https://github.com/BlankerL/DXY-COVID-19-Data/commit/4db432fda233a701a3a7569e08ab20db083987b1)开始，DXYArea.csv包含中国境内省市级、港澳台地区及海外数据。
+另外，也可以参考[这个问题](https://github.com/BlankerL/DXY-COVID-19-Crawler/issues/67)，来定制自己的数据集。
 
 #### JSON文件列表
 由于API接口时常不稳定，因此此项目也会定时向`json`文件夹中推送静态的JSON文件更新。JSON文件与API中提供的JSON完全一致。
