@@ -1,6 +1,42 @@
 {
     "results": [
         {
+            "title": "There are 3,910 cases of coronavirus in the US",
+            "summary": "There are at least 3,910 cases of the novel coronavirus in the United States, according to the state and local health agencies, governments and the US Centers for Disease Control and Prevention.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239616417822937088",
+            "pubDate": 1584382679000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "First participant in coronavirus vaccine trial given dose",
+            "summary": "A novel coronavirus vaccine trial in the US has now given a dose to its first participant, the National Institute of Allergy and Infectious Diseases announced Monday.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239612727602995200",
+            "pubDate": 1584380929000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Hungary will its close borders to foreigners at midnight",
+            "summary": "Beginning at midnight tonight, people who do not have Hungarian citizenship will not be allowed to enter the territory of Hungary, the country's international communication office tells CNN. ",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239611561091579905",
+            "pubDate": 1584380814000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Coronavirus: Boris Johnson set to deliver first daily update",
+            "summary": "Boris Johnson will outline the next steps in the UK's plan to fight coronavirus at the first of a series of daily news conferences.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239601547262091264",
+            "pubDate": 1584376798000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "First case in Greenland",
             "summary": "Greenland have 1 case of COVID-19 at the moment and in a preemptive move on the 13th March the Danish Government closed off the borders to non-Danish citizens who do not have a recognized purpose for entering the Danish Realm including Greenland and the Faroe Islands.",
             "infoSource": "visitgreenland",
@@ -51,42 +87,6 @@
             "infoSource": "BBC",
             "sourceUrl": "https://twitter.com/DXDoctor_/status/1239568245159391232",
             "pubDate": 1584367921000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Borders between Spain and Portugal will close because of coronavirus restrictions",
-            "summary": "Borders between Spain and Portugal will be closed by the end of Monday, leaving only nine active crossings open to allow for the transit of products and workers who are required to cross the border, Portugal’s Minister of Internal Affairs Eduardo Cabrita said today at a news conference. ",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239569174000631808",
-            "pubDate": 1584367200000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Tokyo 2020 “Flame Of Recovery” tour scaled down over coronavirus fears",
-            "summary": "Tokyo 2020’s “Flame Of Recovery” tour has been reduced in size due to the coronavirus outbreak, relay organisers confirmed on Monday.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239546356001210373?s=20",
-            "pubDate": 1584361801000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "UN steps up support for refugees in Iran during virus outbreak",
-            "summary": "The United Nations Refugee Agency (UNHCR) has enhanced its emergency support to refugees in Iran following the coronavirus outbreak there, on Sunday.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239530747330883586?s=20",
-            "pubDate": 1584358201000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Two US ER doctors in critical condition with coronavirus",
-            "summary": "Two emergency doctors in the US are in a critical condition after they were infected with the coronavirus, according to the American College of Emergency Physicians (ACEP).",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239547822849970176?s=20",
-            "pubDate": 1584354600000,
             "provinceName": null,
             "provinceId": ""
         }
