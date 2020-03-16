@@ -21,13 +21,12 @@ The data will be published hourly.
 3. News [DXYNews.csv](csv/DXYNews.csv)
 4. Rumors [DXYRumors.csv](csv/DXYRumors.csv)
 
-Regional data ([DXYArea.csv](csv/DXYArea.csv))
-only contains all the city-level data. 
-Data from Hong Kong SAR, Macao SAR, Tai Wan and Tibet are province-level, 
-and not city-level data available from DXY, so they are not in this file. 
 
-If needed, you can modify the [`csv_dumper()`](https://github.com/BlankerL/DXY-COVID-19-Data/blob/8e21a7e27604a9d2b1dcf0fa3d0266aa68576753/script.py#L107)
-function to customize your own files. 
+Since [`4db432f`](https://github.com/BlankerL/DXY-COVID-19-Data/commit/4db432fda233a701a3a7569e08ab20db083987b1), 
+DXYArea.csv contains province- and city-level data in China, and data of Hong Kong, 
+Macao and Taiwan regions and overseas are also available in this file.
+
+In addition, you can also refer to [this issue](https://github.com/BlankerL/DXY-COVID-19-Crawler/issues/67) to customize your own data set.
 
 #### JSON File List
 Due to the instability of API,
