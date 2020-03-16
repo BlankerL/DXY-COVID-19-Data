@@ -1,6 +1,33 @@
 {
     "results": [
         {
+            "title": "Two members of the French parliament test positive for coronavirus",
+            "summary": "Two members of France’s lower house of parliament said they have tested positive for coronavirus. \n\nSylvie Charrière, LaREM, who represents the Seine-Saint-Denis outside Paris, and LR MP Guy Teissier, representing the Bouches-du-Rhône.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239642373082058752",
+            "pubDate": 1584389045000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "France closes its borders to contain the coronavirus outbreak",
+            "summary": "French President Emmanuel Macron said the country’s borders will be closed to contain the coronavirus outbreak starting at noon local on Tuesday.\nMoments ago, Macron said he was prohibiting gatherings across France, including family and other social gatherings.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239636177059057665",
+            "pubDate": 1584387371000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Russia: Government bans entry of foreign nationals due to COVID-19 since March 18",
+            "summary": "On Monday, March 16, Russian government officials announced that foreign nationals and stateless people will be prohibited from entering the country from Wednesday, March 18, to Friday, May 1, to prevent further spread of the ongoing outbreak of coronavirus disease (COVID-19). Diplomatic representatives, airplane crew members, and some other select categories of people will be exempt from the restriction.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239634354453663744",
+            "pubDate": 1584387093000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "There are now more than 4,000 confirmed coronavirus cases in the US",
             "summary": "There are at least 4,008 cases of the novel coronavirus in the United States, according to the state and local health agencies, governments and the US Centers for Disease Control and Prevention. At least 70 people have died.  ",
             "infoSource": "CNN",
@@ -60,33 +87,6 @@
             "infoSource": "CNN",
             "sourceUrl": "https://twitter.com/DXDoctor_/status/1239601547262091264",
             "pubDate": 1584376798000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "First case in Greenland",
-            "summary": "Greenland have 1 case of COVID-19 at the moment and in a preemptive move on the 13th March the Danish Government closed off the borders to non-Danish citizens who do not have a recognized purpose for entering the Danish Realm including Greenland and the Faroe Islands.",
-            "infoSource": "visitgreenland",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239580368824500224",
-            "pubDate": 1584373200000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "EU announces restrictions on non-essential travel",
-            "summary": "The European Commission will introduce temporary restrictions on non-essential travel to the EU, as part of its efforts to tackle and contain the ongoing spread of coronavirus across Europe, Commission President Ursula von der Leyen just announced. ",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239575787071852545",
-            "pubDate": 1584372601000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "How Moscow is responding to the coronavirus outbreak",
-            "summary": "The Moscow mayor’s office announced new measures to combat the spread of coronavirus today. These include a ban on events with crowds larger than 50 people and mandatory self-isolation for those arriving from Europe, the UK and the US. ",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239572728945856519",
-            "pubDate": 1584371821000,
             "provinceName": null,
             "provinceId": ""
         }
