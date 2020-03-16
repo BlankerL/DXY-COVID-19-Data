@@ -77,7 +77,10 @@ class Listener:
                     os.path.split(os.path.realpath(__file__))[0], 'json', collection + '.json'),
                 'r', encoding='utf-8'
             )
-            static_data = json.load(json_file)
+            try:
+                static_data = json.load(json_file)
+            except (UnicodeDecodeError, FileNotFoundError, json.decoder.JSONDecodeError):
+                static_data = None
             json_file.close()
             while True:
                 request = requests.get(url='https://lab.isaaclin.cn/nCoV/api/' + collections.get(collection))
