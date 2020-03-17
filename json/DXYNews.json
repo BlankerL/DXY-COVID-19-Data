@@ -1,6 +1,78 @@
 {
     "results": [
         {
+            "title": "Tanzania to close schools over coronavirus",
+            "summary": "Tanzania has announced the closure of all schools as part of measures to curb the spread of coronavirus in the East African nation.",
+            "infoSource": "BBC",
+            "sourceUrl": "https://www.bbc.com/news/topics/cyz0z8w0ydwt/coronavirus-pandemic",
+            "pubDate": 1584459237000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Uber pool service suspended in both the United States and Canada",
+            "summary": "Ride-share giant Uber announced Monday it is suspending its pool option in both the United States and Canada as concerns over the spread of novel coronavirus continue to rise.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/index.html",
+            "pubDate": 1584459119000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Coronavirus: Pictures show London's empty streets",
+            "summary": "Streets around some of London's most popular landmarks are much quieter than normal after the government announced new measures to protect people from the coronavirus outbreak.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://www.bbc.com/news/uk-england-london-51929558?intlink_from_url=https://www.bbc.com/news/topics/cyz0z8w0ydwt/coronavirus-pandemic&link_location=live-reporting-story",
+            "pubDate": 1584458967000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Miami is closing all non-essential business due to coronavirus outbreak",
+            "summary": "The City of Miami, Florida, has issued an order on Tuesday mandating all entertainment and non-essential business establishments to close until further notice due to increased cases of community transmission in Florida, according to a news release from the city.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/index.html",
+            "pubDate": 1584458755000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Ferry firm suspends passenger services",
+            "summary": "Brittany Ferries is to suspend all passenger services as a result of the coronavirus crisis.\nThe company, which had already halted some crossings, said the last passenger sailing would leave Santander in Spain on Saturday, bound for Portsmouth.",
+            "infoSource": "BBC",
+            "sourceUrl": "https://www.bbc.com/news/topics/cyz0z8w0ydwt/coronavirus-pandemic",
+            "pubDate": 1584458644000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Japan still planning 'complete' Games",
+            "summary": "Japan's Olympic minister says the country is still planning for a \"complete\" hosting of the Tokyo Olympics that will be held on time, with spectators in attendance.",
+            "infoSource": "BBC",
+            "sourceUrl": "https://www.bbc.com/sport/olympics/51924635?intlink_from_url=https://www.bbc.com/news/topics/cyz0z8w0ydwt/coronavirus-pandemic&link_location=live-reporting-story",
+            "pubDate": 1584458486000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "All non-urgent England operations to be postponed",
+            "summary": "All non-urgent operations in England will be postponed from 15 April to free up 30,000 beds to help tackle coronavirus, NHS England has said.",
+            "infoSource": "BBC",
+            "sourceUrl": "https://www.bbc.com/news/uk-51933410?intlink_from_url=https://www.bbc.com/news/topics/cyz0z8w0ydwt/coronavirus-pandemic&link_location=live-reporting-story",
+            "pubDate": 1584458016000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "San Francisco is living under shelter in place orders. Here's what's still allowed",
+            "summary": "Nearly seven million people living in a wide swath of Northern California, including Silicon Valley, are currently under a \"shelter in place order.\"",
+            "infoSource": "CNN",
+            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/index.html",
+            "pubDate": 1584457694000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "London lock-down to cost £10bn a month",
             "summary": "A London lock-down for a month could cost £10bn, reckons the Centre for Economics and Business Research.",
             "infoSource": "BBC",
@@ -15,78 +87,6 @@
             "infoSource": "CNN",
             "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/index.html",
             "pubDate": 1584455608000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "BBC's Question Time to lose studio audience",
-            "summary": "Question Time, the BBC's flagship political debate programme, will proceed without an audience during the coronavirus outbreak.",
-            "infoSource": "BBC",
-            "sourceUrl": "https://www.bbc.com/news/entertainment-arts-51931050?intlink_from_url=https://www.bbc.com/news/topics/cyz0z8w0ydwt/coronavirus-pandemic&link_location=live-reporting-story",
-            "pubDate": 1584455457000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Laura Ashley collapses as firms demand more help",
-            "summary": "Fashion and furniture chain Laura Ashley has become the latest business casualty of the coronavirus pandemic.",
-            "infoSource": "BBC",
-            "sourceUrl": "https://www.bbc.com/news/business-51927691?intlink_from_url=https://www.bbc.com/news/topics/cyz0z8w0ydwt/coronavirus-pandemic&link_location=live-reporting-story",
-            "pubDate": 1584454826000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Royal Bath and West show postponed",
-            "summary": "Following the Government guidance, we have made the extremely difficult decision to postpone the Royal Bath & West Show. The Royal Bath & West Show will now take place on 31st July, 1st & 2nd August",
-            "infoSource": "BBC",
-            "sourceUrl": "https://twitter.com/BathandWest/status/1239907780439531523",
-            "pubDate": 1584454299000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Atlanta airport closes two domestic terminal checkpoints due to \"declining demand\"",
-            "summary": "Hartsfield Jackson International Airport has temporarily closed the north and south domestic terminal checkpoints due to \"declining demand,\" according to airport spokesperson, Elise Durham.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/index.html",
-            "pubDate": 1584454095000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Second death in Scotland from coronavirus",
-            "summary": "A second person has died in Scotland after becoming infected with coronavirus, the Scottish government says.",
-            "infoSource": "BBC",
-            "sourceUrl": "https://www.bbc.com/news/uk-scotland-51932090?intlink_from_url=https://www.bbc.com/news/topics/cyz0z8w0ydwt/coronavirus-pandemic&link_location=live-reporting-story",
-            "pubDate": 1584453973000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Brooklyn will stop prosecuting \"low-level offenses that don't jeopardize public safety\"",
-            "summary": "The Brooklyn, New York, district attorney's office says it will stop prosecuting “low-level offenses that don’t jeopardize public safety.”",
-            "infoSource": "CNN",
-            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/index.html",
-            "pubDate": 1584453852000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Alan Partridge festival postponed over coronavirus",
-            "summary": "The organiser of an Alan Partridge fan festival has decided not to take a chance with people's health - and postponed the event.",
-            "infoSource": "BBC",
-            "sourceUrl": "https://www.bbc.com/news/uk-england-norfolk-51928231?intlink_from_url=https://www.bbc.com/news/explainers&link_location=live-reporting-story",
-            "pubDate": 1584453703000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "NI schools 'should close immediately'",
-            "summary": "Schools in NI should close immediately, an umbrella body for Catholic school principals has said.",
-            "infoSource": "BBC",
-            "sourceUrl": "https://www.bbc.com/news/uk-northern-ireland-51923280?intlink_from_url=https://www.bbc.com/news/explainers&link_location=live-reporting-story",
-            "pubDate": 1584453470000,
             "provinceName": null,
             "provinceId": ""
         }
