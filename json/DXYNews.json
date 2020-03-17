@@ -1,6 +1,24 @@
 {
     "results": [
         {
+            "title": "Malaysia imposes nationwide movement control order amid novel coronavirus outbreak",
+            "summary": "Malaysia will impose a nationwide movement control order from Wednesday until the end of the month to combat the spread of coronavirus, Prime Minister Muhyiddin Yassin announced Monday night.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/h_4a1dbc7d90620a4233822dd2352f097e",
+            "pubDate": 1584410400000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "US Social Security offices will close in-person services starting Tuesday",
+            "summary": "Beginning today, US Social Security offices will close for in-person appointments and will only provide phone service.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/h_1f982e2b57b632a7aef40a8be19c4390",
+            "pubDate": 1584408600000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "Minnesota orders temporary closures of restaurants, bars and other public places",
             "summary": "Minnesota Gov. Tim Walz signed an executive order on Monday requiring the temporary closure of all restaurants and bars to dine-in customers to prevent further spread of the coronavirus.",
             "infoSource": "CNN",
@@ -69,24 +87,6 @@
             "infoSource": "CNN",
             "sourceUrl": "https://twitter.com/DXDoctor_/status/1239634354453663744",
             "pubDate": 1584387093000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "There are now more than 4,000 confirmed coronavirus cases in the US",
-            "summary": "There are at least 4,008 cases of the novel coronavirus in the United States, according to the state and local health agencies, governments and the US Centers for Disease Control and Prevention. At least 70 people have died.  ",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239624913985499136",
-            "pubDate": 1584384666000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Canada will deny entry to anyone who isn't a citizen or permanent resident",
-            "summary": "Canadian Prime Minister Justin Trudeau says the country will deny entry to people who are not Canadian citizens or permanent residents.\n\"This measure will carve out some designated exceptions including for air crews, diplomats, immediate family members of Canadian citizens, and at this time, US citizens,” Trudeau said at a news conference in Ottawa.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239621354673950726",
-            "pubDate": 1584383838000,
             "provinceName": null,
             "provinceId": ""
         }
