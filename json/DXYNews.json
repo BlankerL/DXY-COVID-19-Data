@@ -1,6 +1,33 @@
 {
     "results": [
         {
+            "title": "Just joining us? Here's the latest on the coronavirus pandemic",
+            "summary": "The numbers: As of midnight in Geneva, the World Health Organization has recorded 173,344 coronavirus cases and 7,019 deaths globally. ",
+            "infoSource": "CNN",
+            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/h_910adfe6c0579ff114305e8a9c3b66bc",
+            "pubDate": 1584432640000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Drastic new measures in France go into effect today",
+            "summary": "New measures and restrictions will go into effect today in France, limiting people's movements and activities as the country's coronavirus cases continue to spike",
+            "infoSource": "CNN",
+            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/h_3b86f07eae5bf8bc7300f0c5d24397fa",
+            "pubDate": 1584432404000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Trump, finally, takes the coronavirus emergency seriously",
+            "summary": "The President Trump offered Americans something they have rarely seen from him in his latest and most somber press conference yet on the coronavirus pandemic on Monday.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/h_8afd1edc051a473f2342a863096e205a",
+            "pubDate": 1584432059000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "Global death toll passing China fatalities is a turning point in coronavirus pandemic",
             "summary": "There are now more deaths from the novel coronavirus outside mainland China than inside the country.",
             "infoSource": "CNN",
@@ -60,33 +87,6 @@
             "infoSource": "CNN",
             "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/h_4a1dbc7d90620a4233822dd2352f097e",
             "pubDate": 1584410400000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Colombia will close borders to slow coronavirus spread",
-            "summary": "Colombian President Iván Duque announced Monday his decision to close the country's borders to protect the health and well-being of citizens.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-16-20-intl-hnk/h_54f614f1ec436954512292a82408d306",
-            "pubDate": 1584408601000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "US Social Security offices will close in-person services starting Tuesday",
-            "summary": "Beginning today, US Social Security offices will close for in-person appointments and will only provide phone service.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/h_1f982e2b57b632a7aef40a8be19c4390",
-            "pubDate": 1584408600000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Minnesota orders temporary closures of restaurants, bars and other public places",
-            "summary": "Minnesota Gov. Tim Walz signed an executive order on Monday requiring the temporary closure of all restaurants and bars to dine-in customers to prevent further spread of the coronavirus.",
-            "infoSource": "CNN",
-            "sourceUrl": "",
-            "pubDate": 1584404290000,
             "provinceName": null,
             "provinceId": ""
         }
