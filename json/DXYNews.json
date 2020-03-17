@@ -10,6 +10,15 @@
             "provinceId": ""
         },
         {
+            "title": "Colombia will close borders to slow coronavirus spread",
+            "summary": "Colombian President Iván Duque announced Monday his decision to close the country's borders to protect the health and well-being of citizens.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-16-20-intl-hnk/h_54f614f1ec436954512292a82408d306",
+            "pubDate": 1584408601000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "US Social Security offices will close in-person services starting Tuesday",
             "summary": "Beginning today, US Social Security offices will close for in-person appointments and will only provide phone service.",
             "infoSource": "CNN",
@@ -78,15 +87,6 @@
             "infoSource": "CNN",
             "sourceUrl": "https://twitter.com/DXDoctor_/status/1239636177059057665",
             "pubDate": 1584387371000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Russia: Government bans entry of foreign nationals due to COVID-19 since March 18",
-            "summary": "On Monday, March 16, Russian government officials announced that foreign nationals and stateless people will be prohibited from entering the country from Wednesday, March 18, to Friday, May 1, to prevent further spread of the ongoing outbreak of coronavirus disease (COVID-19). Diplomatic representatives, airplane crew members, and some other select categories of people will be exempt from the restriction.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239634354453663744",
-            "pubDate": 1584387093000,
             "provinceName": null,
             "provinceId": ""
         }
