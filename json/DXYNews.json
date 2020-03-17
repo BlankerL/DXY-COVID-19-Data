@@ -1,6 +1,15 @@
 {
     "results": [
         {
+            "title": "Global death toll passing China fatalities is a turning point in coronavirus pandemic",
+            "summary": "There are now more deaths from the novel coronavirus outside mainland China than inside the country.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://edition.cnn.com/world/live-news/coronavirus-outbreak-03-17-20-intl-hnk/h_e66aba303268df013c6a7c9f118312c6",
+            "pubDate": 1584423601000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "The US doesn't have enough stockpiled medical equipment for the pandemic, health officials warn",
             "summary": "Top health care officials in the US warned today that the country doesn't have enough stockpiled medical equipment like masks and gloves to deal with the coronavirus pandemic.",
             "infoSource": "CNN",
@@ -78,15 +87,6 @@
             "infoSource": "CNN",
             "sourceUrl": "",
             "pubDate": 1584404290000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Chinese Study confirms children with COVID-19 show less severe symptoms than adults",
-            "summary": "Children in China infected with novel coronavirus showed less severe symptoms than adults, though infants and toddlers were vulnerable to moderate and severe infection, according to a new study published online in the medical journal Pediatrics on Monday.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239672175927291904",
-            "pubDate": 1584394491000,
             "provinceName": null,
             "provinceId": ""
         }
