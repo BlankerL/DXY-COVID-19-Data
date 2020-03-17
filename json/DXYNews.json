@@ -1,6 +1,24 @@
 {
     "results": [
         {
+            "title": "The US doesn't have enough stockpiled medical equipment for the pandemic, health officials warn",
+            "summary": "Top health care officials in the US warned today that the country doesn't have enough stockpiled medical equipment like masks and gloves to deal with the coronavirus pandemic.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239775987048431616",
+            "pubDate": 1584419700000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Japan's Prime Minister says he has G7 support to hold Olympics in their \"complete form\"",
+            "summary": "Japanese Prime Minister Shinzo Abe said today that he \"secured support\" from G7 leaders to hold the Tokyo 2020 Olympic Games in their \"complete form,” which would provide \"proof that the world has contained coronavirus.\"",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239776375604539392",
+            "pubDate": 1584419100000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "India to ban travelers from the European Union, UK and Turkey",
             "summary": "India is banning all travelers from the European Union, Iceland, Liechtenstein, Norway, Switzerland, Turkey and the United Kingdom from midnight Wednesday local time, the Indian Ministry of Health and Family Welfare said.",
             "infoSource": "CNN",
@@ -69,24 +87,6 @@
             "infoSource": "CNN",
             "sourceUrl": "https://twitter.com/DXDoctor_/status/1239672175927291904",
             "pubDate": 1584394491000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Switzerland bans all events and closes shops",
-            "summary": "Switzerland’s government banned all private and public events from midnight local time on Monday for more than a month, according to a statement from the Swiss Federal Council.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239658930046824448",
-            "pubDate": 1584391680000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "A CDC employee was diagnosed with novel coronavirus",
-            "summary": "The US Centers for Disease Control and Prevention announced its first employee diagnosed with novel coronavirus and said the employee who tested positive is in \"good condition and is isolated to prevent spread of infection to others.\"",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239654384054579206",
-            "pubDate": 1584390600000,
             "provinceName": null,
             "provinceId": ""
         }
