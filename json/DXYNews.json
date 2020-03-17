@@ -1,6 +1,15 @@
 {
     "results": [
         {
+            "title": "Minnesota orders temporary closures of restaurants, bars and other public places",
+            "summary": "Minnesota Gov. Tim Walz signed an executive order on Monday requiring the temporary closure of all restaurants and bars to dine-in customers to prevent further spread of the coronavirus.",
+            "infoSource": "CNN",
+            "sourceUrl": "",
+            "pubDate": 1584404290000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "Chinese Study confirms children with COVID-19 show less severe symptoms than adults",
             "summary": "Children in China infected with novel coronavirus showed less severe symptoms than adults, though infants and toddlers were vulnerable to moderate and severe infection, according to a new study published online in the medical journal Pediatrics on Monday.",
             "infoSource": "CNN",
@@ -78,15 +87,6 @@
             "infoSource": "CNN",
             "sourceUrl": "https://twitter.com/DXDoctor_/status/1239621354673950726",
             "pubDate": 1584383838000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "More than 3,000 new coronavirus cases reported in Italy in the last 24 hours",
-            "summary": "The Italian Civil Protection Authority reported a spike in new coronavirus cases today, with 3,233 new cases in the last 24 hours alone.  \nTotal cases in Italy now stands at 27,980, which includes current cases, recovered cases and deaths) \nAt least 2,158 have died from coronavirus in Italy. That figure is up by 349 in the last 24 hours. ",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239621156463734785",
-            "pubDate": 1584383786000,
             "provinceName": null,
             "provinceId": ""
         }
