@@ -31,6 +31,13 @@ collections = {
 time_types = ('pubDate', 'createTime', 'modifyTime', 'dataInfoTime', 'crawlTime', 'updateTime')
 
 
+def int_converter(value):
+    try:
+        return int(value)
+    except TypeError:
+        return value
+
+
 def dict_parser(document, city_dict=None):
     result = dict()
 
@@ -51,19 +58,19 @@ def dict_parser(document, city_dict=None):
     result['provinceName'] = document['provinceName']
     result['provinceEnglishName'] = document.get('provinceEnglishName')
     result['province_zipCode'] = document.get('locationId')
-    result['province_confirmedCount'] = document['confirmedCount']
-    result['province_suspectedCount'] = document['suspectedCount']
-    result['province_curedCount'] = document['curedCount']
-    result['province_deadCount'] = document['deadCount']
+    result['province_confirmedCount'] = int_converter(document['confirmedCount'])
+    result['province_suspectedCount'] = int_converter(document['suspectedCount'])
+    result['province_curedCount'] = int_converter(document['curedCount'])
+    result['province_deadCount'] = int_converter(document['deadCount'])
 
     if city_dict:
         result['cityName'] = city_dict['cityName']
         result['cityEnglishName'] = city_dict.get('cityEnglishName')
         result['city_zipCode'] = city_dict.get('locationId')
-        result['city_confirmedCount'] = city_dict['confirmedCount']
-        result['city_suspectedCount'] = city_dict['suspectedCount']
-        result['city_curedCount'] = city_dict['curedCount']
-        result['city_deadCount'] = city_dict['deadCount']
+        result['city_confirmedCount'] = int_converter(city_dict['confirmedCount'])
+        result['city_suspectedCount'] = int_converter(city_dict['suspectedCount'])
+        result['city_curedCount'] = int_converter(city_dict['curedCount'])
+        result['city_deadCount'] = int_converter(city_dict['deadCount'])
 
     result['updateTime'] = datetime.datetime.fromtimestamp(document['updateTime']/1000)
 
@@ -174,6 +181,7 @@ class Listener:
                     os.path.split(os.path.realpath(__file__))[0], 'csv', collection + '.csv'),
                 index=False, encoding='utf_8_sig'
             )
+
 
 if __name__ == '__main__':
     listener = Listener()
