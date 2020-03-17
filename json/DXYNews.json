@@ -1,6 +1,24 @@
 {
     "results": [
         {
+            "title": "Taj Mahal: 'Monument of love' shuts down amid coronavirus fears",
+            "summary": "India's iconic monument Taj Mahal has shut down to halt the spread of the coronavirus, officials say.",
+            "infoSource": "BBC",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239759560891437056?s=20",
+            "pubDate": 1584417173000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
+            "title": "Monaco's state minister tests positive for coronavirus",
+            "summary": "Serge Telle, the state minister of Monaco, has tested positive for the coronavirus, according to the principality's Ministry of Health.",
+            "infoSource": "CNN",
+            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239771778500587520",
+            "pubDate": 1584415081000,
+            "provinceName": null,
+            "provinceId": ""
+        },
+        {
             "title": "Malaysia imposes nationwide movement control order amid novel coronavirus outbreak",
             "summary": "Malaysia will impose a nationwide movement control order from Wednesday until the end of the month to combat the spread of coronavirus, Prime Minister Muhyiddin Yassin announced Monday night.",
             "infoSource": "CNN",
@@ -69,24 +87,6 @@
             "infoSource": "CNN",
             "sourceUrl": "https://twitter.com/DXDoctor_/status/1239652146301120512",
             "pubDate": 1584390240000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "Two members of the French parliament test positive for coronavirus",
-            "summary": "Two members of France’s lower house of parliament said they have tested positive for coronavirus. \n\nSylvie Charrière, LaREM, who represents the Seine-Saint-Denis outside Paris, and LR MP Guy Teissier, representing the Bouches-du-Rhône.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239642373082058752",
-            "pubDate": 1584389045000,
-            "provinceName": null,
-            "provinceId": ""
-        },
-        {
-            "title": "France closes its borders to contain the coronavirus outbreak",
-            "summary": "French President Emmanuel Macron said the country’s borders will be closed to contain the coronavirus outbreak starting at noon local on Tuesday.\nMoments ago, Macron said he was prohibiting gatherings across France, including family and other social gatherings.",
-            "infoSource": "CNN",
-            "sourceUrl": "https://twitter.com/DXDoctor_/status/1239636177059057665",
-            "pubDate": 1584387371000,
             "provinceName": null,
             "provinceId": ""
         }
