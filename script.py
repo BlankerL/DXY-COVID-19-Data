@@ -132,8 +132,8 @@ class Listener:
             if static_data != current_data:
                 self.json_dumper(collection=collection, content=current_data)
                 changed_files.append('json/' + collection + '.json')
-            self.csv_dumper(collection=collection)
-            changed_files.append('csv/' + collection + '.csv')
+                self.csv_dumper(collection=collection)
+                changed_files.append('csv/' + collection + '.csv')
             logger.info('{collection} updated!'.format(collection=collection))
         # if changed_files:
         #     git_manager(changed_files=changed_files)
