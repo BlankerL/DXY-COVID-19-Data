@@ -135,8 +135,8 @@ class Listener:
                 self.csv_dumper(collection=collection)
                 changed_files.append('csv/' + collection + '.csv')
             logger.info('{collection} updated!'.format(collection=collection))
-        # if changed_files:
-        #     git_manager(changed_files=changed_files)
+        if changed_files:
+            git_manager(changed_files=changed_files)
 
     def json_dumper(self, collection, content):
         json_file = open(
