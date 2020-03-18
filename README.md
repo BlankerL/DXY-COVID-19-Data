@@ -8,6 +8,8 @@
 
 数据由[2019新型冠状病毒疫情实时爬虫](https://github.com/BlankerL/DXY-COVID-19-Crawler)获得，每小时检测一次更新，若有更新则推送至数据仓库中。
 
+**受限于服务器带宽压力，自2020年3月19日起，API接口`/nCoV/api/overall`及`/nCoV/api/area`不再返回时间序列数据，时间序列数据可以在[json](json)文件夹下获取。如果您调用接口时使用了`latest=0`参数，则需要修改请求，否则无需修改。**
+
 #### CSV文件列表
 1. 全国数据[DXYOverall.csv](csv/DXYOverall.csv)
 2. 地区数据[DXYArea.csv](csv/DXYArea.csv)（包含英文城市名）
