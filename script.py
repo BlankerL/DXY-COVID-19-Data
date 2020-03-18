@@ -132,16 +132,30 @@ class Listener:
             if static_data != current_data:
                 self.json_dumper(collection=collection, content=current_data)
                 changed_files.append('json/' + collection + '.json')
+                self.json_dumper(collection=collection)
+                changed_files.append('json/' + collection + '-TimeSeries.json')
                 self.csv_dumper(collection=collection)
                 changed_files.append('csv/' + collection + '.csv')
             logger.info('{collection} updated!'.format(collection=collection))
         if changed_files:
             git_manager(changed_files=changed_files)
 
-    def json_dumper(self, collection, content):
+    def json_dumper(self, collection, content=None):
+        suffix = '.json'
+        if not content and collection in ['DXYOverall', 'DXYArea']:
+            suffix = '-TimeSeries.json'
+            while True:
+                request = requests.get(url='https://lab.isaaclin.cn/nCoV/api/' + collections.get(collection) + '?latest=0')
+                if request.status_code == 200:
+                    content = request.json()
+                else:
+                    time.sleep(1)
+                    continue
         json_file = open(
             os.path.join(
-                os.path.split(os.path.realpath(__file__))[0], 'json', collection + '.json'),
+                os.path.split(
+                    os.path.realpath(__file__))[0], 'json', collection + suffix
+            ),
             'w', encoding='utf-8'
         )
         json.dump(content, json_file, ensure_ascii=False, indent=4)
