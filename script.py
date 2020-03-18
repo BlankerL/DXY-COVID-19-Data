@@ -18,7 +18,7 @@ import pandas as pd
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-uri = '**Confidential**'
+uri = '***Confidential**'
 client = MongoClient(uri)
 db = client['2019-nCoV']
 
@@ -29,13 +29,6 @@ collections = {
     'DXYRumors': 'rumors'
 }
 time_types = ('pubDate', 'createTime', 'modifyTime', 'dataInfoTime', 'crawlTime', 'updateTime')
-
-
-def int_converter(value):
-    try:
-        return int(value)
-    except TypeError:
-        return value
 
 
 def dict_parser(document, city_dict=None):
@@ -58,21 +51,21 @@ def dict_parser(document, city_dict=None):
     result['provinceName'] = document['provinceName']
     result['provinceEnglishName'] = document.get('provinceEnglishName')
     result['province_zipCode'] = document.get('locationId')
-    result['province_confirmedCount'] = int_converter(document['confirmedCount'])
-    result['province_suspectedCount'] = int_converter(document['suspectedCount'])
-    result['province_curedCount'] = int_converter(document['curedCount'])
-    result['province_deadCount'] = int_converter(document['deadCount'])
+    result['province_confirmedCount'] = document['confirmedCount']
+    result['province_suspectedCount'] = document['suspectedCount']
+    result['province_curedCount'] = document['curedCount']
+    result['province_deadCount'] = document['deadCount']
 
     if city_dict:
         result['cityName'] = city_dict['cityName']
         result['cityEnglishName'] = city_dict.get('cityEnglishName')
         result['city_zipCode'] = city_dict.get('locationId')
-        result['city_confirmedCount'] = int_converter(city_dict['confirmedCount'])
-        result['city_suspectedCount'] = int_converter(city_dict['suspectedCount'])
-        result['city_curedCount'] = int_converter(city_dict['curedCount'])
-        result['city_deadCount'] = int_converter(city_dict['deadCount'])
+        result['city_confirmedCount'] = city_dict['confirmedCount']
+        result['city_suspectedCount'] = city_dict['suspectedCount']
+        result['city_curedCount'] = city_dict['curedCount']
+        result['city_deadCount'] = city_dict['deadCount']
 
-    result['updateTime'] = datetime.datetime.fromtimestamp(document['updateTime']/1000)
+    result['updateTime'] = datetime.datetime.fromtimestamp(int(document['updateTime']/1000))
 
     return result
 
@@ -134,6 +127,7 @@ class Listener:
                     current_data = request.json()
                     break
                 else:
+                    time.sleep(1)
                     continue
             if static_data != current_data:
                 self.json_dumper(collection=collection, content=current_data)
@@ -141,8 +135,8 @@ class Listener:
             self.csv_dumper(collection=collection)
             changed_files.append('csv/' + collection + '.csv')
             logger.info('{collection} updated!'.format(collection=collection))
-        if changed_files:
-            git_manager(changed_files=changed_files)
+        # if changed_files:
+        #     git_manager(changed_files=changed_files)
 
     def json_dumper(self, collection, content):
         json_file = open(
@@ -169,7 +163,7 @@ class Listener:
             df.to_csv(
                 path_or_buf=os.path.join(
                     os.path.split(os.path.realpath(__file__))[0], 'csv', collection + '.csv'),
-                index=False, encoding='utf_8_sig'
+                index=False, encoding='utf_8_sig', float_format="%i"
             )
         else:
             df = pd.DataFrame(data=self.db.dump(collection=collection))
@@ -179,7 +173,7 @@ class Listener:
             df.to_csv(
                 path_or_buf=os.path.join(
                     os.path.split(os.path.realpath(__file__))[0], 'csv', collection + '.csv'),
-                index=False, encoding='utf_8_sig'
+                index=False, encoding='utf_8_sig', date_format="%Y%m%d %H:%M:%S"
             )
 
 
