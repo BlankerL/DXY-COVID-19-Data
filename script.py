@@ -134,6 +134,9 @@ class Listener:
                 changed_files.append('json/' + collection + '.json')
                 self.csv_dumper(collection=collection)
                 changed_files.append('csv/' + collection + '.csv')
+                if collection in ['DXYArea', 'DXYOverall']:
+                    self.db_dumper(collection=collection)
+                    changed_files.append('json/' + collection + '-TimeSeries.json')
             logger.info('{collection} checked!'.format(collection=collection))
         if changed_files:
             git_manager(changed_files=changed_files)
@@ -177,6 +180,72 @@ class Listener:
                     os.path.split(os.path.realpath(__file__))[0], 'csv', collection + '.csv'),
                 index=False, encoding='utf_8_sig', date_format="%Y-%m-%d %H:%M:%S"
             )
+
+    def db_dumper(self, collection):
+        if collection == 'DXYOverall':
+            pipeline = [
+                {
+                    '$sort': {
+                        'updateTime': -1
+                    }
+                },
+                {
+                    '$project': {
+                        'currentConfirmedCount': '$currentConfirmedCount',
+                        'confirmedCount': '$confirmedCount',
+                        'suspectedCount': '$suspectedCount',
+                        'curedCount': '$curedCount',
+                        'deadCount': '$deadCount',
+                        'seriousCount': '$seriousCount',
+                        'currentConfirmedIncr': '$currentConfirmedIncr',
+                        'confirmedIncr': '$confirmedIncr',
+                        'suspectedIncr': '$suspectedIncr',
+                        'curedIncr': '$curedIncr',
+                        'deadIncr': '$deadIncr',
+                        'seriousIncr': '$seriousIncr',
+                        'generalRemark': '$generalRemark',
+                        'abroadRemark': '$abroadRemark',
+                        'remark1': '$remark1',
+                        'remark2': '$remark2',
+                        'remark3': '$remark3',
+                        'remark4': '$remark4',
+                        'remark5': '$remark5',
+                        'note1': '$note1',
+                        'note2': '$note2',
+                        'note3': '$note3',
+                        'updateTime': '$updateTime'
+                    }
+                }
+            ]
+            documents = db[collection].aggregate(pipeline=pipeline)
+            data = list()
+            for document in documents:
+                document.pop('_id')
+                data.append(document)
+
+        elif collection == 'DXYArea':
+            pipeline = [
+                {
+                    '$sort': {
+                        'updateTime': -1
+                    }
+                }
+            ]
+            documents = db[collection].aggregate(pipeline=pipeline)
+            data = list()
+            for document in documents:
+                document.pop('_id')
+                data.append(document)
+
+        json_file = open(
+            os.path.join(
+                os.path.split(
+                    os.path.realpath(__file__))[0], 'json', collection + '-TimeSeries.json'
+            ),
+            'w', encoding='utf-8'
+        )
+        json.dump(data, json_file, ensure_ascii=False, indent=4)
+        json_file.close()
 
 
 if __name__ == '__main__':
