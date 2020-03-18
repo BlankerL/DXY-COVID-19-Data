@@ -173,7 +173,7 @@ class Listener:
             df.to_csv(
                 path_or_buf=os.path.join(
                     os.path.split(os.path.realpath(__file__))[0], 'csv', collection + '.csv'),
-                index=False, encoding='utf_8_sig', date_format="%Y%m%d %H:%M:%S"
+                index=False, encoding='utf_8_sig', date_format="%Y-%m-%d %H:%M:%S"
             )
 
 
