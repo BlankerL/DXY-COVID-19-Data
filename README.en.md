@@ -15,6 +15,12 @@ which can be easily processed and loaded by most software.
 The data is obtained by [COVID-19 Infection Data Realtime Crawler](https://github.com/BlankerL/DXY-COVID-19-Crawler). 
 The data will be published hourly. 
 
+**Due to the limitation of the server's bandwidth, starting from March 19, 2020, 
+`/nCoV/api/overall` and `/nCoV/api/area` do not response time-series data.
+You can fetch time-series data in [json](json) folder.
+If you call the API with `latest=0`, please modify the request parameters, 
+otherwise, you do not need to do any modification.**
+
 #### CSV File List
 1. Overall Data [DXYOverall.csv](csv/DXYOverall.csv)
 2. Regional Data [DXYArea.csv](csv/DXYArea.csv)(Including city names in English)
