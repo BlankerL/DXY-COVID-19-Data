@@ -1,6 +1,51 @@
 {
     "results": [
         {
+            "title": "Senate Intelligence chairman sold off stock ahead of coronavirus economic downturn",
+            "summary": "Senate Intelligence Chairman Richard Burr and his wife sold as much as $1.7 million in stock last month ahead of the sharp market decline that's resulted from the novel coronavirus global pandemic, according to Senate documents.",
+            "infoSource": "CNN",
+            "sourceUrl": "",
+            "pubDate": 1584677701000,
+            "provinceName": null,
+            "provinceId": "1"
+        },
+        {
+            "title": "25 people have now been killed by the coronavirus in Indonesia",
+            "summary": "Twenty-five people in Indonesia who contracted the coronavirus have now died, according to the nation’s novel coronavirus response team spokesperson, Achmad Yurianto.",
+            "infoSource": "CNN",
+            "sourceUrl": "",
+            "pubDate": 1584676982000,
+            "provinceName": null,
+            "provinceId": "1"
+        },
+        {
+            "title": "Saudi Arabia suspends domestic flights and trains for 14 days over coronavirus fears",
+            "summary": "Saudi Arabia suspended on Friday all domestic flights, buses, taxis and trains for 14 days starting Saturday, state news agency reported quoting a source in interior ministry.",
+            "infoSource": "REUTERS",
+            "sourceUrl": "",
+            "pubDate": 1584675498000,
+            "provinceName": null,
+            "provinceId": "1"
+        },
+        {
+            "title": " 天津市无新增本地新冠肺炎确诊病例 报告境外输入确诊病例1例",
+            "summary": "3月19日6时至18时，天津市无新增本地新冠肺炎确诊病例，报告境外输入确诊病例1例，为英国输入病例。第1例境外输入病例，女，23岁，户籍天津市红桥区，在英国伦敦留学。目前已判定在津密切接触者29人，转运集中隔离点隔离医学观察。",
+            "infoSource": "天津卫健委",
+            "sourceUrl": "http://wsjk.tj.gov.cn/art/2020/3/20/art_87_72538.html",
+            "pubDate": 1584667163000,
+            "provinceName": "辽宁省",
+            "provinceId": "21"
+        },
+        {
+            "title": "中国重剑队3名队员确诊新冠肺炎",
+            "summary": "据中国击剑协会：匈牙利当地时间3月16日，中国重剑队一行13人自匈牙利乘机返回国内。此前，队伍参加了3月6日-8日在匈牙利举行的世界杯大奖赛。接受入境检疫时，三名队员核酸检测阳性，确诊感染新冠肺炎，目前正在接受治疗和照顾。其他队员隔离接受医学观察，目前一切正常。\n",
+            "infoSource": "央视新闻",
+            "sourceUrl": "http://m.weibo.cn/2656274875/4484478279471837",
+            "pubDate": 1584666402000,
+            "provinceName": null,
+            "provinceId": "1"
+        },
+        {
             "title": "西班牙新冠肺炎病例增至17147例",
             "summary": "【#西班牙新冠肺炎病例增至17147例#】据西班牙卫生部19日公布的数据，#西班牙新增新冠肺炎确诊病例3431例#，累计确诊病例达17147例，其中767人死亡，939人病情危重，1107人治愈出院。（姜波） \n",
             "infoSource": "人民日报",
@@ -42,51 +87,6 @@
             "infoSource": "人民日报海外版",
             "sourceUrl": "http://m.weibo.cn/3057540037/4484210935027261",
             "pubDate": 1584602662000,
-            "provinceName": null,
-            "provinceId": "1"
-        },
-        {
-            "title": "最近7日境外输入病例占新增总数的84.55%",
-            "summary": "国家卫健委新闻发言人米锋：最近7日，境外输入病例数占新增确诊病例总数的84.55%。国际疫情快速蔓延带来的输入性风险增加，要落实外防输入重点任务。扩散提醒：严防严控，不要放松！ \n",
-            "infoSource": "央视新闻",
-            "sourceUrl": "http://m.weibo.cn/2656274875/4484208091551040",
-            "pubDate": 1584601984000,
-            "provinceName": "全国",
-            "provinceId": "100"
-        },
-        {
-            "title": " 北京新增报告境外输入确诊病例1例 ",
-            "summary": "\n\t\t\t            3月 19日0时至12时，新增报告境外输入确诊病例 1例, 为美国输入病例。截至3月19日12时，累计报告境外输入确诊病例65例，治愈出院病例6例。        3月 19日0时至12时，无新增报告本地新冠肺炎确诊病例。治愈出院病例1例。截至3月19日12时，累计报告本地确诊病例415例，治愈出院病例374例，治愈出院率90.1%。\n                            \n                ",
-            "infoSource": "北京卫健委",
-            "sourceUrl": "http://wjw.beijing.gov.cn/xwzx_20031/xwfb/202003/t20200319_1722077.html",
-            "pubDate": 1584594186000,
-            "provinceName": "北京市",
-            "provinceId": "11"
-        },
-        {
-            "title": "美国单日新增2769例新冠肺炎",
-            "summary": "根据美国约翰·霍普金斯大学发布的新冠肺炎数据实时查询系统，截至美国东部时间3月18日晚11点，全美共确诊新冠肺炎病例9345例，死亡150例，康复106例。18日单日新增至少2769例。目前，全美50个州和华盛顿哥伦比亚特区皆有确诊病例。",
-            "infoSource": "人民日报",
-            "sourceUrl": "http://m.weibo.cn/2803301701/4484147148086827",
-            "pubDate": 1584587454000,
-            "provinceName": null,
-            "provinceId": "1"
-        },
-        {
-            "title": "全国新型冠状病毒肺炎疫情最新情况",
-            "summary": "3月18日0—24时，31个省（自治区、直辖市）和新疆生产建设兵团报告新增确诊病例34例，新增死亡病例8例（湖北8例），新增疑似病例23例。当日新增治愈出院病例819例，重症病例减少308例。截至3月18日24时，据31个省（自治区、直辖市）和新疆生产建设兵团报告，现有确诊病例7263例（其中重症病例2314例），累计治愈出院病例70420例，累计死亡病例3245例，累计报告确诊病例80928例，现有疑似病例105例。累计追踪到密切接触者683281人，尚在医学观察的密切接触者9144人。3月18日0—24时，新增报告境外输入确诊病例34例（北京21例，广东9例，上海2例，黑龙江1例，浙江1例）。截至3月18日24时，累计报告境外输入确诊病例189例。累计收到港澳台地区通报确诊病例307例：香港特别行政区192例（出院95例，死亡4例），澳门特别行政区15例（出院10例），台湾地区100例（出院22例，死亡1例）。",
-            "infoSource": "中国卫健委",
-            "sourceUrl": "http://www.nhc.gov.cn/xcs/yqtb/202003/e644c2fc18b4448db7ed4b30f68b91a6.shtml",
-            "pubDate": 1584584215000,
-            "provinceName": "全国",
-            "provinceId": "100"
-        },
-        {
-            "title": "韩国单日新增确诊数再破百",
-            "summary": "韩国中央防疫对策本部19日通报，截至当地时间19日0时，韩国新增新冠肺炎确诊病例152例，累计确诊感染病例升至8565例。韩国单日新增病例在连续四天维持在100例之内后，再次跃上三位数。",
-            "infoSource": "央视新闻",
-            "sourceUrl": "http://m.weibo.cn/2656274875/4484121617677145",
-            "pubDate": 1584581367000,
             "provinceName": null,
             "provinceId": "1"
         }
