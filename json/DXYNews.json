@@ -1,6 +1,24 @@
 {
     "results": [
         {
+            "title": "香港新增48例新冠肺炎确诊病例",
+            "summary": "【#香港新增48例新冠肺炎确诊病例#】#战疫全时区#据香港电台20日报道，香港特区新增48例新冠肺炎确诊病例，再创单日新高，患者年龄介于4至69岁，香港累计确诊病例至今增至257例。\n",
+            "infoSource": "人民日报海外版",
+            "sourceUrl": "http://m.weibo.cn/3057540037/4484595191414297",
+            "pubDate": 1584694276000,
+            "provinceName": "香港",
+            "provinceId": "66"
+        },
+        {
+            "title": "3月20日0—12时#广东新增3例境外输入病例",
+            "summary": "【3月20日0—12时#广东新增3例境外输入病例#：来自菲律宾及英国】20日下午，广东省政府新闻发布会通报了新冠肺炎疫情最新情况。3月20日0至12时，广东全省新增境外输入确诊病例3例，分别为广州2例，从菲律宾和英国输入；深圳1例，从菲律宾输入。",
+            "infoSource": "人民日报",
+            "sourceUrl": "http://m.weibo.cn/2803301701/4484589198390409",
+            "pubDate": 1584692847000,
+            "provinceName": "广东省",
+            "provinceId": "44"
+        },
+        {
             "title": "台湾地区新增27例新冠肺炎确诊病例",
             "summary": "【#台湾地区新增27例新冠肺炎确诊病例#】#战疫全时区#据台湾联合新闻网报道，台湾地区流行疫情指挥中心今（20）日公布，岛内新增27例新冠肺炎确诊病例，其中24例属于境外移入。截至目前，台湾地区累计确诊135例。台湾地区新增27例新冠肺炎确诊病例 累计135例 \n",
             "infoSource": "人民日报海外版",
@@ -69,24 +87,6 @@
             "infoSource": "BBC",
             "sourceUrl": "",
             "pubDate": 1584678661000,
-            "provinceName": null,
-            "provinceId": "1"
-        },
-        {
-            "title": "Senate Intelligence chairman sold off stock ahead of coronavirus economic downturn",
-            "summary": "Senate Intelligence Chairman Richard Burr and his wife sold as much as $1.7 million in stock last month ahead of the sharp market decline that's resulted from the novel coronavirus global pandemic, according to Senate documents.",
-            "infoSource": "CNN",
-            "sourceUrl": "",
-            "pubDate": 1584677701000,
-            "provinceName": null,
-            "provinceId": "1"
-        },
-        {
-            "title": "全球新冠肺炎死亡病例超万例",
-            "summary": "美国约翰斯·霍普金斯大学最新发布的数据显示，截至美国东部时间19日23时30分（北京时间20日11时30分），全球新冠肺炎死亡病例达到10030例。目前死亡病例最多的国家是意大利，达到3405例。 \n",
-            "infoSource": "央视新闻",
-            "sourceUrl": "http://m.weibo.cn/2656274875/4484524778078889",
-            "pubDate": 1584677488000,
             "provinceName": null,
             "provinceId": "1"
         }
