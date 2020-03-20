@@ -134,9 +134,9 @@ class Listener:
                 changed_files.append('json/' + collection + '.json')
                 self.csv_dumper(collection=collection)
                 changed_files.append('csv/' + collection + '.csv')
-                if collection in ['DXYArea', 'DXYOverall']:
-                    self.db_dumper(collection=collection)
-                    changed_files.append('json/' + collection + '-TimeSeries.json')
+                # if collection in ['DXYArea', 'DXYOverall']:
+                #     self.db_dumper(collection=collection)
+                #     changed_files.append('json/' + collection + '-TimeSeries.json')
             logger.info('{collection} checked!'.format(collection=collection))
         if changed_files:
             git_manager(changed_files=changed_files)
