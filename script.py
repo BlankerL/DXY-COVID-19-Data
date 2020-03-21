@@ -18,7 +18,7 @@ import pandas as pd
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-uri = '***Confidential**'
+uri = '**Confidential**'
 client = MongoClient(uri)
 db = client['2019-nCoV']
 
@@ -132,14 +132,12 @@ class Listener:
             if static_data != current_data:
                 self.json_dumper(collection=collection, content=current_data)
                 changed_files.append('json/' + collection + '.json')
-                # DXYArea will be dumped into JSON here.
-                self.csv_dumper(collection=collection)
+                cursor = self.db.dump(collection=collection)
+                self.csv_dumper(collection=collection, cursor=cursor)
                 changed_files.append('csv/' + collection + '.csv')
-                if collection == 'DXYArea':
-                    changed_files.append('json/' + collection + '-TimeSeries.json')
-                if collection == 'DXYOverall':
-                    self.db_dumper(collection=collection)
-                    changed_files.append('json/' + collection + '-TimeSeries.json')
+                cursor = self.db.dump(collection=collection)
+                self.db_dumper(collection=collection, cursor=cursor)
+                changed_files.append('json/' + collection + '-TimeSeries.json')
             logger.info('{collection} checked!'.format(collection=collection))
         if changed_files:
             git_manager(changed_files=changed_files)
@@ -155,11 +153,10 @@ class Listener:
         json.dump(content, json_file, ensure_ascii=False, indent=4)
         json_file.close()
 
-    def csv_dumper(self, collection):
+    def csv_dumper(self, collection, cursor):
         if collection == 'DXYArea':
             structured_results = list()
-            documents = self.db.dump(collection=collection)
-            for document in documents:
+            for document in cursor:
                 if document.get('cities', None):
                     for city_counter in range(len(document['cities'])):
                         city_dict = document['cities'][city_counter]
@@ -173,9 +170,8 @@ class Listener:
                     os.path.split(os.path.realpath(__file__))[0], 'csv', collection + '.csv'),
                 index=False, encoding='utf_8_sig', float_format="%i"
             )
-            self.db_dumper(collection='DXYArea', documents=documents)
         else:
-            df = pd.DataFrame(data=self.db.dump(collection=collection))
+            df = pd.DataFrame(data=cursor)
             for time_type in time_types:
                 if time_type in df.columns:
                     df[time_type] = df[time_type].apply(lambda x: datetime.datetime.fromtimestamp(x / 1000) if not pd.isna(x) else '')
@@ -185,53 +181,11 @@ class Listener:
                 index=False, encoding='utf_8_sig', date_format="%Y-%m-%d %H:%M:%S"
             )
 
-    def db_dumper(self, collection, documents=None):
-        if collection == 'DXYOverall':
-            pipeline = [
-                {
-                    '$sort': {
-                        'updateTime': -1
-                    }
-                },
-                {
-                    '$project': {
-                        'currentConfirmedCount': '$currentConfirmedCount',
-                        'confirmedCount': '$confirmedCount',
-                        'suspectedCount': '$suspectedCount',
-                        'curedCount': '$curedCount',
-                        'deadCount': '$deadCount',
-                        'seriousCount': '$seriousCount',
-                        'currentConfirmedIncr': '$currentConfirmedIncr',
-                        'confirmedIncr': '$confirmedIncr',
-                        'suspectedIncr': '$suspectedIncr',
-                        'curedIncr': '$curedIncr',
-                        'deadIncr': '$deadIncr',
-                        'seriousIncr': '$seriousIncr',
-                        'generalRemark': '$generalRemark',
-                        'abroadRemark': '$abroadRemark',
-                        'remark1': '$remark1',
-                        'remark2': '$remark2',
-                        'remark3': '$remark3',
-                        'remark4': '$remark4',
-                        'remark5': '$remark5',
-                        'note1': '$note1',
-                        'note2': '$note2',
-                        'note3': '$note3',
-                        'updateTime': '$updateTime'
-                    }
-                }
-            ]
-            documents = db[collection].aggregate(pipeline=pipeline)
-            data = list()
-            for document in documents:
-                document.pop('_id')
-                data.append(document)
-
-        elif collection == 'DXYArea':
-            data = list()
-            for document in documents:
-                document.pop('_id')
-                data.append(document)
+    def db_dumper(self, collection, cursor):
+        data = list()
+        for document in cursor:
+            document.pop('_id')
+            data.append(document)
 
         json_file = open(
             os.path.join(
