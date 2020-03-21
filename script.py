@@ -132,11 +132,14 @@ class Listener:
             if static_data != current_data:
                 self.json_dumper(collection=collection, content=current_data)
                 changed_files.append('json/' + collection + '.json')
+                # DXYArea will be dumped into JSON here.
                 self.csv_dumper(collection=collection)
                 changed_files.append('csv/' + collection + '.csv')
-                # if collection in ['DXYArea', 'DXYOverall']:
-                #     self.db_dumper(collection=collection)
-                #     changed_files.append('json/' + collection + '-TimeSeries.json')
+                if collection == 'DXYArea':
+                    changed_files.append('json/' + collection + '-TimeSeries.json')
+                if collection == 'DXYOverall':
+                    self.db_dumper(collection=collection)
+                    changed_files.append('json/' + collection + '-TimeSeries.json')
             logger.info('{collection} checked!'.format(collection=collection))
         if changed_files:
             git_manager(changed_files=changed_files)
@@ -170,6 +173,7 @@ class Listener:
                     os.path.split(os.path.realpath(__file__))[0], 'csv', collection + '.csv'),
                 index=False, encoding='utf_8_sig', float_format="%i"
             )
+            self.db_dumper(collection='DXYArea', documents=documents)
         else:
             df = pd.DataFrame(data=self.db.dump(collection=collection))
             for time_type in time_types:
@@ -181,7 +185,7 @@ class Listener:
                 index=False, encoding='utf_8_sig', date_format="%Y-%m-%d %H:%M:%S"
             )
 
-    def db_dumper(self, collection):
+    def db_dumper(self, collection, documents=None):
         if collection == 'DXYOverall':
             pipeline = [
                 {
@@ -224,14 +228,6 @@ class Listener:
                 data.append(document)
 
         elif collection == 'DXYArea':
-            pipeline = [
-                {
-                    '$sort': {
-                        'updateTime': -1
-                    }
-                }
-            ]
-            documents = db[collection].aggregate(pipeline=pipeline)
             data = list()
             for document in documents:
                 document.pop('_id')
