@@ -1,6 +1,33 @@
 {
     "results": [
         {
+            "title": "欧洲新冠肺炎确诊病例已超20万例",
+            "summary": "据法新社24日报道，欧洲新冠肺炎确诊病例已超20万例。另据约翰斯·霍普金斯大学实时统计数据显示，截至北京时间24日20时32分，全球新冠肺炎确诊病例已超39万例，达392331例。 \n",
+            "infoSource": "人民日报海外版",
+            "sourceUrl": "http://m.weibo.cn/3057540037/4486101999981143",
+            "pubDate": 1585053527000,
+            "provinceName": null,
+            "provinceId": "1"
+        },
+        {
+            "title": "加纳新增25例新冠肺炎确诊病例 累计确诊52例",
+            "summary": "当地时间3月24日，加纳卫生部在新闻发布会上称，24日新增25例新冠肺炎确诊病例。目前加纳国内累计确诊从27例上升到52例，死亡2例，现存确诊50例，均在隔离治疗中。超过1000人在接受隔离观察。",
+            "infoSource": "央视新闻app",
+            "sourceUrl": "http://app.cctv.com/special/cportal/detail/arti/index.html?id=ArtiSmIv9JhHbhm3LRdNwA9E200324&isfromapp=1",
+            "pubDate": 1585051417000,
+            "provinceName": null,
+            "provinceId": "1"
+        },
+        {
+            "title": "澳大利亚总理：将禁止民众海外旅行并关闭更多公共场所",
+            "summary": "澳大利亚总理莫里森在当地时间24日晚召开记者会，宣布民众将被禁止出国。至于禁令何时生效等细节问题，联邦政府将稍晚讨论决定并宣布。莫里森表示，根据外交部此前给出不要旅行的建议，目前国际旅行的人数很少，但是仍有一些人不顾劝阻。\n",
+            "infoSource": "央视新闻app",
+            "sourceUrl": "http://app.cctv.com/special/cportal/detail/arti/index.html?id=Artiqo9LrLi98OpFa5qyg4Ok200324&isfromapp=1",
+            "pubDate": 1585051119000,
+            "provinceName": null,
+            "provinceId": "1"
+        },
+        {
             "title": "菲律宾航空公司暂停所有国际航班",
             "summary": "据菲律宾媒体消息，3月24日，菲律宾航空公司决定从3月26日到4月14日暂停所有国际航班。菲律宾吕宋岛从3月17日0时开始实行“强化社区隔离”，直到4月13日0时结束。其间，大规模公共交通设施暂停运行，包括公路、航空、海运在内的交通都受到限制。",
             "infoSource": "央视新闻app",
@@ -60,33 +87,6 @@
             "infoSource": "央视新闻app",
             "sourceUrl": "http://app.cctv.com/special/cportal/detail/arti/index.html?id=Arti3J1D92PPEAuCIbwZn62a200324&isfromapp=1",
             "pubDate": 1585047886000,
-            "provinceName": null,
-            "provinceId": "1"
-        },
-        {
-            "title": "世卫组织称美国可能成全球疫情震中",
-            "summary": "据英国媒体报道，世界卫生组织发言人当天表示，美国新冠肺炎确诊人数出现大幅增长，美国可能成为全球新冠疫情新的震中。另据美国约翰斯·霍普金斯大学发布的实时统计数据显示，截至北京时间3月24日18时，美国共报告新冠肺炎确诊病例46450例，累计死亡593例。",
-            "infoSource": "人民日报",
-            "sourceUrl": "http://m.weibo.cn/2803301701/4486077181715020",
-            "pubDate": 1585047610000,
-            "provinceName": null,
-            "provinceId": "1"
-        },
-        {
-            "title": "西班牙新冠肺炎确诊病例累计达39673例 新增6584例",
-            "summary": "截至当地时间3月24日11时30分，西班牙累计确诊新冠肺炎病例39673例，死亡2969例，新增6584例。",
-            "infoSource": "央视新闻app",
-            "sourceUrl": "http://app.cctv.com/special/cportal/detail/arti/index.html?id=ArtiODsP2bSZwDgkL9C4wM3e200324&isfromapp=1",
-            "pubDate": 1585047387000,
-            "provinceName": null,
-            "provinceId": "1"
-        },
-        {
-            "title": "黎巴嫩新冠肺炎确诊病例上升至304例",
-            "summary": "黎巴嫩卫生部官网公布，截至24日中午，黎新冠肺炎确诊总人数为304人，较昨日增加37人。确诊患者中有7人情况危重，另外，当日疑似病例数字也增至303人。目前黎巴嫩死亡病例4例，治愈8例。",
-            "infoSource": "央视新闻app",
-            "sourceUrl": "http://app.cctv.com/special/cportal/detail/arti/index.html?id=ArtitmXXBFjsExGOVkxNM3yy200324&isfromapp=1",
-            "pubDate": 1585047312000,
             "provinceName": null,
             "provinceId": "1"
         }
