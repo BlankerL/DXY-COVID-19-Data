@@ -95,7 +95,8 @@ class DB:
                         'crawlTime': -1
                     }
                 }
-            ]
+            ],
+            allowDiskUse=True
         )
 
 
