@@ -171,6 +171,20 @@ class Listener:
                     os.path.split(os.path.realpath(__file__))[0], 'csv', collection + '.csv'),
                 index=False, encoding='utf_8_sig', float_format="%i"
             )
+        elif collection == 'DXYOverall':
+            df = pd.DataFrame(data=cursor)
+            for time_type in time_types:
+                if time_type in df.columns:
+                    df[time_type] = df[time_type].apply(lambda x: datetime.datetime.fromtimestamp(x / 1000) if not pd.isna(x) else '')
+            del df['_id']
+            del df['infectSource']
+            del df['passWay']
+            del df['virus']
+            df.to_csv(
+                path_or_buf=os.path.join(
+                    os.path.split(os.path.realpath(__file__))[0], 'csv', collection + '.csv'),
+                index=False, encoding='utf_8_sig', date_format="%Y-%m-%d %H:%M:%S"
+            )
         else:
             df = pd.DataFrame(data=cursor)
             for time_type in time_types:
