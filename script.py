@@ -184,9 +184,17 @@ class Listener:
 
     def db_dumper(self, collection, cursor):
         data = list()
-        for document in cursor:
-            document.pop('_id')
-            data.append(document)
+        if collection != 'DXYArea':
+            for document in cursor:
+                document.pop('_id')
+                data.append(document)
+        else:
+            for document in cursor:
+                document.pop('_id')
+                document.pop('statisticsData')
+                document.pop('showRank')
+                document.pop('operator')
+                data.append(document)
 
         json_file = open(
             os.path.join(
