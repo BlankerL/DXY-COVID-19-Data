@@ -191,9 +191,9 @@ class Listener:
         else:
             for document in cursor:
                 document.pop('_id')
-                document.pop('statisticsData')
-                document.pop('showRank')
-                document.pop('operator')
+                document.pop('statisticsData', None)
+                document.pop('showRank', None)
+                document.pop('operator', None)
                 data.append(document)
 
         json_file = open(
