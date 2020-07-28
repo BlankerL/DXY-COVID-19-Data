@@ -201,7 +201,8 @@ class Listener:
         if collection != 'DXYArea':
             for document in cursor:
                 document.pop('_id')
-                document.pop('comment')
+                if document.get('comment'):
+                    document.pop('comment')
                 if not document['cities']:
                     document.pop('cities')
                 data.append(document)
