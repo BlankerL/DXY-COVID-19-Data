@@ -4,23 +4,30 @@
 @Author: Jiabao Lin
 @Date: 2020/1/31
 """
-from git import Repo
+from github3 import login
+from dotenv import load_dotenv
 from pymongo import MongoClient
 import os
 import json
 import time
 import logging
 import datetime
-import requests
 import pandas as pd
 
 
+# Load environment parameters
+load_dotenv()
+
+# Logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-uri = '**Confidential**'
-client = MongoClient(uri)
+# Database connection
+client = MongoClient(os.getenv('MONGO_URI'))
 db = client['2019-nCoV']
+
+# GitHub connection
+github = login(token=os.getenv('GITHUB_TOKEN'))
 
 collections = {
     'DXYOverall': 'overall',
@@ -28,10 +35,16 @@ collections = {
     'DXYNews': 'news',
     'DXYRumors': 'rumors'
 }
+
+files = (
+    'csv/DXYOverall.csv', 'csv/DXYArea.csv', 'csv/DXYNews.csv', 'csv/DXYRumors.csv',
+    'json/DXYOverall.json', 'json/DXYArea.json', 'json/DXYNews.json', 'json/DXYRumors.json'
+)
+
 time_types = ('pubDate', 'createTime', 'modifyTime', 'dataInfoTime', 'crawlTime', 'updateTime')
 
 
-def dict_parser(document, city_dict=None):
+def dict_parser(document: dict, city_dict: dict = None):
     result = dict()
 
     try:
@@ -70,23 +83,31 @@ def dict_parser(document, city_dict=None):
     return result
 
 
-def git_manager(changed_files):
-    repo = Repo(path=os.path.split(os.path.realpath(__file__))[0])
-    repo.index.add(changed_files)
-    repo.index.commit(message='{datetime} - Change detected!'.format(datetime=datetime.datetime.now()))
-    origin = repo.remote('origin')
-    origin.push()
-    logger.info('Pushing to GitHub successfully!')
+def github_manager():
+    repository = github.repository(owner='BlankerL', repository='DXY-COVID-19-Data')
+    release = repository.create_release(
+        tag_name='{tag_name}'.format(
+            tag_name=datetime.datetime.today().strftime('%Y.%m.%d')
+        )
+    )
+    for file in files:
+        release.upload_asset(
+            content_type='application/text',
+            name=file.split('/')[-1],
+            asset=os.path.join(
+                os.path.split(os.path.realpath(__file__))[0], file
+            )
+        )
 
 
 class DB:
     def __init__(self):
         self.db = db
 
-    def count(self, collection):
+    def count(self, collection: str):
         return self.db[collection].count_documents(filter={})
 
-    def dump(self, collection):
+    def dump(self, collection: str):
         return self.db[collection].aggregate(
             pipeline=[
                 {
@@ -106,55 +127,19 @@ class Listener:
 
     def run(self):
         while True:
-            self.listener()
-            time.sleep(3600)
+            self.updater()
+            time.sleep(86400)
 
-    def listener(self):
-        changed_files = list()
+    def updater(self):
         for collection in collections:
-            json_file = open(
-                os.path.join(
-                    os.path.split(os.path.realpath(__file__))[0], 'json', collection + '.json'),
-                'r', encoding='utf-8'
-            )
-            try:
-                static_data = json.load(json_file)
-            except (UnicodeDecodeError, FileNotFoundError, json.decoder.JSONDecodeError):
-                static_data = None
-            json_file.close()
-            while True:
-                request = requests.get(url='https://lab.isaaclin.cn/nCoV/api/' + collections.get(collection))
-                if request.status_code == 200:
-                    current_data = request.json()
-                    break
-                else:
-                    time.sleep(1)
-                    continue
-            if static_data != current_data:
-                self.json_dumper(collection=collection, content=current_data)
-                changed_files.append('json/' + collection + '.json')
-                cursor = self.db.dump(collection=collection)
-                self.csv_dumper(collection=collection, cursor=cursor)
-                changed_files.append('csv/' + collection + '.csv')
-                cursor = self.db.dump(collection=collection)
-                self.db_dumper(collection=collection, cursor=cursor)
-                changed_files.append('json/' + collection + '-TimeSeries.json')
-            logger.info('{collection} checked!'.format(collection=collection))
-        if changed_files:
-            git_manager(changed_files=changed_files)
+            cursor = self.db.dump(collection=collection)
+            self.csv_dumper(collection=collection, cursor=cursor)
 
-    def json_dumper(self, collection, content=None):
-        json_file = open(
-            os.path.join(
-                os.path.split(
-                    os.path.realpath(__file__))[0], 'json', collection + '.json'
-            ),
-            'w', encoding='utf-8'
-        )
-        json.dump(content, json_file, ensure_ascii=False, indent=4)
-        json_file.close()
+            cursor = self.db.dump(collection=collection)
+            self.db_dumper(collection=collection, cursor=cursor)
 
-    def csv_dumper(self, collection, cursor):
+    @staticmethod
+    def csv_dumper(collection: str, cursor):
         if collection == 'DXYArea':
             structured_results = list()
             for document in cursor:
@@ -196,7 +181,8 @@ class Listener:
                 index=False, encoding='utf_8_sig', date_format="%Y-%m-%d %H:%M:%S"
             )
 
-    def db_dumper(self, collection, cursor):
+    @staticmethod
+    def db_dumper(collection: str, cursor):
         data = list()
         if collection != 'DXYArea':
             for document in cursor:
