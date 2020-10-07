@@ -201,7 +201,7 @@ class Listener:
         json_file = open(
             os.path.join(
                 os.path.split(
-                    os.path.realpath(__file__))[0], 'json', collection + '-TimeSeries.json'
+                    os.path.realpath(__file__))[0], 'json', collection + '.json'
             ),
             'w', encoding='utf-8'
         )
