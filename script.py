@@ -86,8 +86,11 @@ class Listener:
             release.upload_asset(
                 content_type='application/text',
                 name=file.split('/')[-1],
-                asset=os.path.join(
-                    os.path.split(os.path.realpath(__file__))[0], file
+                asset=open(
+                    file=os.path.join(
+                        os.path.split(os.path.realpath(__file__))[0], file
+                    ),
+                    mode='rb'
                 )
             )
 
