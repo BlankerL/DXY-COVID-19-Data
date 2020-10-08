@@ -26,9 +26,6 @@ logger = logging.getLogger(__name__)
 client = MongoClient(os.getenv('MONGO_URI'))
 db = client['2019-nCoV']
 
-# GitHub connection
-github = login(token=os.getenv('GITHUB_TOKEN'))
-
 collections = {
     'DXYOverall': 'overall',
     'DXYArea': 'area',
@@ -76,13 +73,18 @@ class Listener:
 
     @staticmethod
     def github_manager():
+        # GitHub connection
+        github = login(token=os.getenv('GITHUB_TOKEN'))
+        logger.info('Login:', github.me())
         repository = github.repository(owner='BlankerL', repository='DXY-COVID-19-Data')
         release = repository.create_release(
             tag_name='{tag_name}'.format(
                 tag_name=datetime.datetime.today().strftime('%Y.%m.%d')
             )
         )
+        logger.info('Release:', release)
         for file in files:
+            logger.info('Uploading:', file.split('/')[-1])
             release.upload_asset(
                 content_type='application/text',
                 name=file.split('/')[-1],
@@ -95,9 +97,11 @@ class Listener:
         for collection in collections:
             cursor = self.db.dump(collection=collection)
             self.csv_dumper(collection=collection, cursor=cursor)
+            logger.info(collection + '.csv dumped!')
 
             cursor = self.db.dump(collection=collection)
             self.db_dumper(collection=collection, cursor=cursor)
+            logger.info(collection + '.json dumped!')
 
         self.github_manager()
 
