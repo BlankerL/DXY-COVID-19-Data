@@ -69,7 +69,12 @@ class Listener:
     def run(self):
         while True:
             self.updater()
-            time.sleep(86400)
+            time.sleep(
+                (
+                    # Update every 24 hours
+                    datetime.timedelta(hours=24) - (datetime.datetime.now() - datetime.datetime.now().replace(hour=0, minute=0, second=0, microsecond=0))
+                ).total_seconds()
+            )
 
     @staticmethod
     def github_manager():
