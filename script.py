@@ -75,16 +75,14 @@ class Listener:
     def github_manager():
         # GitHub connection
         github = login(token=os.getenv('GITHUB_TOKEN'))
-        logger.info('Login:', github.me())
         repository = github.repository(owner='BlankerL', repository='DXY-COVID-19-Data')
         release = repository.create_release(
             tag_name='{tag_name}'.format(
                 tag_name=datetime.datetime.today().strftime('%Y.%m.%d')
             )
         )
-        logger.info('Release:', release)
         for file in files:
-            logger.info('Uploading:', file.split('/')[-1])
+            logger.info('Uploading: ' + file.split('/')[-1])
             release.upload_asset(
                 content_type='application/text',
                 name=file.split('/')[-1],
