@@ -6,20 +6,11 @@
 
 近期数位高校师生与我联系，希望用这些数据做科研之用。然而并不熟悉API的使用和JSON数据的处理，因此做了这个数据仓库，直接推送大部分统计软件可以直接打开的csv文件，希望能够减轻各位的负担。
 
-数据由[2019新型冠状病毒疫情实时爬虫](https://github.com/BlankerL/DXY-COVID-19-Crawler)获得，每小时检测一次更新，若有更新则推送至数据仓库中。
+数据由[2019新型冠状病毒疫情实时爬虫](https://github.com/BlankerL/DXY-COVID-19-Crawler)获得。
+
+每天0点，程序将准时执行，数据会被推送至[Release](https://github.com/BlankerL/DXY-COVID-19-Data/releases/latest)中。
 
 **受限于服务器带宽压力，自2020年3月19日起，API接口`/nCoV/api/overall`及`/nCoV/api/area`不再返回时间序列数据，时间序列数据可以在[json](json)文件夹下获取。如果您调用接口时使用了`latest=0`参数，则需要修改请求，否则无需修改。**
-
-#### CSV文件列表
-1. 全国数据[DXYOverall.csv](csv/DXYOverall.csv)
-2. 地区数据[DXYArea.csv](csv/DXYArea.csv)（包含英文城市名）
-3. 新闻数据[DXYNews.csv](csv/DXYNews.csv)
-4. 谣言数据[DXYRumors.csv](csv/DXYRumors.csv)
-
-自[`4db432f`](https://github.com/BlankerL/DXY-COVID-19-Data/commit/4db432fda233a701a3a7569e08ab20db083987b1)开始，DXYArea.csv包含中国境内省市级、港澳台地区及海外数据。另外，也可以参考[这个问题](https://github.com/BlankerL/DXY-COVID-19-Crawler/issues/67)，来定制自己的数据集。
-
-#### JSON文件列表
-由于API接口时常不稳定，因此此项目也会定时向`json`文件夹中推送静态的JSON文件更新。JSON文件与API中提供的JSON完全一致。
 
 由于本人精力有限，不接受数据定制。如对数据有更多的要求，烦请自行处理。
 

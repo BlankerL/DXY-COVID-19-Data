@@ -13,31 +13,15 @@ to publish the latest data in CSV format,
 which can be easily processed and loaded by most software.
 
 The data is obtained by [COVID-19 Infection Data Realtime Crawler](https://github.com/BlankerL/DXY-COVID-19-Crawler). 
-The data will be published hourly. 
+
+At 0:00 every day, the program will execute on time and the data will be pushed into
+[Release](https://github.com/BlankerL/DXY-COVID-19-Data/releases/latest).
 
 **Due to the limitation of the server's bandwidth, starting from March 19, 2020, 
 `/nCoV/api/overall` and `/nCoV/api/area` do not response time-series data.
 You can fetch time-series data in [json](json) folder.
 If you call the API with `latest=0`, please modify the request parameters, 
 otherwise, you do not need to do any modification.**
-
-#### CSV File List
-1. Overall Data [DXYOverall.csv](csv/DXYOverall.csv)
-2. Regional Data [DXYArea.csv](csv/DXYArea.csv)(Including city names in English)
-3. News [DXYNews.csv](csv/DXYNews.csv)
-4. Rumors [DXYRumors.csv](csv/DXYRumors.csv)
-
-
-Since [`4db432f`](https://github.com/BlankerL/DXY-COVID-19-Data/commit/4db432fda233a701a3a7569e08ab20db083987b1), 
-DXYArea.csv contains province- and city-level data in China, and data of Hong Kong, 
-Macao and Taiwan regions and overseas are also available in this file.
-
-In addition, you can also refer to [this issue](https://github.com/BlankerL/DXY-COVID-19-Crawler/issues/67) to customize your own data set.
-
-#### JSON File List
-Due to the instability of API,
-this project will also push latest static JSONs into the `json` folder. 
-Data from JSON files are exactly the same as the data responded from the API.
 
 Data customization is not accepted. 
 If you have more requirements for data, please handle it on your own.
