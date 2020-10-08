@@ -44,62 +44,6 @@ files = (
 time_types = ('pubDate', 'createTime', 'modifyTime', 'dataInfoTime', 'crawlTime', 'updateTime')
 
 
-def dict_parser(document: dict, city_dict: dict = None):
-    result = dict()
-
-    try:
-        result['continentName'] = document['continentName']
-        result['continentEnglishName'] = document['continentEnglishName']
-    except KeyError:
-        result['continentName'] = None
-        result['continentEnglishName'] = None
-
-    result['countryName'] = document['countryName']
-
-    try:
-        result['countryEnglishName'] = document['countryEnglishName']
-    except KeyError:
-        result['countryEnglishName'] = None
-
-    result['provinceName'] = document['provinceName']
-    result['provinceEnglishName'] = document.get('provinceEnglishName')
-    result['province_zipCode'] = document.get('locationId')
-    result['province_confirmedCount'] = document['confirmedCount']
-    result['province_suspectedCount'] = document['suspectedCount']
-    result['province_curedCount'] = document['curedCount']
-    result['province_deadCount'] = document['deadCount']
-
-    if city_dict:
-        result['cityName'] = city_dict['cityName']
-        result['cityEnglishName'] = city_dict.get('cityEnglishName')
-        result['city_zipCode'] = city_dict.get('locationId')
-        result['city_confirmedCount'] = city_dict['confirmedCount']
-        result['city_suspectedCount'] = city_dict['suspectedCount']
-        result['city_curedCount'] = city_dict['curedCount']
-        result['city_deadCount'] = city_dict['deadCount']
-
-    result['updateTime'] = datetime.datetime.fromtimestamp(int(document['updateTime']/1000))
-
-    return result
-
-
-def github_manager():
-    repository = github.repository(owner='BlankerL', repository='DXY-COVID-19-Data')
-    release = repository.create_release(
-        tag_name='{tag_name}'.format(
-            tag_name=datetime.datetime.today().strftime('%Y.%m.%d')
-        )
-    )
-    for file in files:
-        release.upload_asset(
-            content_type='application/text',
-            name=file.split('/')[-1],
-            asset=os.path.join(
-                os.path.split(os.path.realpath(__file__))[0], file
-            )
-        )
-
-
 class DB:
     def __init__(self):
         self.db = db
@@ -130,6 +74,23 @@ class Listener:
             self.updater()
             time.sleep(86400)
 
+    @staticmethod
+    def github_manager():
+        repository = github.repository(owner='BlankerL', repository='DXY-COVID-19-Data')
+        release = repository.create_release(
+            tag_name='{tag_name}'.format(
+                tag_name=datetime.datetime.today().strftime('%Y.%m.%d')
+            )
+        )
+        for file in files:
+            release.upload_asset(
+                content_type='application/text',
+                name=file.split('/')[-1],
+                asset=os.path.join(
+                    os.path.split(os.path.realpath(__file__))[0], file
+                )
+            )
+
     def updater(self):
         for collection in collections:
             cursor = self.db.dump(collection=collection)
@@ -138,17 +99,18 @@ class Listener:
             cursor = self.db.dump(collection=collection)
             self.db_dumper(collection=collection, cursor=cursor)
 
-    @staticmethod
-    def csv_dumper(collection: str, cursor):
+        self.github_manager()
+
+    def csv_dumper(self, collection: str, cursor):
         if collection == 'DXYArea':
             structured_results = list()
             for document in cursor:
                 if document.get('cities', None):
                     for city_counter in range(len(document['cities'])):
                         city_dict = document['cities'][city_counter]
-                        structured_results.append(dict_parser(document=document, city_dict=city_dict))
+                        structured_results.append(self.dict_parser(document=document, city_dict=city_dict))
                 else:
-                    structured_results.append(dict_parser(document=document))
+                    structured_results.append(self.dict_parser(document=document))
 
             df = pd.DataFrame(structured_results)
             df.to_csv(
@@ -207,6 +169,45 @@ class Listener:
         )
         json.dump(data, json_file, ensure_ascii=False, indent=4)
         json_file.close()
+
+    @staticmethod
+    def dict_parser(document: dict, city_dict: dict = None) -> dict:
+        result = dict()
+
+        try:
+            result['continentName'] = document['continentName']
+            result['continentEnglishName'] = document['continentEnglishName']
+        except KeyError:
+            result['continentName'] = None
+            result['continentEnglishName'] = None
+
+        result['countryName'] = document['countryName']
+
+        try:
+            result['countryEnglishName'] = document['countryEnglishName']
+        except KeyError:
+            result['countryEnglishName'] = None
+
+        result['provinceName'] = document['provinceName']
+        result['provinceEnglishName'] = document.get('provinceEnglishName')
+        result['province_zipCode'] = document.get('locationId')
+        result['province_confirmedCount'] = document['confirmedCount']
+        result['province_suspectedCount'] = document['suspectedCount']
+        result['province_curedCount'] = document['curedCount']
+        result['province_deadCount'] = document['deadCount']
+
+        if city_dict:
+            result['cityName'] = city_dict['cityName']
+            result['cityEnglishName'] = city_dict.get('cityEnglishName')
+            result['city_zipCode'] = city_dict.get('locationId')
+            result['city_confirmedCount'] = city_dict['confirmedCount']
+            result['city_suspectedCount'] = city_dict['suspectedCount']
+            result['city_curedCount'] = city_dict['curedCount']
+            result['city_deadCount'] = city_dict['deadCount']
+
+        result['updateTime'] = datetime.datetime.fromtimestamp(int(document['updateTime']/1000))
+
+        return result
 
 
 if __name__ == '__main__':
