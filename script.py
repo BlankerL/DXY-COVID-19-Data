@@ -4,7 +4,7 @@
 @Author: Jiabao Lin
 @Date: 2020/1/31
 """
-from github3 import login, session
+from github3 import login
 from dotenv import load_dotenv
 from pymongo import MongoClient
 import os
@@ -80,7 +80,9 @@ class Listener:
     def github_manager():
         # GitHub connection
         github = login(token=os.getenv('GITHUB_TOKEN'))
-        github.session = session.GitHubSession(default_read_timeout=10, default_connect_timeout=10)
+        github.session.default_read_timeout = 20
+        github.session.default_connect_timeout = 20
+
         repository = github.repository(owner='BlankerL', repository='DXY-COVID-19-Data')
         release = repository.create_release(
             tag_name='{tag_name}'.format(
