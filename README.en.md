@@ -33,8 +33,12 @@ there is a city-level document recording Nanyang (Dengzhou inclusive) and Dengzh
 Therefore, the data of "Dengzhou" will be double-counted once during the summation.
 
 ### Noise Data
-At present, some time series data in Zhejiang and Hubei are found containing noises. 
-The possible reason is the manually processed data were recorded by mistake. 
+1. At present, some time series data in Zhejiang and Hubei are found containing noises. 
+The possible reason is the manually processed data were recorded by mistake.
+2. [Issue #110](https://github.com/BlankerL/DXY-COVID-19-Data/issues/110) 
+reported the reversal of the number of confirmed cases in Changchun and Jilin City in Jilin Province, 
+updated on March 15 by Dingxiang Yuan. To ensure data integrity, 
+I have not modified the data, so please adjust it manually when you use it if considered necessary. 
 
 The crawler just crawl what it sees, do not deal with any noise data. 
 Therefore, if you use the data for scientific research, please preprocess and clean the data properly. 
