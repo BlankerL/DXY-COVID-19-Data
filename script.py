@@ -114,6 +114,8 @@ class Listener:
 
         self.github_manager()
 
+        logger.info(f'Upload session complete for {datetime.datetime.today().date()}.')
+
     def csv_dumper(self, collection: str, cursor):
         if collection == 'DXYArea':
             structured_results = list()
